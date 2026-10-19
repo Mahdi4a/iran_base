@@ -1,0 +1,81 @@
+{
+ "doctype": "DocType",
+ "name": "Iran Settings",
+ "module": "Iran Base",
+ "issingle": 1,
+ "engine": "InnoDB",
+ "editable_grid": 1,
+ "description": "Shared settings for the Iran apps. Empty values fall back to the same key in site_config.json.",
+ "fields": [
+  {
+   "fieldname": "sms_section",
+   "label": "SMS",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "iran_sms_provider",
+   "label": "SMS Provider",
+   "fieldtype": "Select",
+   "options": "signalads\nkavenegar",
+   "default": "signalads",
+   "description": "Which service sends SMS for the Iran apps"
+  },
+  {
+   "fieldname": "signalads_section",
+   "label": "SignalAds",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "signalads_token",
+   "label": "SignalAds API Token",
+   "fieldtype": "Password",
+   "description": "Bearer token from the SignalAds (Transmitor) panel"
+  },
+  {
+   "fieldname": "signalads_column",
+   "label": "",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signalads_sender",
+   "label": "SignalAds Sender Number",
+   "fieldtype": "Data",
+   "description": "Sender line approved in SignalAds"
+  },
+  {
+   "fieldname": "kavenegar_section",
+   "label": "Kavenegar",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kavenegar_api_key",
+   "label": "Kavenegar API Key",
+   "fieldtype": "Password"
+  },
+  {
+   "fieldname": "kavenegar_column",
+   "label": "",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kavenegar_sender",
+   "label": "Kavenegar Sender Number",
+   "fieldtype": "Data"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "share": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "index_web_pages_for_search": 0
+}

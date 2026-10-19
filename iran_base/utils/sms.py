@@ -32,9 +32,10 @@ def normalize_mobile(mobile) -> str:
 
 
 def _setting(key: str):
-	import frappe
+	from iran_base.settings import get_setting
 
-	return frappe.conf.get(key)
+	secret = key in ("signalads_token", "kavenegar_api_key")
+	return get_setting(key, password=secret)
 
 
 def send_sms(mobile, message: str) -> dict:
