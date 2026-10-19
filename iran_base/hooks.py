@@ -7,3 +7,15 @@ app_license = "agpl-3.0"
 
 # Jalali helpers and Persian number formatting, loaded on the desk
 app_include_js = "/assets/iran_base/js/jalali.js"
+
+# A "Desk" tile on the apps screen. Frappe skips its own app there, so when the only other
+# app is a separate UI (CRM at /crm) there would be no way to reach the desk from it.
+add_to_apps_screen = [
+	{
+		"name": "iran_base",
+		"logo": "/assets/frappe/images/frappe-framework-logo.svg",
+		"title": "Desk",
+		"route": "/app/user",
+		"has_permission": "iran_base.permissions.can_open_desk",
+	}
+]
