@@ -3011,3 +3011,16 @@ msgstr "کاوه‌نگار"
 
 msgid "signalads"
 msgstr "سیگنال‌ادز"
+
+# Strings missing from the Frappe catalog
+
+msgid "You have no new notifications"
+msgstr "اعلان جدیدی ندارید"
+
+msgid "Deleting..."
+msgstr "در حال حذف..."
+
+# Module name
+
+msgid "Iran Base"
+msgstr "پایهٔ ایران"
