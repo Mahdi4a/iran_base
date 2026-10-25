@@ -1,0 +1,1946 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: crm_iran\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: frappe/email/doctype/notification/notification.json:None
+msgid "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>
+<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
+</code></pre>
+"
+msgstr "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>
+<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
+</code></pre>
+"
+
+#: frappe/integrations/doctype/webhook/webhook.json:None
+msgid "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>
+<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
+</pre>"
+msgstr "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>
+<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
+</pre>"
+
+#: frappe/core/doctype/file/file.py:124
+msgid "A folder cannot have a File URL"
+msgstr "پوشه نمی‌تواند نشانی فایل داشته باشد"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Accept emit() calls for events no app registered through the automation_events hook."
+msgstr "فراخوانی‌های emit() را برای رویدادهایی که هیچ برنامه‌ای از طریق هوک automation_events ثبت نکرده است بپذیر."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:163
+msgid "Action Type is required for action steps"
+msgstr "برای مراحل عملیاتی، نوع اقدام الزامی است"
+
+#: frappe/automation_engine/runner.py:499
+msgid "Action completed"
+msgstr "اقدام انجام شد"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Actions Snapshot"
+msgstr "تصویر لحظه‌ای اقدامات"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:23
+msgid "Add field rules below, every rule must match before the flow can run"
+msgstr "در زیر قوانین فیلد را اضافه کنید؛ پیش از اجرای جریان، همهٔ قوانین باید برقرار باشند"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Advanced Condition"
+msgstr "شرط پیشرفته"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Advanced Expression using Python"
+msgstr "عبارت پیشرفته با پایتون"
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:432
+msgid "All Results"
+msgstr "همهٔ نتایج"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Allow Unregistered Events"
+msgstr "اجازهٔ رویدادهای ثبت‌نشده"
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Allowed Doctypes for Guest Uploads"
+msgstr "انواع سند مجاز برای بارگذاری مهمان"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:52
+msgid "Allows printing or PDF download of documents."
+msgstr "امکان چاپ یا دانلود PDF اسناد را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:77
+msgid "Allows sharing document access with other users."
+msgstr "امکان اشتراک‌گذاری دسترسی سند با کاربران دیگر را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:62
+msgid "Allows the user to access reports related to the document."
+msgstr "به کاربر اجازهٔ دسترسی به گزارش‌های مربوط به سند را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:42
+msgid "Allows the user to create new documents."
+msgstr "به کاربر اجازهٔ ایجاد سند جدید را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:47
+msgid "Allows the user to delete documents."
+msgstr "به کاربر اجازهٔ حذف سند را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:37
+msgid "Allows the user to edit existing records they have access to."
+msgstr "به کاربر اجازهٔ ویرایش رکوردهای موجودی را می‌دهد که به آن‌ها دسترسی دارد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:57
+msgid "Allows the user to email from the document."
+msgstr "به کاربر اجازهٔ ارسال ایمیل از سند را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:67
+msgid "Allows the user to export data from the Report view."
+msgstr "به کاربر اجازهٔ برون‌بری داده از نمای گزارش را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:27
+msgid "Allows the user to search and see records."
+msgstr "به کاربر اجازهٔ جستجو و دیدن رکوردها را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:72
+msgid "Allows the user to use Data Import tool to create / update records."
+msgstr "به کاربر اجازهٔ استفاده از ابزار درون‌ریزی داده برای ایجاد / به‌روزرسانی رکوردها را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:32
+msgid "Allows the user to view the document."
+msgstr "به کاربر اجازهٔ مشاهدهٔ سند را می‌دهد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:82
+msgid "Allows users to enable the mask property for any field of the respective doctype."
+msgstr "به کاربران اجازه می‌دهد ویژگی پوشاندن (mask) را برای هر فیلد از نوع سند مربوطه فعال کنند."
+
+#: frappe/desk/doctype/notification_log/notification_log.json:None
+msgid "App that produced this notification; used to scope app-specific panels. Derived from the reference document when not set explicitly."
+msgstr "برنامه‌ای که این اعلان را تولید کرده است؛ برای محدود کردن پنل‌های مخصوص برنامه استفاده می‌شود. در صورت تعیین نشدن صریح، از سند مرجع گرفته می‌شود."
+
+#: frappe/apps.py:95
+msgid "App {} is not installed"
+msgstr "برنامهٔ {} نصب نشده است"
+
+#: frappe/public/js/frappe/desk.js:390
+msgid "Are you sure you want to log out?"
+msgstr "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
+
+#: frappe/core/doctype/communication/communication.js:166
+msgid "Are you sure you want to relink this communication?"
+msgstr "آیا مطمئن هستید که می‌خواهید پیوند این ارتباط را دوباره برقرار کنید؟"
+
+#: frappe/core/doctype/user_invitation/user_invitation.js:18
+msgid "Are you sure you want to resend the invitation?"
+msgstr "آیا مطمئن هستید که می‌خواهید دعوت‌نامه را دوباره ارسال کنید؟"
+
+#: frappe/automation_engine/actions/core.py:331
+msgid "Assigned to {0}"
+msgstr "تخصیص‌یافته به {0}"
+
+#: frappe/automation_engine/actions/core.py:192
+msgid "Assignees"
+msgstr "تخصیص‌گیرندگان"
+
+#: frappe/automation_engine/actions/core.py:316
+msgid "At least one assignee is required"
+msgstr "حداقل یک تخصیص‌گیرنده لازم است"
+
+#: frappe/automation_engine/actions/core.py:247
+msgid "At least one recipient is required"
+msgstr "حداقل یک گیرنده لازم است"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Attempt"
+msgstr "تلاش"
+
+#: frappe/desk/doctype/event/event.json:None
+msgid "Attending"
+msgstr "شرکت می‌کنند"
+
+#: frappe/integrations/oauth2.py:98
+msgid "Authorization POST requests must use application/x-www-form-urlencoded"
+msgstr "درخواست‌های POST مجوز باید از application/x-www-form-urlencoded استفاده کنند"
+
+#: frappe/automation_engine/runner.py:611
+msgid "Auto-disabled after {0} consecutive failures"
+msgstr "پس از {0} شکست پیاپی به‌طور خودکار غیرفعال شد"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Automation Action"
+msgstr "اقدام خودکارسازی"
+
+#: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json:None
+msgid "Automation Event Subscription"
+msgstr "اشتراک رویداد خودکارسازی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Automation Flow"
+msgstr "جریان خودکارسازی"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Automation Flow Title"
+msgstr "عنوان جریان خودکارسازی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:185
+msgid "Automation Flow cannot target a child table: {0}"
+msgstr "جریان خودکارسازی نمی‌تواند جدول فرزند را هدف قرار دهد: {0}"
+
+#: frappe/automation_engine/runner.py:637
+msgid "Automation Flow {0} was auto-disabled"
+msgstr "جریان خودکارسازی {0} به‌طور خودکار غیرفعال شد"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Automation Run"
+msgstr "اجرای خودکارسازی"
+
+#: frappe/automation/doctype/automation_run_step/automation_run_step.json:None
+msgid "Automation Run Step"
+msgstr "مرحلهٔ اجرای خودکارسازی"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Automation Settings"
+msgstr "تنظیمات خودکارسازی"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Automation Trigger Queue"
+msgstr "صف راه‌اندازهای خودکارسازی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Automation User"
+msgstr "کاربر خودکارسازی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:134
+msgid "Automation User {0} is disabled or missing"
+msgstr "کاربر خودکارسازی {0} غیرفعال است یا وجود ندارد"
+
+#: frappe/automation_engine/events.py:251
+msgid "Automation event payload is too large"
+msgstr "بار داده‌ای رویداد خودکارسازی بسیار بزرگ است"
+
+#: frappe/automation_engine/runner.py:392
+msgid "Automation paused"
+msgstr "خودکارسازی متوقف شد"
+
+#: frappe/www/login.html:188
+msgid "Back to sign in"
+msgstr "بازگشت به ورود"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Blocked for child tables (istable). Required for document and date-based triggers."
+msgstr "برای جدول‌های فرزند (istable) مسدود است. برای راه‌اندازهای مبتنی بر سند و تاریخ الزامی است."
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Branch"
+msgstr "شاخه"
+
+#: frappe/automation_engine/api.py:260
+msgid "Branch for step {0} must be If or Else"
+msgstr "شاخهٔ مرحلهٔ {0} باید «اگر» یا «در غیر این صورت» باشد"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Bytes an emitted event payload may carry."
+msgstr "بایت‌هایی که بار داده‌ای یک رویداد منتشرشده می‌تواند داشته باشد."
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Bytes of output a step may publish to later steps. Larger output is dropped, not failed."
+msgstr "بایت‌های خروجی که یک مرحله می‌تواند برای مراحل بعدی منتشر کند. خروجی بزرگ‌تر حذف می‌شود، نه اینکه شکست بخورد."
+
+#: frappe/database/mariadb/schema.py:192
+msgid "Cannot change field type in {0}: some existing values cannot be converted to the new type"
+msgstr "نوع فیلد در {0} قابل تغییر نیست: برخی مقادیر موجود به نوع جدید قابل تبدیل نیستند"
+
+#: frappe/desk/doctype/global_search_settings/global_search_settings.py:176
+msgid "Cannot configure Core DocTypes for Global Search."
+msgstr "نمی‌توان انواع سند هسته را برای جستجوی سراسری پیکربندی کرد."
+
+#: frappe/utils/xlsxutils.py:152
+msgid "Cannot register an empty XLSX style"
+msgstr "ثبت سبک XLSX خالی ممکن نیست"
+
+#: frappe/email/doctype/notification/notification.json:None
+msgid "Category for the in-app notification. Used for filtering and per-user email preferences."
+msgstr "دستهٔ اعلان درون‌برنامه‌ای. برای فیلتر کردن و ترجیحات ایمیل هر کاربر استفاده می‌شود."
+
+#: frappe/automation_engine/actions/core.py:173
+msgid "Changed {0} by {1}"
+msgstr "{0} توسط {1} تغییر کرد"
+
+#: frappe/automation_engine/actions/core.py:159
+msgid "Choose a numeric field"
+msgstr "یک فیلد عددی انتخاب کنید"
+
+#: frappe/desk/doctype/notification_settings/notification_settings.js:45
+msgid "Choose which notification types are emailed to you. Unchecked types still show as in-app notifications."
+msgstr "انتخاب کنید کدام انواع اعلان برای شما ایمیل شود. انواع بدون علامت همچنان به‌صورت اعلان درون‌برنامه‌ای نمایش داده می‌شوند."
+
+#: frappe/public/js/frappe/form/controls/link.js:18
+msgid "Clear Link"
+msgstr "پاک‌کردن پیوند"
+
+#: frappe/public/js/frappe/ui/keyboard.js:281
+msgid "Clear cache and reload"
+msgstr "پاک‌کردن حافظهٔ نهان و بارگذاری دوباره"
+
+#: frappe/integrations/doctype/oauth_client/oauth_client.json:None
+msgid "Client Secret Basic"
+msgstr "Client Secret Basic"
+
+#: frappe/integrations/doctype/oauth_client/oauth_client.json:None
+msgid "Client Secret Post"
+msgstr "Client Secret Post"
+
+#: frappe/automation_engine/api.py:165
+msgid "Client-supplied resolver methods are not allowed"
+msgstr "متدهای حل‌کنندهٔ ارائه‌شده توسط کلاینت مجاز نیستند"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Commit Every"
+msgstr "ثبت قطعی هر"
+
+#: frappe/public/js/frappe/ui/naming_series.js:108
+msgid "Company Abbreviation (requires ERPNext to be installed)"
+msgstr "مخفف شرکت (نیازمند نصب ERPNext)"
+
+#: frappe/automation/doctype/automation_run_step/automation_run_step.json:None
+msgid "Condition Values"
+msgstr "مقادیر شرط"
+
+#: frappe/automation_engine/runner.py:282
+msgid "Condition took the {0} branch"
+msgstr "شرط شاخهٔ {0} را برگزید"
+
+#: frappe/desk/doctype/global_search_doctype/global_search_doctype.json:None
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: frappe/public/js/print_format_builder/Field.vue:103
+msgid "Configure columns for {0}"
+msgstr "پیکربندی ستون‌ها برای {0}"
+
+#: frappe/desk/doctype/global_search_settings/global_search_settings.js:12
+msgid "Configure search fields"
+msgstr "پیکربندی فیلدهای جستجو"
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:62
+msgid "Configure search settings"
+msgstr "پیکربندی تنظیمات جستجو"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Consecutive failures after which a flow is auto-disabled and its owner notified."
+msgstr "تعداد شکست‌های پیاپی که پس از آن جریان به‌طور خودکار غیرفعال شده و به مالک آن اطلاع داده می‌شود."
+
+#: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json:None
+msgid "Correlation Key"
+msgstr "کلید همبستگی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:52
+msgid "Could not load the saved field rules"
+msgstr "قوانین ذخیره‌شدهٔ فیلد بارگذاری نشد"
+
+#: frappe/automation_engine/actions/core.py:519
+msgid "Could not resolve host: {0}"
+msgstr "میزبان {0} پیدا نشد"
+
+#: frappe/templates/includes/login/login.js:152
+msgid "Create Account"
+msgstr "ایجاد حساب"
+
+#: frappe/automation_engine/actions/core.py:131
+msgid "Created {0} {1}"
+msgstr "{0} {1} ایجاد شد"
+
+#: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json:None
+msgid "Cron"
+msgstr "Cron"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Cron Expression"
+msgstr "عبارت Cron"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Custom Event"
+msgstr "رویداد سفارشی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:196
+msgid "Custom Event trigger requires an event name"
+msgstr "راه‌انداز رویداد سفارشی به نام رویداد نیاز دارد"
+
+#: frappe/core/doctype/duckdb_sync/duckdb_sync.json:None
+msgid "DB Tables"
+msgstr "جدول‌های پایگاه داده"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Date Based"
+msgstr "مبتنی بر تاریخ"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:194
+msgid "Date Based trigger requires a Date Field and a Date Direction"
+msgstr "راه‌انداز مبتنی بر تاریخ به فیلد تاریخ و جهت تاریخ نیاز دارد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Date Direction"
+msgstr "جهت تاریخ"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Date Field"
+msgstr "فیلد تاریخ"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Date Offset (Days)"
+msgstr "جابه‌جایی تاریخ (روز)"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Days a Failed or Skipped queue row is kept before the nightly sweep removes it."
+msgstr "تعداد روزهایی که ردیف صف ناموفق یا ردشده پیش از پاکسازی شبانه نگه داشته می‌شود."
+
+#: frappe/public/js/frappe/legacy_gravatar_cleanup.js:13
+msgid "Delete Gravatar URLs"
+msgstr "حذف نشانی‌های Gravatar"
+
+#: frappe/desk/reportview.py:752
+msgid "Deleted all documents successfully"
+msgstr "همهٔ سندها با موفقیت حذف شدند"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Denormalized so the run survives deletion of its Automation Flow."
+msgstr "برای اینکه اجرا پس از حذف جریان خودکارسازی‌اش باقی بماند، به‌صورت غیرنرمال ذخیره می‌شود."
+
+#: frappe/automation/doctype/automation_run_step/automation_run_step.json:None
+msgid "Detail"
+msgstr "جزئیات"
+
+#: frappe/www/login.html:219
+msgid "Didn't receive the link?"
+msgstr "پیوند را دریافت نکردید؟"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Disable Automations"
+msgstr "غیرفعال کردن خودکارسازی‌ها"
+
+#: frappe/core/doctype/report/report.json:None
+msgid "Disable Prepared Report Automation"
+msgstr "غیرفعال کردن خودکارسازی گزارش آماده"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Disabled Reason"
+msgstr "دلیل غیرفعال بودن"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Doc Cancelled"
+msgstr "سند لغو شد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Doc Created"
+msgstr "سند ایجاد شد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Doc Deleted"
+msgstr "سند حذف شد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Doc Submitted"
+msgstr "سند ثبت شد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Doc Updated"
+msgstr "سند به‌روزرسانی شد"
+
+#: frappe/website/doctype/web_form_request/web_form_request.json:None
+msgid "Doc Values"
+msgstr "مقادیر سند"
+
+#: frappe/core/doctype/doctype_to_sync/doctype_to_sync.json:None
+msgid "Doctype To Sync"
+msgstr "نوع سند برای همگام‌سازی"
+
+#: frappe/desk/doctype/global_search_settings/global_search_settings.py:134
+msgid "Document Name (ID)"
+msgstr "نام سند (شناسه)"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Document Owner"
+msgstr "مالک سند"
+
+#: frappe/desk/doctype/global_search_settings/global_search_settings.py:126
+msgid "Document Type is required"
+msgstr "نوع سند الزامی است"
+
+#: frappe/automation_engine/actions/core.py:191
+msgid "Document owner"
+msgstr "مالک سند"
+
+#: frappe/automation_engine/api.py:99
+msgid "Document-less automations do not accept a document name"
+msgstr "خودکارسازی‌های بدون سند نام سند را نمی‌پذیرند"
+
+#: frappe/public/js/print_format_builder/ConfigureColumns.vue:76
+msgid "Drag columns to set order. Column width is set in percentage. The total width should not be more than 100. Columns marked in red will be removed."
+msgstr "برای تعیین ترتیب، ستون‌ها را بکشید. عرض ستون به درصد تعیین می‌شود. جمع عرض‌ها نباید از ۱۰۰ بیشتر باشد. ستون‌های قرمز حذف می‌شوند."
+
+#: frappe/printing/page/print_format_builder/print_format_builder_layout.html:3
+msgid "Drag elements from the sidebar to add. Drag them back to trash."
+msgstr "برای افزودن، عناصر را از نوار کناری بکشید. برای حذف، آن‌ها را به سطل زباله برگردانید."
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Drain Seconds"
+msgstr "ثانیه‌های تخلیه"
+
+#: frappe/core/doctype/duckdb_sync/duckdb_sync.json:None
+msgid "DuckDB Sync"
+msgstr "همگام‌سازی DuckDB"
+
+#: frappe/core/doctype/duckdb_sync_item/duckdb_sync_item.json:None
+msgid "DuckDB Sync Item"
+msgstr "آیتم همگام‌سازی DuckDB"
+
+#: frappe/automation_engine/actions/base.py:130
+msgid "Duplicate automation action_type: {0}"
+msgstr "action_type خودکارسازی تکراری: {0}"
+
+#: frappe/automation_engine/relationships.py:119
+msgid "Duplicate automation relationship name on {0}"
+msgstr "نام رابطهٔ خودکارسازی تکراری در {0}"
+
+#: frappe/automation_engine/relationships.py:206
+msgid "Duplicate record alias: {0}"
+msgstr "نام مستعار رکورد تکراری: {0}"
+
+#: frappe/automation_engine/relationships.py:204
+msgid "Each relationship needs an alias and relationship name"
+msgstr "هر رابطه به نام مستعار و نام رابطه نیاز دارد"
+
+#: frappe/public/js/frappe/ui/filters/filter.js:402
+msgid "Edit Filter"
+msgstr "ویرایش فیلتر"
+
+#: frappe/public/js/print_format_builder/PrintFormat.vue:29
+msgid "Edit Footer"
+msgstr "ویرایش پاورقی"
+
+#: frappe/public/js/frappe/form/grid.js:256
+msgid "Edit {0} rows"
+msgstr "ویرایش {0} ردیف"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Else"
+msgstr "در غیر این صورت"
+
+#: frappe/email/doctype/notification/notification.py:192
+msgid "Email Template can only be used with the Email channel"
+msgstr "قالب ایمیل فقط با کانال ایمیل قابل استفاده است"
+
+#: frappe/email/doctype/notification/notification.py:197
+msgid "Email Template {0} has no content to send"
+msgstr "قالب ایمیل {0} محتوایی برای ارسال ندارد"
+
+#: frappe/desk/doctype/notification_type/notification_type.js:16
+msgid "Email everyone for <b>{0}</b> notifications? This adds it to every user's email preferences. Users can still opt out individually afterwards."
+msgstr "برای اعلان‌های <b>{0}</b> به همه ایمیل زده شود؟ این کار آن را به ترجیحات ایمیل همهٔ کاربران اضافه می‌کند. کاربران پس از آن همچنان می‌توانند به‌صورت جداگانه انصراف دهند."
+
+#: frappe/templates/includes/login/login.js:24
+msgid "Email is required."
+msgstr "ایمیل الزامی است."
+
+#: frappe/desk/doctype/notification_settings/notification_settings.json:None
+msgid "Email me for these notification types"
+msgstr "برای این انواع اعلان به من ایمیل بزن"
+
+#: frappe/automation_engine/actions/core.py:265
+msgid "Emailed {0}"
+msgstr "به {0} ایمیل ارسال شد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Empty = any value."
+msgstr "خالی = هر مقدار."
+
+#: frappe/desk/doctype/notification_type/notification_type.js:13
+msgid "Enable Email Notifications for All Users"
+msgstr "فعال‌سازی اعلان‌های ایمیلی برای همهٔ کاربران"
+
+#: frappe/core/doctype/server_script/server_script.json:None
+msgid "Enable Rate Limit"
+msgstr "فعال‌سازی محدودیت نرخ"
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Enable Snapshot Reports"
+msgstr "فعال‌سازی گزارش‌های لحظه‌ای"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:77
+msgid "Enable an Automation Flow only after adding at least one action"
+msgstr "جریان خودکارسازی را فقط پس از افزودن حداقل یک اقدام فعال کنید"
+
+#: frappe/custom/doctype/customize_form/customize_form.json:None
+msgid "Enable bulk edit for child table fields in Form view."
+msgstr "فعال‌سازی ویرایش گروهی فیلدهای جدول فرزند در نمای فرم."
+
+#: frappe/desk/doctype/notification_type/notification_type.py:92
+msgid "Enable the notification type before emailing it to users."
+msgstr "پیش از ایمیل کردن به کاربران، نوع اعلان را فعال کنید."
+
+#: frappe/desk/doctype/notification_type/notification_type.py:103
+msgid "Enabling email for {0} across all users in the background."
+msgstr "در حال فعال‌سازی ایمیل برای {0} در میان همهٔ کاربران در پس‌زمینه."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Enabling requires at least one action and a valid trigger."
+msgstr "فعال‌سازی نیازمند حداقل یک اقدام و یک راه‌انداز معتبر است."
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Error Summary"
+msgstr "خلاصهٔ خطا"
+
+#: frappe/desk/doctype/event_notifications/event_notifications.json:None
+msgid "Event Notifications"
+msgstr "اعلان‌های رویداد"
+
+#: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json:None
+msgid "Event Payload"
+msgstr "بار داده‌ای رویداد"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Event Payload Limit"
+msgstr "سقف بار داده‌ای رویداد"
+
+#: frappe/public/js/frappe/ui/naming_series.js:112
+msgid "Examples:"
+msgstr "مثال‌ها:"
+
+#: frappe/printing/doctype/print_settings/print_settings.json:None
+msgid "Executive"
+msgstr "مدیرعامل"
+
+#: frappe/public/js/frappe/legacy_gravatar_cleanup.js:28
+msgid "Existing Gravatar URLs may still be stored on User and Contact records. Do you want to delete these URLs now?"
+msgstr "نشانی‌های Gravatar موجود ممکن است هنوز در رکوردهای کاربر و مخاطب ذخیره باشند. می‌خواهید این نشانی‌ها اکنون حذف شوند؟"
+
+#: frappe/public/js/frappe/legacy_gravatar_cleanup.js:25
+msgid "Existing Gravatar URLs may still be stored on User, Contact, and Lead records. Do you want to delete these URLs now?"
+msgstr "نشانی‌های Gravatar موجود ممکن است هنوز در رکوردهای کاربر، مخاطب و سرنخ ذخیره باشند. می‌خواهید این نشانی‌ها اکنون حذف شوند؟"
+
+#: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json:None
+msgid "Expires At"
+msgstr "منقضی می‌شود در"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Failure Threshold"
+msgstr "آستانهٔ شکست"
+
+#: frappe/public/js/print_format_builder/PrintFormatSection.vue:141
+msgid "Field Orientation (Left-Right)"
+msgstr "جهت‌گیری فیلد (چپ-راست)"
+
+#: frappe/public/js/print_format_builder/PrintFormatSection.vue:148
+msgid "Field Orientation (Top-Down)"
+msgstr "جهت‌گیری فیلد (بالا-پایین)"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Field Value Changed"
+msgstr "مقدار فیلد تغییر کرد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:192
+msgid "Field Value Changed trigger requires a Trigger Field"
+msgstr "راه‌انداز «مقدار فیلد تغییر کرد» به فیلد راه‌انداز نیاز دارد"
+
+#: frappe/automation_engine/actions/core.py:154
+msgid "Field is required"
+msgstr "فیلد الزامی است"
+
+#: frappe/automation_engine/relationships.py:238
+msgid "Filtered relationship queries require one target DocType"
+msgstr "پرس‌وجوهای رابطهٔ فیلترشده به یک نوع سند هدف نیاز دارند"
+
+#: frappe/core/doctype/error_log/error_log.json:None
+msgid "Fingerprint"
+msgstr "اثر انگشت"
+
+#: frappe/core/doctype/error_log/error_log.json:None
+msgid "Fingerprint Stats"
+msgstr "آمار اثر انگشت"
+
+#: frappe/core/doctype/error_log/error_log.js:63
+msgid "First Seen"
+msgstr "اولین مشاهده"
+
+#: frappe/website/doctype/web_form_request/web_form_request.json:None
+msgid "First Used On"
+msgstr "اولین استفاده در"
+
+#: frappe/public/js/frappe/form/templates/form_sidebar.html:145
+msgid "Followed by"
+msgstr "به دنبال"
+
+#: frappe/automation_engine/runner.py:281
+msgid "Forced the {0} branch"
+msgstr "شاخهٔ {0} اجباری شد"
+
+#: frappe/www/login.html:48
+msgid "Forgot password?"
+msgstr "گذرواژه را فراموش کرده‌اید؟"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:35
+msgid "Frappe Framework Version"
+msgstr "نسخهٔ Frappe Framework"
+
+#: frappe/public/js/frappe/legacy_gravatar_cleanup.js:18
+msgid "Frappe no longer uses Gravatar because it can disclose hashed email addresses to a third-party service. To fully stop this behavior, existing Gravatar image URLs must be deleted."
+msgstr "Frappe دیگر از Gravatar استفاده نمی‌کند، چون ممکن است نشانی‌های ایمیل هش‌شده را برای سرویس شخص ثالث فاش کند. برای توقف کامل این رفتار، نشانی‌های تصویر Gravatar موجود باید حذف شوند."
+
+#: frappe/templates/includes/login/login.js:53
+msgid "Full name is required."
+msgstr "نام کامل الزامی است."
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:32
+msgid "Genderqueer"
+msgstr "جندرکوییر"
+
+#: frappe/integrations/doctype/geolocation_settings/geolocation_settings.json:None
+msgid "Geoapify"
+msgstr "Geoapify"
+
+#: frappe/website/doctype/web_form/web_form.js:394
+msgid "Go to Access Control section"
+msgstr "رفتن به بخش کنترل دسترسی"
+
+#: frappe/www/update-password.html:288
+msgid "Good"
+msgstr "خوب"
+
+#: frappe/integrations/doctype/google_calendar/google_calendar.py:252
+msgid "Google Calendar - Could not find Calendar for {0}, error code {1}."
+msgstr "تقویم گوگل - تقویم {0} پیدا نشد، کد خطا {1}."
+
+#: frappe/public/js/frappe/legacy_gravatar_cleanup.js:54
+msgid "Gravatar URL deletion has been queued."
+msgstr "حذف نشانی‌های Gravatar در صف قرار گرفت."
+
+#: frappe/public/js/frappe/legacy_gravatar_cleanup.js:59
+msgid "Gravatar URLs will not be deleted."
+msgstr "نشانی‌های Gravatar حذف نخواهند شد."
+
+#: frappe/handler.py:141
+msgid "Guests are not allowed to upload files for {0} Doctype"
+msgstr "مهمان‌ها اجازهٔ بارگذاری فایل برای نوع سند {0} را ندارند"
+
+#: frappe/integrations/doctype/geolocation_settings/geolocation_settings.json:None
+msgid "HERE"
+msgstr "اینجا"
+
+#: frappe/email/doctype/notification/notification.json:None
+msgid "Headline of the in-app notification. Falls back to Subject if left blank. Supports Jinja."
+msgstr "سرخط اعلان درون‌برنامه‌ای. اگر خالی بماند به موضوع برمی‌گردد. از Jinja پشتیبانی می‌کند."
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Hourly rate limit for generating password reset links"
+msgstr "محدودیت ساعتی نرخ برای تولید پیوند بازنشانی گذرواژه"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "How long a claimed row may stay Running before it is assumed crashed and requeued."
+msgstr "مدت زمانی که یک ردیف برداشته‌شده می‌تواند در حالت «در حال اجرا» بماند پیش از آنکه خراب‌شده فرض شود و دوباره در صف قرار گیرد."
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "How many times a claimed row is retried when its run fails outside the flow's own steps, before the row is marked Failed."
+msgstr "تعداد دفعاتی که ردیف برداشته‌شده، وقتی اجرایش خارج از مراحل خود جریان شکست می‌خورد، دوباره امتحان می‌شود، پیش از آنکه ردیف «ناموفق» علامت بخورد."
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "How many times an automation may trigger another before the chain is refused."
+msgstr "چند بار یک خودکارسازی می‌تواند خودکارسازی دیگری را راه‌اندازی کند پیش از آنکه زنجیره رد شود."
+
+#: frappe/desk/doctype/desktop_icon/desktop_icon.json:None
+msgid "Idx"
+msgstr "اندیس"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "If"
+msgstr "اگر"
+
+#: frappe/core/doctype/report/report.json:None
+msgid "If checked, <i>Prepared Report</i> will not be enabled automatically on slow runs."
+msgstr "در صورت علامت‌گذاری، <i>گزارش آماده</i> در اجراهای کند به‌طور خودکار فعال نمی‌شود."
+
+#: frappe/website/doctype/web_form/web_form.json:None
+msgid "If enabled, the web form can only be used with a <i>Key</i> from a corresponding <b>Web Form Request</b>."
+msgstr "در صورت فعال بودن، فرم وب فقط با <i>کلید</i> از <b>درخواست فرم وب</b> مربوطه قابل استفاده است."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:83
+msgid "If the user enables the mask property for the phone number field, the value will be displayed in a masked format (e.g., 811XXXXXXX)."
+msgstr "اگر کاربر ویژگی پوشاندن را برای فیلد شمارهٔ تلفن فعال کند، مقدار به‌صورت پوشیده نمایش داده می‌شود (مثلاً 811XXXXXXX)."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:63
+msgid "If the user has access to Employee and Report is enabled, they can view Employee-based reports."
+msgstr "اگر کاربر به کارمند دسترسی داشته باشد و گزارش فعال باشد، می‌تواند گزارش‌های مبتنی بر کارمند را ببیند."
+
+#: frappe/public/js/frappe/form/save.js:229
+msgid "In {0}, {1} is required in row {2}."
+msgstr "در {0}، {1} در ردیف {2} الزامی است."
+
+#: frappe/public/js/frappe/form/save.js:238
+msgid "In {0}, {1} is required in rows {2}."
+msgstr "در {0}، {1} در ردیف‌های {2} الزامی است."
+
+#: frappe/public/js/frappe/form/save.js:245
+msgid "In {0}, {1} is required in {2} rows."
+msgstr "در {0}، {1} در {2} ردیف الزامی است."
+
+#: frappe/database/mariadb/schema.py:195
+msgid "Incompatible Values"
+msgstr "مقادیر ناسازگار"
+
+#: frappe/desk/doctype/event_notifications/event_notifications.json:None
+msgid "Interval"
+msgstr "فاصله"
+
+#: frappe/templates/includes/login/login.js:66
+msgid "Invalid Email."
+msgstr "ایمیل نامعتبر."
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:84
+msgid "Invalid JSON"
+msgstr "JSON نامعتبر"
+
+#: frappe/core/doctype/package_import/package_import.py:49
+msgid "Invalid Package Name"
+msgstr "نام بستهٔ نامعتبر"
+
+#: frappe/website/doctype/web_form/web_form.py:520
+msgid "Invalid Web Form Request"
+msgstr "درخواست فرم وب نامعتبر"
+
+#: frappe/website/doctype/website_theme/website_theme.py:111
+msgid "Invalid Website Theme Name"
+msgstr "نام پوستهٔ وب‌سایت نامعتبر"
+
+#: frappe/utils/legacy_gravatar_cleanup.py:82
+msgid "Invalid action"
+msgstr "اقدام نامعتبر"
+
+#: frappe/desk/reportview.py:237
+msgid "Invalid aggregate function: {0}"
+msgstr "تابع تجمیع نامعتبر: {0}"
+
+#: frappe/automation_engine/relationships.py:134
+msgid "Invalid automation relationship definition"
+msgstr "تعریف رابطهٔ خودکارسازی نامعتبر"
+
+#: frappe/templates/includes/login/login.js:328
+msgid "Invalid credentials, try again."
+msgstr "اعتبارنامهٔ نامعتبر، دوباره امتحان کنید."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:215
+msgid "Invalid cron expression: {0}"
+msgstr "عبارت cron نامعتبر: {0}"
+
+#: frappe/utils/preview.py:34
+msgid "Invalid format. Supported formats are {0}"
+msgstr "قالب نامعتبر. قالب‌های پشتیبانی‌شده {0} هستند"
+
+#: frappe/core/api/user_invitation.py:154
+msgid "Invalid or expired key"
+msgstr "کلید نامعتبر یا منقضی‌شده"
+
+#: frappe/core/doctype/user_invitation/user_invitation.js:25
+msgid "Invitation resent"
+msgstr "دعوت‌نامه دوباره ارسال شد"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:87
+msgid "JSON value must be an object"
+msgstr "مقدار JSON باید شیء باشد"
+
+#: frappe/public/js/frappe/legacy_gravatar_cleanup.js:40
+msgid "Keep Gravatar URLs"
+msgstr "نگه داشتن نشانی‌های Gravatar"
+
+#: frappe/website/doctype/web_form/web_form.js:399
+msgid "Key Required"
+msgstr "کلید الزامی است"
+
+#: frappe/website/doctype/web_form/web_form.json:None
+msgid "Key required"
+msgstr "کلید الزامی است"
+
+#: frappe/public/js/frappe/form/sidebar/form_sidebar.js:151
+msgid "Last Edited By You"
+msgstr "آخرین ویرایش توسط شما"
+
+#: frappe/public/js/frappe/form/sidebar/form_sidebar.js:152
+msgid "Last Edited By {0}"
+msgstr "آخرین ویرایش توسط {0}"
+
+#: frappe/core/doctype/error_log/error_log.js:64
+msgid "Last Seen"
+msgstr "آخرین مشاهده"
+
+#: frappe/www/login.html:151
+msgid "Let's setup your account."
+msgstr "بیایید حساب شما را راه‌اندازی کنیم."
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Limits"
+msgstr "محدودیت‌ها"
+
+#: frappe/core/doctype/error_log/error_log.js:25
+msgid "Loading error stats..."
+msgstr "در حال بارگذاری آمار خطا..."
+
+#: frappe/website/doctype/web_form/web_form.js:402
+msgid "Login or a request key is required to see web form list view. Enable {0} to see list settings"
+msgstr "برای دیدن نمای فهرست فرم وب، ورود یا کلید درخواست لازم است. برای دیدن تنظیمات فهرست، {0} را فعال کنید"
+
+#: frappe/www/login.html:224
+msgid "Login with password"
+msgstr "ورود با گذرواژه"
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:48
+msgid "Madam"
+msgstr "بانو"
+
+#: frappe/email/receive.py:520
+msgid "Malformed Address Header"
+msgstr "سرآیند نشانی ناقص"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Manual"
+msgstr "دستی"
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:50
+msgid "Master"
+msgstr "اصلی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:26
+msgid "Match Fields"
+msgstr "فیلدهای تطبیق"
+
+#: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json:None
+msgid "Matched"
+msgstr "منطبق"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Matches the event name passed to emit()."
+msgstr "با نام رویدادی که به emit() داده می‌شود مطابقت دارد."
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Maximum Recursion Depth"
+msgstr "حداکثر عمق بازگشت"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:14
+msgid "Meaning of Different Permission Types"
+msgstr "معنی انواع مختلف دسترسی"
+
+#: frappe/email/doctype/unhandled_email/unhandled_email.json:None
+msgid "Message-id"
+msgstr "شناسهٔ پیام"
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:49
+msgid "Miss"
+msgstr "دوشیزه"
+
+#: frappe/core/doctype/doctype/doctype.py:880
+msgid "Module changed to {0}. Files in the previous module were not moved and remain at {1}, remove or relocate them manually."
+msgstr "ماژول به {0} تغییر کرد. فایل‌های ماژول قبلی منتقل نشدند و در {1} باقی ماندند؛ آن‌ها را دستی حذف یا منتقل کنید."
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:43
+msgid "Mr"
+msgstr "آقای"
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:47
+msgid "Mrs"
+msgstr "خانم"
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:44
+msgid "Ms"
+msgstr "خانم"
+
+#: frappe/desk/page/setup_wizard/install_fixtures.py:45
+msgid "Mx"
+msgstr "Mx"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Named record alias this action operates on."
+msgstr "نام مستعار رکوردی که این اقدام روی آن عمل می‌کند."
+
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json:None
+msgid "Naming Series"
+msgstr "سری نام‌گذاری"
+
+#: frappe/desk/doctype/workspace/workspace.py:367
+msgid "Need Workspace Manager role to edit public workspaces."
+msgstr "برای ویرایش فضاهای کاری عمومی، نقش مدیر فضای کار لازم است."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Next Run"
+msgstr "اجرای بعدی"
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:730
+msgid "No other document types."
+msgstr "نوع سند دیگری وجود ندارد."
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:718
+msgid "No pinned document types."
+msgstr "نوع سند سنجاق‌شده‌ای وجود ندارد."
+
+#: frappe/automation_engine/actions/core.py:255
+msgid "No recipients to notify"
+msgstr "گیرنده‌ای برای اعلان وجود ندارد"
+
+#: frappe/integrations/doctype/geolocation_settings/geolocation_settings.json:None
+msgid "Nomatim"
+msgstr "Nominatim"
+
+#: frappe/tests/test_translate.py:84
+msgid "Noop Source"
+msgstr "منبع بدون عملیات"
+
+#: frappe/public/js/frappe/form/controls/text_editor.js:163
+msgid "Normal"
+msgstr "عادی"
+
+#: frappe/website/doctype/web_form_request/web_form_request_list.js:13
+msgid "Not Used"
+msgstr "استفاده نشده"
+
+#: frappe/desk/doctype/notification_type/notification_type.json:None
+msgid "Notification Type"
+msgstr "نوع اعلان"
+
+#: frappe/desk/doctype/notification_type_preference/notification_type_preference.json:None
+msgid "Notification Type Preference"
+msgstr "ترجیح نوع اعلان"
+
+#: frappe/automation_engine/actions/core.py:295
+msgid "Notified {0}"
+msgstr "به {0} اطلاع داده شد"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Null = run as soon as possible. Used by waits and date/cron triggers."
+msgstr "تهی = در اولین فرصت اجرا شود. توسط انتظارها و راه‌انداز تاریخ/cron استفاده می‌شود."
+
+#: frappe/core/doctype/error_log/error_log.js:67
+msgid "Occurrences (last 30 days)"
+msgstr "تعداد وقوع (۳۰ روز گذشته)"
+
+#: frappe/desk/query_report.py:544
+msgid "Only CSV and Excel formats are supported for export"
+msgstr "برای برون‌بری فقط قالب‌های CSV و Excel پشتیبانی می‌شوند"
+
+#: frappe/automation_engine/actions/core.py:467
+msgid "Only a System Manager can write a script step"
+msgstr "فقط مدیر سیستم می‌تواند مرحلهٔ اسکریپت بنویسد"
+
+#: frappe/automation_engine/actions/core.py:452
+msgid "Only an {0} Server Script can be run from a flow"
+msgstr "فقط اسکریپت سرور {0} را می‌توان از یک جریان اجرا کرد"
+
+#: frappe/core/api/user_invitation.py:124
+msgid "Only pending invitations can be resent"
+msgstr "فقط دعوت‌نامه‌های در انتظار را می‌توان دوباره ارسال کرد"
+
+#: frappe/public/js/frappe/ui/sidebar/sidebar.js:112
+msgid "Open Frappe CRM"
+msgstr "باز کردن Frappe CRM"
+
+#: frappe/public/js/frappe/ui/sidebar/sidebar.js:149
+msgid "Open Frappe Helpdesk"
+msgstr "باز کردن Frappe Helpdesk"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:15
+msgid "Open Source applications for the web."
+msgstr "برنامه‌های متن‌باز برای وب."
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Optional alias for the destination reference returned by this action."
+msgstr "نام مستعار اختیاری برای مرجع مقصدی که این اقدام برمی‌گرداند."
+
+#: frappe/email/doctype/notification/notification.json:None
+msgid "Optional body of the in-app notification. Supports Jinja."
+msgstr "متن اختیاری اعلان درون‌برنامه‌ای. از Jinja پشتیبانی می‌کند."
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Optional. Checked against a related record."
+msgstr "اختیاری. با یک رکورد مرتبط بررسی می‌شود."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Optional. For logic the match fields cannot express, such as OR groups. The document is available as <code>doc</code>; the match fields and this expression must all be true."
+msgstr "اختیاری. برای منطقی که فیلدهای تطبیق نمی‌توانند بیان کنند، مانند گروه‌های OR. سند به‌صورت <code>doc</code> در دسترس است؛ فیلدهای تطبیق و این عبارت باید همگی درست باشند."
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Optional. The step runs only if this expression is true."
+msgstr "اختیاری. مرحله فقط وقتی اجرا می‌شود که این عبارت درست باشد."
+
+#: frappe/public/js/frappe/ui/naming_series.js:88
+msgid "Optionally, set the number of digits in the series using dot (.) followed by hashes (#). For example, '.####' means that the series will have four digits. Default is five digits."
+msgstr "به‌صورت اختیاری، تعداد ارقام سری را با نقطه (.) و سپس علامت‌های هش (#) تعیین کنید. مثلاً '.####' یعنی سری چهار رقم دارد. پیش‌فرض پنج رقم است."
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Output Alias"
+msgstr "نام مستعار خروجی"
+
+#: frappe/core/doctype/package_import/package_import.py:65
+msgid "Package contains disallowed path entry"
+msgstr "بسته شامل مسیر غیرمجاز است"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Parent Step"
+msgstr "مرحلهٔ والد"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Partially Failed"
+msgstr "تا حدی ناموفق"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Payload for custom emit() events."
+msgstr "بار داده‌ای برای رویدادهای سفارشی emit()."
+
+#: frappe/automation_engine/actions/core.py:429
+msgid "Pick a Server Script or write one here, not both"
+msgstr "یک اسکریپت سرور انتخاب کنید یا اینجا بنویسید، نه هر دو"
+
+#: frappe/automation_engine/actions/core.py:461
+msgid "Pick a Server Script, or write one here"
+msgstr "یک اسکریپت سرور انتخاب کنید یا اینجا بنویسید"
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:710
+msgid "Pinned"
+msgstr "سنجاق‌شده"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Queue Retention Days"
+msgstr "روزهای نگه‌داری صف"
+
+#: frappe/automation_engine/actions/core.py:487
+msgid "Ran script"
+msgstr "اسکریپت اجرا شد"
+
+#: frappe/core/doctype/communication/email.py:101
+msgid "Raw HTML can be used only with Email Templates having 'Use HTML' checked. Proceeding with plain text email."
+msgstr "HTML خام فقط با قالب‌های ایمیلی قابل استفاده است که «استفاده از HTML» در آن‌ها علامت خورده باشد. با ایمیل متن ساده ادامه داده می‌شود."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Re-check filters and condition in the worker before executing."
+msgstr "پیش از اجرا، فیلترها و شرط را در worker دوباره بررسی کن."
+
+#: frappe/desk/doctype/notification_settings/notification_settings.json:None
+msgid "Receive an email for notifications of these types. Remove a type to stop its emails (in-app notifications are unaffected)."
+msgstr "برای اعلان‌های این انواع ایمیل دریافت کنید. برای توقف ایمیل‌ها، یک نوع را حذف کنید (اعلان‌های درون‌برنامه‌ای تغییری نمی‌کنند)."
+
+#: frappe/desk/doctype/notification_log/notification_log.json:None
+msgid "Recipient & Status"
+msgstr "گیرنده و وضعیت"
+
+#: frappe/automation_engine/relationships.py:83
+msgid "Record alias could not be resolved"
+msgstr "نام مستعار رکورد قابل حل نبود"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Recursion Depth"
+msgstr "عمق بازگشت"
+
+#: frappe/website/doctype/web_form_request/web_form_request.json:None
+msgid "References"
+msgstr "ارجاع‌ها"
+
+#: frappe/email/receive.py:521
+msgid "Rejected malformed encoded address header with synthesized '@': {0}"
+msgstr "سرآیند نشانی کدگذاری‌شدهٔ ناقص با '@' ساختگی رد شد: {0}"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Related Record Condition"
+msgstr "شرط رکورد مرتبط"
+
+#: frappe/automation_engine/conditions.py:112
+msgid "Related record condition must be a JSON object"
+msgstr "شرط رکورد مرتبط باید شیء JSON باشد"
+
+#: frappe/automation_engine/conditions.py:117
+msgid "Related record condition needs a relationship"
+msgstr "شرط رکورد مرتبط به رابطه نیاز دارد"
+
+#: frappe/automation_engine/relationships.py:227
+msgid "Related record does not exist: {0} {1}"
+msgstr "رکورد مرتبط وجود ندارد: {0} {1}"
+
+#: frappe/automation_engine/relationships.py:225
+msgid "Relationship provider returned an invalid record reference"
+msgstr "ارائه‌دهندهٔ رابطه ارجاع رکورد نامعتبری برگرداند"
+
+#: frappe/automation_engine/relationships.py:136
+msgid "Relationship source DocType does not match"
+msgstr "نوع سند مبدأ رابطه مطابقت ندارد"
+
+#: frappe/automation_engine/relationships.py:189
+msgid "Relationship target DocType is not allowed"
+msgstr "نوع سند مقصد رابطه مجاز نیست"
+
+#: frappe/automation_engine/relationships.py:47
+msgid "Relationship {0} cannot be used as a single record alias"
+msgstr "رابطهٔ {0} را نمی‌توان به‌عنوان نام مستعار رکورد منفرد استفاده کرد"
+
+#: frappe/automation_engine/relationships.py:69
+msgid "Relationship {0} did not resolve to one record"
+msgstr "رابطهٔ {0} به یک رکورد منتهی نشد"
+
+#: frappe/automation_engine/relationships.py:65
+msgid "Relationship {0} returns multiple records"
+msgstr "رابطهٔ {0} چند رکورد برمی‌گرداند"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Relationships"
+msgstr "روابط"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Relationships Snapshot"
+msgstr "تصویر لحظه‌ای روابط"
+
+#: frappe/automation_engine/relationships.py:198
+msgid "Relationships must be a JSON list"
+msgstr "روابط باید فهرست JSON باشند"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Reliability"
+msgstr "قابلیت اطمینان"
+
+#: frappe/automation_engine/actions/core.py:528
+msgid "Requests to internal network addresses are not permitted"
+msgstr "درخواست به نشانی‌های شبکهٔ داخلی مجاز نیست"
+
+#: frappe/templates/includes/login/login.js:280
+msgid "Reset link emailed"
+msgstr "پیوند بازنشانی ایمیل شد"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Resume From Step"
+msgstr "ادامه از مرحله"
+
+#: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json:None
+msgid "Resume Queue"
+msgstr "ازسرگیری صف"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Resume Run"
+msgstr "ازسرگیری اجرا"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Retention"
+msgstr "نگه‌داری"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Revalidate on Run"
+msgstr "اعتبارسنجی دوباره هنگام اجرا"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:140
+msgid "Row {0}: Branch is only meaningful inside an If step"
+msgstr "ردیف {0}: شاخه فقط درون مرحلهٔ «اگر» معنا دارد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:143
+msgid "Row {0}: Parent Step must be an earlier row"
+msgstr "ردیف {0}: مرحلهٔ والد باید ردیف قبلی باشد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:145
+msgid "Row {0}: Parent Step {1} is not an If step"
+msgstr "ردیف {0}: مرحلهٔ والد {1} مرحلهٔ «اگر» نیست"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:125
+msgid "Row {0}: Step Key must be unique"
+msgstr "ردیف {0}: کلید مرحله باید یکتا باشد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:176
+msgid "Row {0}: Wait unit must be one of {1}"
+msgstr "ردیف {0}: واحد انتظار باید یکی از {1} باشد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:165
+msgid "Row {0}: an If step needs a Step Condition"
+msgstr "ردیف {0}: مرحلهٔ «اگر» به شرط مرحله نیاز دارد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:147
+msgid "Row {0}: choose the If or Else branch"
+msgstr "ردیف {0}: شاخهٔ «اگر» یا «در غیر این صورت» را انتخاب کنید"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:120
+msgid "Row {0}: duplicate output alias {1}"
+msgstr "ردیف {0}: نام مستعار خروجی تکراری {1}"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:117
+msgid "Row {0}: unknown target alias {1}"
+msgstr "ردیف {0}: نام مستعار هدف ناشناخته {1}"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:161
+msgid "Row {0}: unsupported Step Type {1}"
+msgstr "ردیف {0}: نوع مرحلهٔ پشتیبانی‌نشده {1}"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Rows a drain runs between commits."
+msgstr "تعداد ردیف‌هایی که یک تخلیه بین ثبت‌های قطعی اجرا می‌کند."
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Run After"
+msgstr "اجرا پس از"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Run As"
+msgstr "اجرا به‌عنوان"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Run State"
+msgstr "وضعیت اجرا"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:98
+msgid "Run against"
+msgstr "اجرا روی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:121
+msgid "Running…"
+msgstr "در حال اجرا…"
+
+#: frappe/integrations/doctype/social_login_key/social_login_key.json:None
+msgid "Salesforce"
+msgstr "سیلزفورس"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue_list.js:14
+msgid "Scheduled for {0}"
+msgstr "زمان‌بندی‌شده برای {0}"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:213
+msgid "Scheduled trigger requires a Cron Expression"
+msgstr "راه‌انداز زمان‌بندی‌شده به عبارت Cron نیاز دارد"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Seconds a drain may keep claiming batches. 0 derives it from the queue's own timeout."
+msgstr "تعداد ثانیه‌هایی که یک تخلیه می‌تواند دسته‌ها را برداشت کند. ۰ آن را از مهلت خود صف می‌گیرد."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:24
+msgid "Select a Document Type to add field rules."
+msgstr "برای افزودن قوانین فیلد، یک نوع سند انتخاب کنید."
+
+#: frappe/email/doctype/email_account/email_account.json:None
+msgid "Sendgrid"
+msgstr "Sendgrid"
+
+#: frappe/public/js/frappe/ui/naming_series.js:34
+msgid "Series"
+msgstr "سری"
+
+#: frappe/automation_engine/actions/core.py:433
+msgid "Server Scripts are disabled. Enable them from the bench configuration."
+msgstr "اسکریپت‌های سرور غیرفعال هستند. آن‌ها را از پیکربندی bench فعال کنید."
+
+#: frappe/concurrency_limiter.py:115
+msgid "Server is busy. Please try again in a few seconds."
+msgstr "سرور مشغول است. لطفاً چند ثانیهٔ دیگر دوباره امتحان کنید."
+
+#: frappe/automation_engine/actions/core.py:63
+msgid "Set at least one field"
+msgstr "حداقل یک فیلد را تعیین کنید"
+
+#: frappe/automation_engine/actions/core.py:79
+msgid "Set {0}"
+msgstr "تعیین {0}"
+
+#: frappe/core/doctype/error_log/error_log.js:9
+msgid "Show Similar Errors"
+msgstr "نمایش خطاهای مشابه"
+
+#: frappe/public/js/frappe/ui/keyboard.js:237
+msgid "Show keyboard shortcuts"
+msgstr "نمایش میان‌برهای صفحه‌کلید"
+
+#: frappe/model/rename_doc.py:347
+msgid "Single DocTypes cannot be renamed"
+msgstr "نام انواع سند منفرد قابل تغییر نیست"
+
+#: frappe/email/doctype/notification/notification.json:None
+msgid "Slack"
+msgstr "Slack"
+
+#: frappe/automation/doctype/automation_run_step/automation_run_step.json:None
+msgid "Small structured result returned by the action."
+msgstr "نتیجهٔ ساختاریافتهٔ کوچکی که اقدام برمی‌گرداند."
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Snapshot"
+msgstr "تصویر لحظه‌ای"
+
+#: frappe/core/doctype/report/report.json:None
+msgid "Snapshot Report"
+msgstr "گزارش لحظه‌ای"
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Snapshot Reports"
+msgstr "گزارش‌های لحظه‌ای"
+
+#: frappe/printing/page/print_format_builder/print_format_builder_column_selector.html:4
+msgid "Some columns might get cut off when printing to PDF. Try to keep number of columns under 10."
+msgstr "هنگام چاپ به PDF ممکن است برخی ستون‌ها بریده شوند. سعی کنید تعداد ستون‌ها زیر ۱۰ باشد."
+
+#: frappe/email/doctype/email_account/email_account.json:None
+msgid "SparkPost"
+msgstr "SparkPost"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Stale Running Minutes"
+msgstr "دقایق ماندن در حالت اجرا"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Standard 5-field cron, for example <code>0 9 * * 1</code>."
+msgstr "Cron استاندارد ۵ فیلدی، برای مثال <code>0 9 * * 1</code>."
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Step Condition"
+msgstr "شرط مرحله"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Step Key"
+msgstr "کلید مرحله"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Step Output Limit"
+msgstr "سقف خروجی مرحله"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Step Type"
+msgstr "نوع مرحله"
+
+#: frappe/automation_engine/runner.py:407
+msgid "Step condition did not match"
+msgstr "شرط مرحله مطابقت نداشت"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Step outputs, record aliases and branch choices a resumed run picks up."
+msgstr "خروجی‌های مرحله، نام‌های مستعار رکورد و انتخاب‌های شاخه‌ای که اجرای ازسرگرفته‌شده برمی‌دارد."
+
+#: frappe/automation_engine/api.py:262
+msgid "Step {0} is not an If step"
+msgstr "مرحلهٔ {0} مرحلهٔ «اگر» نیست"
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Stop dispatching automations site-wide. Queued rows are left untouched."
+msgstr "توزیع خودکارسازی‌ها را در کل سایت متوقف کن. ردیف‌های در صف دست‌نخورده می‌مانند."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Stop on Error"
+msgstr "توقف هنگام خطا"
+
+#: frappe/public/js/frappe/ui/sidebar/sidebar.js:111
+msgid "Switch to CRM"
+msgstr "رفتن به CRM"
+
+#: frappe/core/doctype/duckdb_sync/duckdb_sync.js:23
+msgid "Sync Data"
+msgstr "همگام‌سازی داده"
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Sync Timeout (Seconds)"
+msgstr "مهلت همگام‌سازی (ثانیه)"
+
+#: frappe/core/doctype/duckdb_sync_item/duckdb_sync_item.json:None
+msgid "Synced"
+msgstr "همگام‌شده"
+
+#: frappe/automation_engine/actions/core.py:115
+msgid "Target Document Type is required"
+msgstr "نوع سند هدف الزامی است"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:86
+msgid "Test Run"
+msgstr "اجرای آزمایشی"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:129
+msgid "Test Run: {0}"
+msgstr "اجرای آزمایشی: {0}"
+
+#: frappe/automation_engine/actions/core.py:456
+msgid "That Server Script is disabled"
+msgstr "آن اسکریپت سرور غیرفعال است"
+
+#: frappe/core/doctype/file/file.py:949
+msgid "The File URL does not belong to this File record"
+msgstr "نشانی فایل متعلق به این رکورد فایل نیست"
+
+#: frappe/core/doctype/doctype/doctype.py:1434
+msgid "The default value for the Check field {0} must be either '0' or '1'"
+msgstr "مقدار پیش‌فرض فیلد انتخابی {0} باید '0' یا '1' باشد"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:58
+msgid "The email button is enabled for the user in the document."
+msgstr "دکمهٔ ایمیل برای کاربر در سند فعال است."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:102
+msgid "The flow runs for real against this document, then everything it did is rolled back."
+msgstr "جریان واقعاً روی این سند اجرا می‌شود، سپس هر کاری که انجام داده برگردانده می‌شود."
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "The flow's steps as they were when the run started. A resumed run executes these, not the current flow."
+msgstr "مراحل جریان همان‌طور که هنگام شروع اجرا بودند. اجرای ازسرگرفته‌شده این‌ها را اجرا می‌کند، نه جریان فعلی را."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:53
+msgid "The print button is enabled for the user in the document."
+msgstr "دکمهٔ چاپ برای کاربر در سند فعال است."
+
+#: frappe/automation/doctype/automation_run_step/automation_run_step.json:None
+msgid "The step condition that skipped this step."
+msgstr "شرط مرحله‌ای که این مرحله را نادیده گرفت."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:43
+msgid "The user can create a new Item but cannot edit existing items."
+msgstr "کاربر می‌تواند کالای جدید ایجاد کند اما نمی‌تواند کالاهای موجود را ویرایش کند."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:48
+msgid "The user can delete Draft / Cancelled documents."
+msgstr "کاربر می‌تواند اسناد پیش‌نویس / لغوشده را حذف کند."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:68
+msgid "The user can export report data."
+msgstr "کاربر می‌تواند داده‌های گزارش را برون‌بری کند."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:73
+msgid "The user can import new records or update existing data for the document."
+msgstr "کاربر می‌تواند رکوردهای جدید را درون‌ریزی کند یا داده‌های موجود سند را به‌روزرسانی کند."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:28
+msgid "The user can select a Customer in Sales Order but cannot open the Customer master."
+msgstr "کاربر می‌تواند در سفارش فروش مشتری را انتخاب کند اما نمی‌تواند اطلاعات اصلی مشتری را باز کند."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:78
+msgid "The user can share document access with another user."
+msgstr "کاربر می‌تواند دسترسی سند را با کاربر دیگری به اشتراک بگذارد."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:38
+msgid "The user can update a customer or any other fields in an existing Sales Order but cannot create a new Sales Order."
+msgstr "کاربر می‌تواند مشتری یا فیلدهای دیگر را در سفارش فروش موجود به‌روزرسانی کند اما نمی‌تواند سفارش فروش جدید ایجاد کند."
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:33
+msgid "The user can view Sales Invoices but cannot modify any field values in them."
+msgstr "کاربر می‌تواند فاکتورهای فروش را ببیند اما نمی‌تواند مقدار هیچ فیلدی را در آن‌ها تغییر دهد."
+
+#: frappe/website/doctype/website_theme/website_theme.py:110
+msgid "Theme name cannot contain '/' or path separators"
+msgstr "نام پوسته نمی‌تواند شامل '/' یا جداکنندهٔ مسیر باشد"
+
+#: frappe/core/doctype/navbar_settings/navbar_settings.json:None
+msgid "These announcements will appear inside a dismissible alert below the Navbar."
+msgstr "این اطلاعیه‌ها در یک هشدار بستنی زیر نوار پیمایش نمایش داده می‌شوند."
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:59
+msgid "This Web Form Request has already been used"
+msgstr "این درخواست فرم وب قبلاً استفاده شده است"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:62
+msgid "This Web Form Request has expired"
+msgstr "این درخواست فرم وب منقضی شده است"
+
+#: frappe/automation_engine/api.py:159
+msgid "This action does not support the selected trigger"
+msgstr "این اقدام از راه‌انداز انتخاب‌شده پشتیبانی نمی‌کند"
+
+#: frappe/automation_engine/api.py:157
+msgid "This action requires a Document Type"
+msgstr "این اقدام به نوع سند نیاز دارد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.js:131
+msgid "This flow has no steps to run."
+msgstr "این جریان مرحله‌ای برای اجرا ندارد."
+
+#: frappe/public/js/frappe/views/reports/query_report.js:802
+msgid "This is a snapshot report generated {0}."
+msgstr "این یک گزارش لحظه‌ای است که {0} تولید شده است."
+
+#: frappe/automation_engine/actions/core.py:365
+msgid "Timeout must be between 1 and {0} seconds"
+msgstr "مهلت باید بین ۱ و {0} ثانیه باشد"
+
+#: frappe/email/doctype/notification/notification.json:None
+msgid "To use Slack Channel, add a <a href=\"#List/Slack%20Webhook%20URL/List\">Slack Webhook URL</a>."
+msgstr "برای استفاده از کانال Slack، یک <a href=\"#List/Slack%20Webhook%20URL/List\">نشانی وب‌هوک Slack</a> اضافه کنید."
+
+#: frappe/automation_engine/actions/core.py:550
+msgid "Too many redirects"
+msgstr "تغییر مسیرهای بیش از حد"
+
+#: frappe/templates/includes/login/login.js:330
+msgid "Too many requests. Please try again later."
+msgstr "درخواست‌های بیش از حد. لطفاً بعداً دوباره امتحان کنید."
+
+#: frappe/public/js/print_format_builder/ConfigureColumns.vue:12
+msgid "Total:"
+msgstr "جمع:"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Trigger"
+msgstr "راه‌انداز"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Trigger Field"
+msgstr "فیلد راه‌انداز"
+
+#: frappe/automation/doctype/automation_run/automation_run.json:None
+msgid "Trigger Queue Row"
+msgstr "ردیف صف راه‌انداز"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Trigger Type"
+msgstr "نوع راه‌انداز"
+
+#: frappe/public/js/frappe/ui/keyboard.js:210
+msgid "Trigger primary action"
+msgstr "اجرای اقدام اصلی"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Triggered At"
+msgstr "زمان راه‌اندازی"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Triggered By"
+msgstr "راه‌اندازی‌شده توسط"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.json:None
+msgid "Triggering User"
+msgstr "کاربر راه‌انداز"
+
+#: frappe/automation/doctype/automation_run_step/automation_run_step.json:None
+msgid "Truncated to 5k characters."
+msgstr "به ۵ هزار نویسه کوتاه شد."
+
+#: frappe/automation/doctype/automation_settings/automation_settings.json:None
+msgid "Tuning for the automation engine: dispatch limits, drain behaviour, retention and payload limits."
+msgstr "تنظیمات موتور خودکارسازی: محدودیت‌های توزیع، رفتار تخلیه، نگه‌داری و محدودیت‌های بار داده‌ای."
+
+#: frappe/desk/doctype/notification_type/notification_type.json:None
+msgid "Type Name"
+msgstr "نام نوع"
+
+#: frappe/email/doctype/email_account/email_account.json:None
+msgid "UIDVALIDITY"
+msgstr "UIDVALIDITY"
+
+#: frappe/automation_engine/actions/core.py:505
+msgid "URL has no host"
+msgstr "نشانی میزبان ندارد"
+
+#: frappe/automation_engine/actions/core.py:357
+msgid "URL is required"
+msgstr "نشانی الزامی است"
+
+#: frappe/automation_engine/actions/core.py:503
+msgid "URL must be http or https"
+msgstr "نشانی باید http یا https باشد"
+
+#: frappe/automation_engine/actions/core.py:117
+msgid "Unknown DocType"
+msgstr "نوع سند ناشناخته"
+
+#: frappe/automation_engine/actions/core.py:249
+msgid "Unknown Email Template"
+msgstr "قالب ایمیل ناشناخته"
+
+#: frappe/automation_engine/actions/core.py:445
+msgid "Unknown Server Script"
+msgstr "اسکریپت سرور ناشناخته"
+
+#: frappe/automation_engine/actions/base.py:140
+msgid "Unknown automation action: {0}"
+msgstr "اقدام خودکارسازی ناشناخته: {0}"
+
+#: frappe/automation_engine/relationships.py:128
+msgid "Unknown automation relationship: {0}"
+msgstr "رابطهٔ خودکارسازی ناشناخته: {0}"
+
+#: frappe/automation_engine/schema_relationships.py:259
+msgid "Unknown derived relationship: {0}"
+msgstr "رابطهٔ مشتق‌شدهٔ ناشناخته: {0}"
+
+#: frappe/automation_engine/relationships.py:162
+msgid "Unknown derived relationship: {0} on {1}"
+msgstr "رابطهٔ مشتق‌شدهٔ ناشناخته: {0} در {1}"
+
+#: frappe/automation_engine/api.py:84
+msgid "Unknown parameter: {0}"
+msgstr "پارامتر ناشناخته: {0}"
+
+#: frappe/automation_engine/conditions.py:91
+msgid "Unknown related-condition source alias: {0}"
+msgstr "نام مستعار منبع شرط مرتبط ناشناخته: {0}"
+
+#: frappe/automation_engine/relationships.py:208
+msgid "Unknown relationship source alias: {0}"
+msgstr "نام مستعار منبع رابطهٔ ناشناخته: {0}"
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:696
+msgid "Unpin"
+msgstr "برداشتن سنجاق"
+
+#: frappe/automation_engine/events.py:135
+msgid "Unregistered automation event: {0}"
+msgstr "رویداد خودکارسازی ثبت‌نشده: {0}"
+
+#: frappe/automation_engine/actions/core.py:362
+msgid "Unsupported HTTP method"
+msgstr "متد HTTP پشتیبانی‌نشده"
+
+#: frappe/automation_engine/conditions.py:135
+msgid "Unsupported count comparison: {0}"
+msgstr "مقایسهٔ شمارش پشتیبانی‌نشده: {0}"
+
+#: frappe/desk/query_report.py:543
+msgid "Unsupported file format: {0}"
+msgstr "قالب فایل پشتیبانی‌نشده: {0}"
+
+#: frappe/automation_engine/conditions.py:115
+msgid "Unsupported related condition: {0}"
+msgstr "شرط مرتبط پشتیبانی‌نشده: {0}"
+
+#: frappe/public/js/frappe/form/grid.js:1233
+msgid "Update {0} rows"
+msgstr "به‌روزرسانی {0} ردیف"
+
+#: frappe/public/js/frappe/form/grid.js:1226
+msgid "Updated {0} selected {1}. Save the form to keep changes."
+msgstr "{0} {1} انتخاب‌شده به‌روزرسانی شد. برای حفظ تغییرات فرم را ذخیره کنید."
+
+#: frappe/desk/doctype/global_search_settings/global_search_settings.js:38
+msgid "Updating search index"
+msgstr "در حال به‌روزرسانی نمایهٔ جستجو"
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Use Number Format from Currency"
+msgstr "استفاده از قالب عدد ارز"
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:134
+msgid "Use ampersand to match multiple terms"
+msgstr "برای تطبیق چند عبارت از & استفاده کنید"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:50
+msgid "Visit Frappe Support Portal"
+msgstr "بازدید از پورتال پشتیبانی Frappe"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Wait Resume"
+msgstr "ازسرگیری انتظار"
+
+#: frappe/automation_engine/events.py:37
+msgid "Wait for Event correlation key rendered empty"
+msgstr "کلید همبستگی انتظار رویداد خالی رندر شد"
+
+#: frappe/automation_engine/events.py:141
+msgid "Wait for Event requires a correlation key"
+msgstr "انتظار رویداد به کلید همبستگی نیاز دارد"
+
+#: frappe/automation_engine/events.py:143
+msgid "Wait for Event requires a timeout"
+msgstr "انتظار رویداد به مهلت نیاز دارد"
+
+#: frappe/automation_engine/events.py:145
+msgid "Wait for Event timeout unit must be one of {0}"
+msgstr "واحد مهلت انتظار رویداد باید یکی از {0} باشد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:174
+msgid "Wait steps require a duration value and unit"
+msgstr "مراحل انتظار به مقدار و واحد مدت نیاز دارند"
+
+#: frappe/automation_engine/runner.py:324
+msgid "Waited for {0} (simulated)"
+msgstr "{0} منتظر ماند (شبیه‌سازی)"
+
+#: frappe/automation_engine/runner.py:309
+msgid "Waited {0} {1} (simulated)"
+msgstr "{0} {1} منتظر ماند (شبیه‌سازی)"
+
+#: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json:None
+msgid "Waiting"
+msgstr "در انتظار"
+
+#: frappe/automation_engine/runner.py:320
+msgid "Waiting for {0}"
+msgstr "در انتظار {0}"
+
+#: frappe/automation_engine/runner.py:305
+msgid "Waiting {0} seconds"
+msgstr "انتظار {0} ثانیه"
+
+#: frappe/website/doctype/web_form_request/web_form_request.json:None
+msgid "Web Form Request"
+msgstr "درخواست فرم وب"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:129
+msgid "Web Form Request key is required"
+msgstr "کلید درخواست فرم وب الزامی است"
+
+#: frappe/website/doctype/web_form_request/web_form_request.js:15
+msgid "Web Form Request link copied"
+msgstr "پیوند درخواست فرم وب کپی شد"
+
+#: frappe/website/doctype/web_form_request/web_form_request.json:None
+msgid "Web Form Values"
+msgstr "مقادیر فرم وب"
+
+#: frappe/automation/doctype/automation_run_step/automation_run_step.json:None
+msgid "What the action threw as a message, if it failed."
+msgstr "آنچه اقدام در صورت شکست به‌صورت پیام پرتاب کرد."
+
+#: frappe/desk/doctype/notification_log/notification_log.json:None
+msgid "What the recipient receives by email when this notification fires. Mirrors Title/Description by default; set these to make the email differ from the in-app text."
+msgstr "آنچه هنگام فعال شدن این اعلان از طریق ایمیل به گیرنده می‌رسد. به‌طور پیش‌فرض با عنوان/شرح یکسان است؛ برای متفاوت کردن ایمیل از متن درون‌برنامه‌ای، این‌ها را تعیین کنید."
+
+#: frappe/automation_engine/actions/core.py:381
+msgid "Would {0} {1} (not sent)"
+msgstr "{0} {1} می‌شد (ارسال نشد)"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.py:43
+msgid "Wrapping up"
+msgstr "در حال جمع‌بندی"
+
+#: frappe/email/doctype/email_account/email_account.json:None
+msgid "Yahoo Mail"
+msgstr "Yahoo Mail"
+
+#: frappe/desk/doctype/event/event.py:249
+msgid "You are not allowed to update attendance for another user."
+msgstr "اجازهٔ به‌روزرسانی حضور کاربر دیگر را ندارید."
+
+#: frappe/website/doctype/discussion_topic/discussion_topic.py:37
+msgid "You can only edit your own replies."
+msgstr "فقط می‌توانید پاسخ‌های خودتان را ویرایش کنید."
+
+#: frappe/core/doctype/file/file.py:247
+msgid "You do not have permission to access this file"
+msgstr "اجازهٔ دسترسی به این فایل را ندارید"
+
+#: frappe/core/doctype/deleted_document/deleted_document.py:52
+msgid "You do not have permission to create or restore documents of type {0}."
+msgstr "اجازهٔ ایجاد یا بازیابی اسناد از نوع {0} را ندارید."
+
+#: frappe/core/doctype/deleted_document/deleted_document.py:57
+msgid "You do not have permission to restore this document."
+msgstr "اجازهٔ بازیابی این سند را ندارید."
+
+#: frappe/desk/reportview.py:378
+msgid "You don't have permission to create Report records."
+msgstr "اجازهٔ ایجاد رکورد گزارش را ندارید."
+
+#: frappe/desk/reportview.py:381
+msgid "You don't have permission to create report for {0}"
+msgstr "اجازهٔ ایجاد گزارش برای {0} را ندارید"
+
+#: frappe/utils/file_manager.py:424
+msgid "You don't have permission to read/attach the file {0}."
+msgstr "اجازهٔ خواندن/پیوست فایل {0} را ندارید."
+
+#: frappe/website/doctype/web_form/web_form.py:761
+msgid "You must login to use this form"
+msgstr "برای استفاده از این فرم باید وارد شوید"
+
+#: frappe/desk/doctype/workspace/workspace.py:347
+msgid "You need the Workspace Manager role to edit this workspace."
+msgstr "برای ویرایش این فضای کاری به نقش مدیر فضای کار نیاز دارید."
+
+#: frappe/custom/doctype/property_setter/property_setter.py:154
+msgid "`doctype` and `fieldname` are required for deleting property setters."
+msgstr "`doctype` و `fieldname` برای حذف تنظیم‌کنندهٔ ویژگی الزامی هستند."
+
+#: frappe/desk/form/activity.py:609
+msgid "added {0} row(s) to {1}"
+msgstr "{0} ردیف به {1} اضافه شد"
+
+#: frappe/public/js/frappe/ui/toolbar/search.js:897
+msgid "and {0} more"
+msgstr "و {0} مورد دیگر"
+
+#: frappe/desk/form/activity.py:580
+msgid "changed {0}"
+msgstr "{0} تغییر کرد"
+
+#: frappe/desk/form/activity.py:573
+msgid "cleared {0}"
+msgstr "{0} پاک شد"
+
+#: frappe/integrations/doctype/social_login_key/social_login_key.json:None
+msgid "fairlogin"
+msgstr "fairlogin"
+
+#: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json:None
+msgid "nonce"
+msgstr "nonce"
+
+#: frappe/desk/form/activity.py:610
+msgid "removed {0} row(s) from {1}"
+msgstr "{0} ردیف از {1} حذف شد"
+
+#: frappe/desk/form/activity.py:587
+msgid "set {0} to"
+msgstr "{0} تعیین شد به"
+
+#: frappe/desk/form/activity.py:644
+msgid "set {0} to {1} in row #{2}"
+msgstr "{0} در ردیف #{2} روی {1} تعیین شد"
+
+#: frappe/desk/form/activity.py:571
+msgid "updated {0}"
+msgstr "{0} به‌روزرسانی شد"
+
+#: frappe/desk/form/activity.py:96
+msgid "visible_types entries must be strings or {type: [fields]} maps"
+msgstr "ورودی‌های visible_types باید رشته یا نگاشت‌های {type: [fields]} باشند"
+
+#: frappe/desk/form/activity.py:91
+msgid "visible_types fields for {0} must be a list"
+msgstr "فیلدهای visible_types برای {0} باید فهرست باشند"
+
+#: frappe/desk/form/activity.py:77
+msgid "visible_types is not valid JSON: {0}"
+msgstr "visible_types یک JSON معتبر نیست: {0}"
+
+#: frappe/desk/form/activity.py:81
+msgid "visible_types must be a list"
+msgstr "visible_types باید فهرست باشد"
+
+#: frappe/automation_engine/schema_relationships.py:220
+msgid "{0} (by {1})"
+msgstr "{0} (توسط {1})"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:110
+msgid "{0} contains invalid field(s): {1}"
+msgstr "{0} فیلد(های) نامعتبر دارد: {1}"
+
+#: frappe/desk/doctype/notification_type/notification_type.py:89
+msgid "{0} does not exist"
+msgstr "{0} وجود ندارد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:156
+msgid "{0} does not support {1} triggers"
+msgstr "{0} از راه‌اندازهای {1} پشتیبانی نمی‌کند"
+
+#: frappe/desk/doctype/notification_type/notification_type.py:42
+msgid "{0} is a built-in Notification Type and cannot be deleted. Disable it instead."
+msgstr "{0} یک نوع اعلان داخلی است و قابل حذف نیست. به‌جای آن غیرفعالش کنید."
+
+#: frappe/automation_engine/actions/core.py:561
+msgid "{0} must be a JSON object"
+msgstr "{0} باید شیء JSON باشد"
+
+#: frappe/desk/doctype/notification_type/notification_type.py:95
+msgid "{0} never sends email, so it cannot be enabled for users."
+msgstr "{0} هرگز ایمیل نمی‌فرستد، بنابراین برای کاربران قابل فعال‌سازی نیست."
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:154
+msgid "{0} requires a Document Type"
+msgstr "{0} به نوع سند نیاز دارد"
+
+#: frappe/automation_engine/actions/core.py:32
+msgid "{0} requires a target document"
+msgstr "{0} به سند هدف نیاز دارد"
+
+#: frappe/automation/doctype/automation_flow/automation_flow.py:190
+msgid "{0} trigger requires a Document Type"
+msgstr "راه‌انداز {0} به نوع سند نیاز دارد"
+
+#: frappe/automation_engine/actions/core.py:389
+msgid "{0} {1} returned {2}"
+msgstr "{0} {1} برگرداند {2}"
+
+#: frappe/automation_engine/actions/core.py:386
+msgid "{0} {1} returned {2}: {3}"
+msgstr "{0} {1} برگرداند {2}: {3}"
+
+#: frappe/website/doctype/web_form/web_form.py:121
+msgid "{0}: Link field cannot reference DocType {1} without Guest read permission"
+msgstr "{0}: فیلد پیوند نمی‌تواند به نوع سند {1} بدون دسترسی خواندن مهمان ارجاع دهد"
