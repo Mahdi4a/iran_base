@@ -3024,3 +3024,4450 @@ msgstr "در حال حذف..."
 
 msgid "Iran Base"
 msgstr "پایهٔ ایران"
+
+# Strings added to the source after the shipped Persian file was made (frappe)
+
+msgid " Search..."
+msgstr " جستجو..."
+
+msgid "\"{0}\" does not match any field. Map it in the Preview step, otherwise it will be ignored."
+msgstr "«{0}» با هیچ فیلدی مطابقت ندارد. آن را در مرحلهٔ پیش‌نمایش نگاشت کنید، وگرنه نادیده گرفته می‌شود."
+
+msgid "\"{0}\" is not a valid date. Use {1}"
+msgstr "«{0}» تاریخ معتبری نیست. از {1} استفاده کنید"
+
+msgid "\"{0}\" is not a valid datetime. Use {1}"
+msgstr "«{0}» تاریخ و زمان معتبری نیست. از {1} استفاده کنید"
+
+msgid "\"{0}\" is not a valid number, or could mean two numbers. Write it like {1}"
+msgstr "«{0}» عدد معتبری نیست یا ممکن است دو عدد را برساند. آن را مانند {1} بنویسید"
+
+msgid "\"{0}\" is not a valid {1} — {2}"
+msgstr "«{0}» {1} معتبری نیست — {2}"
+
+msgid "\"{0}\" is not valid — {1}"
+msgstr "«{0}» معتبر نیست — {1}"
+
+msgid "\"{0}\" is not valid. Use duration format: d h m s"
+msgstr "«{0}» معتبر نیست. از قالب مدت زمان استفاده کنید: d h m s"
+
+msgid "+{0} more"
+msgstr "+{0} مورد دیگر"
+
+msgid "-"
+msgstr "-"
+
+msgid ".csv, .xlsx"
+msgstr ".csv، .xlsx"
+
+msgid ".csv, .xlsx up to {0} MB"
+msgstr ".csv، .xlsx تا {0} مگابایت"
+
+msgid ".print-format p { margin: 0; }"
+msgstr ".print-format p { margin: 0; }"
+
+msgid "0 means this row references a base item: non-empty fields override it, empty fields mean no opinion. 1 means a full item the layer added, rendered as it stands."
+msgstr "۰ یعنی این ردیف به یک آیتم پایه ارجاع می‌دهد: فیلدهای غیرخالی آن را بازنویسی می‌کنند و فیلدهای خالی یعنی نظری نیست. ۱ یعنی آیتم کاملی که لایه اضافه کرده و همان‌طور که هست نمایش داده می‌شود."
+
+msgid "1 node"
+msgstr "۱ گره"
+
+msgid "1 of N"
+msgstr "۱ از N"
+
+msgid "1 row"
+msgstr "۱ ردیف"
+
+msgid "1 warning found."
+msgstr "۱ هشدار پیدا شد."
+
+msgid "<b>{0}</b> has been customized on this site since the upgrade. Restoring replaces that customization with the pre-upgrade layout."
+msgstr "<b>{0}</b> از زمان ارتقا در این سایت سفارشی‌سازی شده است. بازیابی، آن سفارشی‌سازی را با چیدمان پیش از ارتقا جایگزین می‌کند."
+
+msgid "<b>{0}</b> is shipped by its app. Saving this layout keeps your arrangement, and the app's later changes to this page's layout will stop showing up here. Its roles, icon and visibility keep following the app either way, and <b>Reset to Standard</b> undoes this."
+msgstr "<b>{0}</b> همراه برنامه‌اش ارائه شده است. ذخیرهٔ این چیدمان، ترتیب شما را نگه می‌دارد و تغییرات بعدی برنامه در چیدمان این صفحه دیگر اینجا نمایش داده نمی‌شود. نقش‌ها، آیکون و نمایش آن در هر صورت از برنامه پیروی می‌کنند و <b>بازنشانی به استاندارد</b> این کار را برمی‌گرداند."
+
+msgid "<div class=\"section-head import-log-title\">Import Log</div>"
+msgstr "<div class=\"section-head import-log-title\">لاگ درون‌ریزی</div>"
+
+msgid "@jane"
+msgstr "@jane"
+
+msgid "A Single (Settings) doctype."
+msgstr "یک نوع سند منفرد (تنظیمات)."
+
+msgid "A custom settings map already exists for {0}."
+msgstr "نگاشت تنظیمات سفارشی برای {0} از قبل وجود دارد."
+
+msgid "A customization for {0} already exists for this layer."
+msgstr "سفارشی‌سازی {0} از قبل برای این لایه وجود دارد."
+
+msgid "A layout saved on {0} could not be read and was skipped."
+msgstr "چیدمان ذخیره‌شده روی {0} خوانده نشد و نادیده گرفته شد."
+
+msgid "A layout with this name already exists"
+msgstr "چیدمانی با این نام از قبل وجود دارد"
+
+msgid "A new area to place fields in"
+msgstr "ناحیهٔ جدیدی برای قرار دادن فیلدها"
+
+msgid "A person you deal with, at a customer, supplier or anywhere else."
+msgstr "شخصی که با او سروکار دارید، در مشتری، تأمین‌کننده یا هر جای دیگر."
+
+msgid "A postal address of a customer, supplier, company or contact."
+msgstr "نشانی پستی مشتری، تأمین‌کننده، شرکت یا مخاطب."
+
+msgid "A private workspace is yours alone. Only you can see it."
+msgstr "فضای کار خصوصی فقط مال شماست. فقط شما آن را می‌بینید."
+
+msgid "A shared workspace needs a module other than {0}."
+msgstr "فضای کار مشترک به ماژولی غیر از {0} نیاز دارد."
+
+msgid "A sidebar needs at least one entry that leads somewhere. Put one back, or use Reset to drop this arrangement."
+msgstr "نوار کناری به حداقل یک مورد نیاز دارد که به جایی برود. یکی را برگردانید یا با بازنشانی این ترتیب را کنار بگذارید."
+
+msgid "A sidebar's name is part of its desk URL, so it cannot contain {0}."
+msgstr "نام نوار کناری بخشی از نشانی میز کار آن است، بنابراین نمی‌تواند شامل {0} باشد."
+
+msgid "A site's overrides on a standard (app-shipped) workspace. Site-owned and standard-only: there is no user layer, deliberately -- a private workspace is already yours to edit directly, and a public one is the site's. The merge is split on purpose. Roles, icon, visibility and sequence are a true diff, so an app's later changes to them keep flowing through. Content is a snapshot, so customizing the layout freezes it against app updates: workspace content is nested editor blocks where headings, paragraphs and spacers carry no key at all, and a delta cannot be written against unkeyed prose. Do not \"fix\" this into one or the other; `reset_workspace_customization` is the escape hatch."
+msgstr "بازنویسی‌های یک سایت روی فضای کار استاندارد (همراه برنامه). متعلق به سایت و فقط برای استاندارد: عمداً لایهٔ کاربر وجود ندارد -- فضای کار خصوصی را خودتان مستقیم ویرایش می‌کنید و فضای کار عمومی مال سایت است. ادغام عمداً دو بخش است. نقش‌ها، آیکون، نمایش و ترتیب یک تفاوت واقعی هستند، بنابراین تغییرات بعدی برنامه در آن‌ها همچنان اعمال می‌شود. محتوا یک تصویر لحظه‌ای است، پس سفارشی‌سازی چیدمان آن را در برابر به‌روزرسانی برنامه ثابت می‌کند: محتوای فضای کار بلوک‌های تودرتوی ویرایشگر است که در آن‌ها سرتیترها، پاراگراف‌ها و فاصله‌ها اصلاً کلید ندارند و برای متن بدون کلید نمی‌توان تفاوت نوشت. این را به یکی از دو حالت «اصلاح» نکنید؛ `reset_workspace_customization` راه نجات است."
+
+msgid "A snippet named {0} already exists for {1}."
+msgstr "قطعه‌ای با نام {0} از قبل برای {1} وجود دارد."
+
+msgid "A standard Kanban Board cannot be private"
+msgstr "برد کانبان استاندارد نمی‌تواند خصوصی باشد"
+
+msgid "A standard Kanban Board cannot be renamed"
+msgstr "نام برد کانبان استاندارد قابل تغییر نیست"
+
+msgid "A standard Kanban Board must use Kanban v2"
+msgstr "برد کانبان استاندارد باید از Kanban v2 استفاده کند"
+
+msgid "A standard list layout cannot belong to a user"
+msgstr "چیدمان فهرست استاندارد نمی‌تواند متعلق به کاربر باشد"
+
+msgid "A standard settings map already exists for {0} in {1}."
+msgstr "نگاشت تنظیمات استاندارد برای {0} در {1} از قبل وجود دارد."
+
+msgid "A standard sidebar needs a module or an app to be written to."
+msgstr "نوار کناری استاندارد به یک ماژول یا برنامه برای نوشتن نیاز دارد."
+
+msgid "A standard workspace belongs to the module that ships it."
+msgstr "فضای کار استاندارد متعلق به ماژولی است که آن را ارائه می‌کند."
+
+msgid "A standard workspace is shipped by the app; changes are saved as customizations."
+msgstr "فضای کار استاندارد همراه برنامه ارائه می‌شود؛ تغییرات به‌صورت سفارشی‌سازی ذخیره می‌شوند."
+
+msgid "A standard workspace stays in the module that ships it."
+msgstr "فضای کار استاندارد در ماژولی که آن را ارائه می‌کند می‌ماند."
+
+msgid "A user preview on a link (rest the pointer on it)"
+msgstr "پیش‌نمایش کاربر روی یک پیوند (اشاره‌گر را روی آن نگه دارید)"
+
+msgid "A value from a linked document"
+msgstr "مقداری از سند پیوندشده"
+
+msgid "Access"
+msgstr "دسترسی"
+
+msgid "Access added."
+msgstr "دسترسی اضافه شد."
+
+msgid "Action failed."
+msgstr "اقدام ناموفق بود."
+
+msgid "Add More"
+msgstr "افزودن بیشتر"
+
+msgid "Add Page"
+msgstr "افزودن صفحه"
+
+msgid "Add Permission"
+msgstr "افزودن مجوز"
+
+msgid "Add Permission for {0}"
+msgstr "افزودن مجوز برای {0}"
+
+msgid "Add Report"
+msgstr "افزودن گزارش"
+
+msgid "Add Series"
+msgstr "افزودن سری"
+
+msgid "Add To Folder"
+msgstr "افزودن به پوشه"
+
+msgid "Add User Permission"
+msgstr "افزودن مجوز کاربر"
+
+msgid "Add User to {0}"
+msgstr "افزودن کاربر به {0}"
+
+msgid "Add Workspace"
+msgstr "افزودن فضای کار"
+
+msgid "Add a link to your own private workspaces in the user menu."
+msgstr "پیوندی به فضاهای کار خصوصی خود را در منوی کاربر اضافه کنید."
+
+msgid "Add a section"
+msgstr "افزودن بخش"
+
+msgid "Add a section to the canvas to see it here."
+msgstr "برای دیدن آن اینجا، بخشی به بوم اضافه کنید."
+
+msgid "Add card"
+msgstr "افزودن کارت"
+
+msgid "Add column..."
+msgstr "افزودن ستون..."
+
+msgid "Add field..."
+msgstr "افزودن فیلد..."
+
+msgid "Add new attachments"
+msgstr "افزودن پیوست‌های جدید"
+
+msgid "Add role"
+msgstr "افزودن نقش"
+
+msgid "Add to the Sidebar"
+msgstr "افزودن به نوار کناری"
+
+msgid "Add to the dock"
+msgstr "افزودن به داک"
+
+msgid "Add {0} Access to {1}"
+msgstr "افزودن دسترسی {0} به {1}"
+
+msgid "Add {0} to a module"
+msgstr "افزودن {0} به یک ماژول"
+
+msgid "Added Roles"
+msgstr "نقش‌های اضافه‌شده"
+
+msgid "Added Widgets"
+msgstr "ابزارک‌های اضافه‌شده"
+
+msgid "Added to global search"
+msgstr "به جستجوی سراسری اضافه شد"
+
+msgid "Added {0} to {1}"
+msgstr "{0} به {1} اضافه شد"
+
+msgid "Alert dismissed"
+msgstr "هشدار بسته شد"
+
+msgid "Align center"
+msgstr "تراز وسط"
+
+msgid "Align left"
+msgstr "تراز چپ"
+
+msgid "Align right"
+msgstr "تراز راست"
+
+msgid "All ({0})"
+msgstr "همه ({0})"
+
+msgid "All DocTypes"
+msgstr "همهٔ انواع سند"
+
+msgid "All apps"
+msgstr "همهٔ برنامه‌ها"
+
+msgid "All available columns added."
+msgstr "همهٔ ستون‌های موجود اضافه شد."
+
+msgid "All set! Opening your workspace"
+msgstr "همه‌چیز آماده است! در حال باز کردن فضای کار شما"
+
+msgid "Allow bulk actions"
+msgstr "اجازهٔ عملیات گروهی"
+
+msgid "Allow notifications"
+msgstr "اجازهٔ اعلان‌ها"
+
+msgid "Allow switching between list, kanban, report, and other views from the toolbar"
+msgstr "امکان جابه‌جایی بین نمای فهرست، کانبان، گزارش و سایر نماها از نوار ابزار"
+
+msgid "Allowed: {0}"
+msgstr "مجاز: {0}"
+
+msgid "Allows the user to amend a cancelled document into a new copy."
+msgstr "به کاربر اجازه می‌دهد سند لغوشده را به نسخهٔ جدید اصلاح کند."
+
+msgid "Allows the user to cancel submitted documents."
+msgstr "به کاربر اجازه می‌دهد اسناد ثبت‌شده را لغو کند."
+
+msgid "Allows the user to export document data from the system."
+msgstr "به کاربر اجازه می‌دهد داده‌های سند را از سیستم برون‌بری کند."
+
+msgid "Allows the user to print or download the document as a PDF."
+msgstr "به کاربر اجازه می‌دهد سند را چاپ یا به‌صورت PDF دانلود کند."
+
+msgid "Allows the user to search and select records in other forms. This does not allow the user to view the record itself."
+msgstr "به کاربر اجازه می‌دهد در فرم‌های دیگر رکوردها را جستجو و انتخاب کند. این اجازه نمی‌دهد خود رکورد را ببیند."
+
+msgid "Allows the user to send emails linked to the document."
+msgstr "به کاربر اجازه می‌دهد ایمیل‌های مرتبط با سند را ارسال کند."
+
+msgid "Allows the user to share document access with other users who may not have access to the document themselves."
+msgstr "به کاربر اجازه می‌دهد دسترسی سند را با کاربرانی به اشتراک بگذارد که شاید خودشان به سند دسترسی نداشته باشند."
+
+msgid "Allows the user to submit documents."
+msgstr "به کاربر اجازه می‌دهد اسناد را ثبت کند."
+
+msgid "Allows the user to use import documents into the system."
+msgstr "به کاربر اجازه می‌دهد اسناد را در سیستم درون‌ریزی کند."
+
+msgid "Allows the user to view the value of a masked field in the document."
+msgstr "به کاربر اجازه می‌دهد مقدار فیلد پوشیده‌شده در سند را ببیند."
+
+msgid "Almost done"
+msgstr "تقریباً تمام شد"
+
+msgid "Already imported row {0}"
+msgstr "ردیف {0} قبلاً درون‌ریزی شده است"
+
+msgid "An edit to a shipped row in {0} cannot be carried by a customization."
+msgstr "ویرایش یک ردیف ارائه‌شده در {0} را نمی‌توان با سفارشی‌سازی اعمال کرد."
+
+msgid "An error occurred while updating your session defaults."
+msgstr "هنگام به‌روزرسانی پیش‌فرض‌های نشست شما خطایی رخ داد."
+
+msgid "Animate the first bar above"
+msgstr "نوار اول بالا را متحرک کن"
+
+msgid "Another {0} in this workspace is already labelled {1}. Labels are used to tell widgets apart when the workspace is saved, so the two would overwrite each other. Please pick a different label."
+msgstr "{0} دیگری در این فضای کار از قبل برچسب {1} دارد. برچسب‌ها برای تشخیص ابزارک‌ها هنگام ذخیرهٔ فضای کار استفاده می‌شوند، بنابراین این دو یکدیگر را بازنویسی می‌کنند. لطفاً برچسب دیگری انتخاب کنید."
+
+msgid "App {0} is not installed, so a standard dock cannot be written to it."
+msgstr "برنامهٔ {0} نصب نشده است، بنابراین داک استاندارد در آن نوشته نمی‌شود."
+
+msgid "App {0} is not installed, so a standard sidebar cannot be written to it."
+msgstr "برنامهٔ {0} نصب نشده است، بنابراین نوار کناری استاندارد در آن نوشته نمی‌شود."
+
+msgid "App-shipped roles whose access is revoked on this site."
+msgstr "نقش‌های ارائه‌شده با برنامه که دسترسی‌شان در این سایت لغو شده است."
+
+msgid "Applied"
+msgstr "اعمال‌شده"
+
+msgid "Applies to DocType"
+msgstr "قابل اعمال بر نوع سند"
+
+msgid "Applying…"
+msgstr "در حال اعمال…"
+
+msgid "Apps shows the hook-driven apps screen. Desktop Icons shows the arrangeable desktop icon grid instead."
+msgstr "«برنامه‌ها» صفحهٔ برنامه‌های مبتنی بر هوک را نشان می‌دهد. «آیکون‌های میز کار» به‌جای آن شبکهٔ آیکون‌های قابل‌چینش را نشان می‌دهد."
+
+msgid "Archive of the previous navigation. Nothing reads it at runtime; it is kept as the migration's source so the conversion to module sidebars can be run again."
+msgstr "بایگانی ناوبری قبلی. در زمان اجرا چیزی آن را نمی‌خواند؛ به‌عنوان منبع مهاجرت نگه داشته می‌شود تا تبدیل به نوار کناری ماژول‌ها دوباره قابل اجرا باشد."
+
+msgid "Arrange"
+msgstr "چینش"
+
+msgid "Arranging"
+msgstr "در حال چینش"
+
+msgid "Ascending"
+msgstr "صعودی"
+
+msgid "Async items (loading state)"
+msgstr "آیتم‌های ناهمگام (حالت بارگذاری)"
+
+msgid "Attach Image field for card thumbnail."
+msgstr "فیلد پیوست تصویر برای تصویر بندانگشتی کارت."
+
+msgid "Attach Image field shown as a thumbnail before the card title."
+msgstr "فیلد پیوست تصویر که پیش از عنوان کارت به‌صورت بندانگشتی نمایش داده می‌شود."
+
+msgid "Attach an import file to validate rows and mappings."
+msgstr "برای اعتبارسنجی ردیف‌ها و نگاشت‌ها، فایل درون‌ریزی را پیوست کنید."
+
+msgid "Attach document print"
+msgstr "پیوست چاپ سند"
+
+msgid "Attach files"
+msgstr "پیوست فایل‌ها"
+
+msgid "Auto-generated thumbnail of this format. Use the 'Generate Preview' button to (re)generate."
+msgstr "تصویر بندانگشتی خودکار این قالب. برای (دوباره) تولید آن از دکمهٔ «تولید پیش‌نمایش» استفاده کنید."
+
+msgid "Autoname: {0}"
+msgstr "نام‌گذاری خودکار: {0}"
+
+msgid "Autosave failed"
+msgstr "ذخیرهٔ خودکار ناموفق بود"
+
+msgid "Available to all users"
+msgstr "در دسترس همهٔ کاربران"
+
+msgid "Back to the builder"
+msgstr "بازگشت به سازنده"
+
+msgid "Background"
+msgstr "پس‌زمینه"
+
+msgid "Background Job Activity"
+msgstr "فعالیت کار پس‌زمینه"
+
+msgid "Background Task"
+msgstr "وظیفهٔ پس‌زمینه"
+
+msgid "Background color"
+msgstr "رنگ پس‌زمینه"
+
+msgid "Balance"
+msgstr "مانده"
+
+msgid "Barcode or QR code from a field or static value"
+msgstr "بارکد یا کد QR از یک فیلد یا مقدار ثابت"
+
+msgid "Barcode that is not a QR code"
+msgstr "بارکدی که کد QR نیست"
+
+msgid "Barcode value must be text under 2000 characters"
+msgstr "مقدار بارکد باید متنی کمتر از ۲۰۰۰ نویسه باشد"
+
+msgid "Based on"
+msgstr "بر اساس"
+
+msgid "Basic (active + completed states)"
+msgstr "پایه (حالت‌های فعال + تکمیل‌شده)"
+
+msgid "Basic (hover, or focus with Tab)"
+msgstr "پایه (شناور شدن یا تمرکز با Tab)"
+
+msgid "Basic (icon + title + description)"
+msgstr "پایه (آیکون + عنوان + شرح)"
+
+msgid "Basic (label + hint)"
+msgstr "پایه (برچسب + راهنما)"
+
+msgid "Basic actions"
+msgstr "اقدام‌های پایه"
+
+msgid "Blank means the site layer, which applies to everyone and is overridden by each user's own arrangement."
+msgstr "خالی یعنی لایهٔ سایت که برای همه اعمال می‌شود و با ترتیب شخصی هر کاربر بازنویسی می‌شود."
+
+msgid "Blockquote"
+msgstr "نقل‌قول"
+
+msgid "Blocks"
+msgstr "بلوک‌ها"
+
+msgid "Board Name"
+msgstr "نام برد"
+
+msgid "Board Settings"
+msgstr "تنظیمات برد"
+
+msgid "Board name is required"
+msgstr "نام برد الزامی است"
+
+msgid "Board settings saved"
+msgstr "تنظیمات برد ذخیره شد"
+
+msgid "Border"
+msgstr "حاشیه"
+
+msgid "Border color"
+msgstr "رنگ حاشیه"
+
+msgid "Borders"
+msgstr "حاشیه‌ها"
+
+msgid "Both"
+msgstr "هر دو"
+
+msgid "Breadcrumb"
+msgstr "مسیر ناوبری"
+
+msgid "Bring every entry back onto the dock."
+msgstr "همهٔ موارد را به داک برگردانید."
+
+msgid "Builder is visual. HTML is hand-written."
+msgstr "سازنده بصری است. HTML دستی نوشته می‌شود."
+
+msgid "Bullet list"
+msgstr "فهرست نقطه‌ای"
+
+msgid "Camera access needs a secure (HTTPS) connection and a browser with camera support."
+msgstr "دسترسی به دوربین به اتصال امن (HTTPS) و مرورگری با پشتیبانی از دوربین نیاز دارد."
+
+msgid "Camera permission was denied. Allow camera access in your browser settings and try again."
+msgstr "دسترسی به دوربین رد شد. در تنظیمات مرورگر خود دسترسی دوربین را مجاز کنید و دوباره امتحان کنید."
+
+msgid "Can only unlink an Address or a Contact"
+msgstr "فقط می‌توان پیوند نشانی یا مخاطب را برداشت"
+
+msgid "Can't check this condition"
+msgstr "این شرط قابل بررسی نیست"
+
+msgid "Cannot edit filters for standard Web Forms"
+msgstr "فیلترهای فرم‌های وب استاندارد قابل ویرایش نیستند"
+
+msgid "Cannot fetch image from {0}: {1}"
+msgstr "دریافت تصویر از {0} ممکن نیست: {1}"
+
+msgid "Cannot generate PDF for more than {0} documents at a time"
+msgstr "تولید PDF برای بیش از {0} سند در یک زمان ممکن نیست"
+
+msgid "Canvas"
+msgstr "بوم"
+
+msgid "Card Fields"
+msgstr "فیلدهای کارت"
+
+msgid "Card and Preview Fields"
+msgstr "فیلدهای کارت و پیش‌نمایش"
+
+msgid "Card title…"
+msgstr "عنوان کارت…"
+
+msgid "Cell padding"
+msgstr "فاصلهٔ داخلی سلول"
+
+msgid "Change Language"
+msgstr "تغییر زبان"
+
+msgid "Change Time Zone"
+msgstr "تغییر منطقهٔ زمانی"
+
+msgid "Change print settings"
+msgstr "تغییر تنظیمات چاپ"
+
+msgid "Checking import file for issues..."
+msgstr "در حال بررسی فایل درون‌ریزی برای مشکلات..."
+
+msgid "Child table rows laid out with your own template"
+msgstr "ردیف‌های جدول فرزند با قالب خودتان چیده می‌شوند"
+
+msgid "Choose a starting point for your print format."
+msgstr "نقطهٔ شروعی برای قالب چاپ خود انتخاب کنید."
+
+msgid "Choose whether forms should be displayed in compact or full width."
+msgstr "انتخاب کنید فرم‌ها فشرده یا تمام‌عرض نمایش داده شوند."
+
+msgid "Chromium"
+msgstr "Chromium"
+
+msgid "Chromium renderer unavailable"
+msgstr "رندرکنندهٔ Chromium در دسترس نیست"
+
+msgid "Chromium unavailable: this format uses a Typst block."
+msgstr "Chromium در دسترس نیست: این قالب از بلوک Typst استفاده می‌کند."
+
+msgid "Circular parent reference for {0}"
+msgstr "ارجاع والد دایره‌ای برای {0}"
+
+msgid "Classic Format Data"
+msgstr "داده‌های قالب کلاسیک"
+
+msgid "Clear Customizations"
+msgstr "پاک‌کردن سفارشی‌سازی‌ها"
+
+msgid "Clear selection"
+msgstr "پاک‌کردن انتخاب"
+
+msgid "Clear the filters to see all records."
+msgstr "برای دیدن همهٔ رکوردها فیلترها را پاک کنید."
+
+msgid "Click Customize to add your first widget."
+msgstr "برای افزودن اولین ابزارک روی «سفارشی‌سازی» کلیک کنید."
+
+msgid "Click below to login."
+msgstr "برای ورود، پایین کلیک کنید."
+
+msgid "Click below to reset your password."
+msgstr "برای بازنشانی گذرواژه، پایین کلیک کنید."
+
+msgid "Click on the {0} menu to edit"
+msgstr "برای ویرایش روی منوی {0} کلیک کنید"
+
+msgid "Click to navigate"
+msgstr "برای رفتن کلیک کنید"
+
+msgid "Code block"
+msgstr "بلوک کد"
+
+msgid "Collapse all"
+msgstr "بستن همه"
+
+msgid "Collapse sidebar"
+msgstr "بستن نوار کناری"
+
+msgid "Colon after labels"
+msgstr "دونقطه پس از برچسب‌ها"
+
+msgid "Colour"
+msgstr "رنگ"
+
+msgid "Colours that are not hex codes: {0}"
+msgstr "رنگ‌هایی که کد هگز نیستند: {0}"
+
+msgid "Column name is required"
+msgstr "نام ستون الزامی است"
+
+msgid "Column settings"
+msgstr "تنظیمات ستون"
+
+msgid "Column warnings"
+msgstr "هشدارهای ستون"
+
+msgid "Columns matched"
+msgstr "ستون‌های تطبیق‌یافته"
+
+msgid "Compact"
+msgstr "فشرده"
+
+msgid "Compact (narrow layouts)"
+msgstr "فشرده (چیدمان‌های باریک)"
+
+msgid "Complete Onboarding"
+msgstr "تکمیل آشنایی"
+
+msgid "Complete registration"
+msgstr "تکمیل ثبت‌نام"
+
+msgid "Complete the earlier steps before continuing."
+msgstr "پیش از ادامه، مراحل قبلی را کامل کنید."
+
+msgid "Component Explorer"
+msgstr "مرورگر مؤلفه‌ها"
+
+msgid "Condition based field"
+msgstr "فیلد مبتنی بر شرط"
+
+msgid "Configure conditional naming rules for {0}. Rules are applied in priority order."
+msgstr "قوانین نام‌گذاری شرطی را برای {0} پیکربندی کنید. قوانین به ترتیب اولویت اعمال می‌شوند."
+
+msgid "Configure fields"
+msgstr "پیکربندی فیلدها"
+
+msgid "Configure fields to show when searching for {0} globally. Open global search via {1}."
+msgstr "فیلدهایی را که هنگام جستجوی سراسری {0} نمایش داده می‌شوند پیکربندی کنید. جستجوی سراسری را با {1} باز کنید."
+
+msgid "Configure form view behaviour."
+msgstr "رفتار نمای فرم را پیکربندی کنید."
+
+msgid "Configure list view behaviour."
+msgstr "رفتار نمای فهرست را پیکربندی کنید."
+
+msgid "Configure naming series options for {0}. You can choose a series when creating a document."
+msgstr "گزینه‌های سری نام‌گذاری {0} را پیکربندی کنید. هنگام ایجاد سند می‌توانید یک سری انتخاب کنید."
+
+msgid "Configure print formats for {0}. You can choose a format when printing or emailing a document."
+msgstr "قالب‌های چاپ {0} را پیکربندی کنید. هنگام چاپ یا ایمیل سند می‌توانید قالب انتخاب کنید."
+
+msgid "Configure report view behaviour."
+msgstr "رفتار نمای گزارش را پیکربندی کنید."
+
+msgid "Configure your email settings."
+msgstr "تنظیمات ایمیل خود را پیکربندی کنید."
+
+msgid "Content must be a JSON object"
+msgstr "محتوا باید شیء JSON باشد"
+
+msgid "Content must be valid JSON"
+msgstr "محتوا باید JSON معتبر باشد"
+
+msgid "Control who can access {0}, by role."
+msgstr "کنترل کنید چه کسانی بر اساس نقش به {0} دسترسی دارند."
+
+msgid "Control who can see this workspace and how it appears."
+msgstr "کنترل کنید چه کسانی این فضای کار را می‌بینند و چگونه نمایش داده می‌شود."
+
+msgid "Convert to new builder"
+msgstr "تبدیل به سازندهٔ جدید"
+
+msgid "Converted from the old Print Format Builder"
+msgstr "از سازندهٔ قدیمی قالب چاپ تبدیل شد"
+
+msgid "Copy"
+msgstr "کپی"
+
+msgid "Copy file URL to clipboard"
+msgstr "کپی نشانی فایل در کلیپ‌بورد"
+
+msgid "Copy this board to change its setup"
+msgstr "برای تغییر پیکربندی، این برد را کپی کنید"
+
+msgid "Could not convert this print format"
+msgstr "این قالب چاپ تبدیل نشد"
+
+msgid "Could not load groups."
+msgstr "بارگذاری گروه‌ها ممکن نبود."
+
+msgid "Could not load import file"
+msgstr "بارگذاری فایل درون‌ریزی ممکن نبود"
+
+msgid "Could not load the dock. Please try again."
+msgstr "بارگذاری داک ممکن نبود. لطفاً دوباره امتحان کنید."
+
+msgid "Could not load the sidebar. Please try again."
+msgstr "بارگذاری نوار کناری ممکن نبود. لطفاً دوباره امتحان کنید."
+
+msgid "Could not load this document"
+msgstr "بارگذاری این سند ممکن نبود"
+
+msgid "Could not load this image"
+msgstr "بارگذاری این تصویر ممکن نبود"
+
+msgid "Could not load this section. Please refresh the page."
+msgstr "بارگذاری این بخش ممکن نبود. لطفاً صفحه را تازه‌سازی کنید."
+
+msgid "Could not load this tab."
+msgstr "بارگذاری این زبانه ممکن نبود."
+
+msgid "Could not move {0}"
+msgstr "جابه‌جایی {0} ممکن نبود"
+
+msgid "Could not move {0} cards"
+msgstr "جابه‌جایی {0} کارت ممکن نبود"
+
+msgid "Could not open Settings. Please refresh the page."
+msgstr "باز کردن تنظیمات ممکن نبود. لطفاً صفحه را تازه‌سازی کنید."
+
+msgid "Could not open the dock manager. Please refresh the page."
+msgstr "باز کردن مدیر داک ممکن نبود. لطفاً صفحه را تازه‌سازی کنید."
+
+msgid "Could not open the sidebar editor. Please refresh the page."
+msgstr "باز کردن ویرایشگر نوار کناری ممکن نبود. لطفاً صفحه را تازه‌سازی کنید."
+
+msgid "Could not render the preview"
+msgstr "نمایش پیش‌نمایش ممکن نبود"
+
+msgid "Could not start the camera."
+msgstr "راه‌اندازی دوربین ممکن نبود."
+
+msgid "Could not update"
+msgstr "به‌روزرسانی ممکن نبود"
+
+msgid "Could not write {0} to {1}. Left unchanged."
+msgstr "نوشتن {0} در {1} ممکن نبود. بدون تغییر ماند."
+
+msgid "Could not write {0}'s dock to it. Left unchanged."
+msgstr "نوشتن داک {0} در آن ممکن نبود. بدون تغییر ماند."
+
+msgid "Couldn't load options"
+msgstr "بارگذاری گزینه‌ها ممکن نبود"
+
+msgid "Couldn't render this letter head for the previewed document"
+msgstr "نمایش این سربرگ برای سند پیش‌نمایش‌شده ممکن نبود"
+
+msgid "Couldn't render this template for the previewed document"
+msgstr "نمایش این قالب برای سند پیش‌نمایش‌شده ممکن نبود"
+
+msgid "Create Board"
+msgstr "ایجاد برد"
+
+msgid "Create Folder"
+msgstr "ایجاد پوشه"
+
+msgid "Create Layout"
+msgstr "ایجاد چیدمان"
+
+msgid "Create New User"
+msgstr "ایجاد کاربر جدید"
+
+msgid "Create a notification to alert users about {0} events."
+msgstr "اعلانی بسازید تا کاربران را از رویدادهای {0} مطلع کند."
+
+msgid "Create a print format to customize how {0} prints."
+msgstr "قالب چاپی بسازید تا نحوهٔ چاپ {0} را سفارشی کنید."
+
+msgid "Create a template to reuse when emailing {0}."
+msgstr "قالبی بسازید تا هنگام ایمیل {0} دوباره استفاده کنید."
+
+msgid "Create a workflow to control the states {0} moves through."
+msgstr "گردش کاری بسازید تا وضعیت‌هایی را که {0} طی می‌کند کنترل کنید."
+
+msgid "Create a {0} document first to preview this print format."
+msgstr "برای پیش‌نمایش این قالب چاپ، ابتدا یک سند {0} ایجاد کنید."
+
+msgid "Create a {0} to finish this step."
+msgstr "برای تکمیل این مرحله، یک {0} ایجاد کنید."
+
+msgid "Create copy"
+msgstr "ایجاد کپی"
+
+msgid "Create layout"
+msgstr "ایجاد چیدمان"
+
+msgid "Create your account"
+msgstr "ایجاد حساب شما"
+
+msgid "Create your first {0} to get started."
+msgstr "برای شروع، اولین {0} خود را ایجاد کنید."
+
+msgid "Created {0}"
+msgstr "{0} ایجاد شد"
+
+msgid "Creator's Access"
+msgstr "دسترسی ایجادکننده"
+
+msgid "Current value"
+msgstr "مقدار فعلی"
+
+msgid "Current version"
+msgstr "نسخهٔ فعلی"
+
+msgid "Currently hidden"
+msgstr "در حال حاضر پنهان"
+
+msgid "Currently visible"
+msgstr "در حال حاضر قابل مشاهده"
+
+msgid "Custom Block"
+msgstr "بلوک سفارشی"
+
+msgid "Custom CSS in the Style box"
+msgstr "CSS سفارشی در کادر استایل"
+
+msgid "Custom CSS on fields: {0}"
+msgstr "CSS سفارشی روی فیلدها: {0}"
+
+msgid "Custom HTML format"
+msgstr "قالب HTML سفارشی"
+
+msgid "Custom Module Renamed"
+msgstr "نام ماژول سفارشی تغییر کرد"
+
+msgid "Custom Sidebar"
+msgstr "نوار کناری سفارشی"
+
+msgid "Custom Table"
+msgstr "جدول سفارشی"
+
+msgid "Custom Workspace"
+msgstr "فضای کار سفارشی"
+
+msgid "Custom hint text"
+msgstr "متن راهنمای سفارشی"
+
+msgid "Custom icon"
+msgstr "آیکون سفارشی"
+
+msgid "Custom icon + footer"
+msgstr "آیکون سفارشی + پاورقی"
+
+msgid "Customized since"
+msgstr "سفارشی‌شده از"
+
+msgid "Data Import Skipped Row"
+msgstr "ردیف ردشدهٔ درون‌ریزی داده"
+
+msgid "Data Import Value Mapping"
+msgstr "نگاشت مقدار درون‌ریزی داده"
+
+msgid "Date format"
+msgstr "قالب تاریخ"
+
+msgid "Decrease"
+msgstr "کاهش"
+
+msgid "Decrease indent"
+msgstr "کاهش تورفتگی"
+
+msgid "Default Layout"
+msgstr "چیدمان پیش‌فرض"
+
+msgid "Default removed"
+msgstr "پیش‌فرض حذف شد"
+
+msgid "Default template: {0}"
+msgstr "قالب پیش‌فرض: {0}"
+
+msgid "Default updated"
+msgstr "پیش‌فرض به‌روزرسانی شد"
+
+msgid "Delay"
+msgstr "تأخیر"
+
+msgid "Delete layout <strong>{0}</strong>?"
+msgstr "چیدمان <strong>{0}</strong> حذف شود؟"
+
+msgid "Delete naming rule {0}?"
+msgstr "قانون نام‌گذاری {0} حذف شود؟"
+
+msgid "Delete series {0}?"
+msgstr "سری {0} حذف شود؟"
+
+msgid "Delete snippet"
+msgstr "حذف قطعه"
+
+msgid "Delete the <b>{0}</b> workspace? This cannot be undone."
+msgstr "فضای کار <b>{0}</b> حذف شود؟ این عمل قابل بازگشت نیست."
+
+msgid "Delete the snippet '{0}'?"
+msgstr "قطعهٔ «{0}» حذف شود؟"
+
+msgid "Delete this user permission?"
+msgstr "این مجوز کاربر حذف شود؟"
+
+msgid "Delete this version"
+msgstr "حذف این نسخه"
+
+msgid "Deleted {0} records from {1} doctype"
+msgstr "{0} رکورد از نوع سند {1} حذف شد"
+
+msgid "Depends on: {0}"
+msgstr "وابسته به: {0}"
+
+msgid "Deprecated"
+msgstr "منسوخ‌شده"
+
+msgid "Deprecated, removed in version 17"
+msgstr "منسوخ‌شده، در نسخهٔ ۱۷ حذف می‌شود"
+
+msgid "Deprecated, removed in version 17. Renders with the v16 stylesheet; new blocks and styling need Chromium or Typst."
+msgstr "منسوخ‌شده، در نسخهٔ ۱۷ حذف می‌شود. با شیوه‌نامهٔ v16 نمایش داده می‌شود؛ بلوک‌ها و استایل‌های جدید به Chromium یا Typst نیاز دارند."
+
+msgid "Descending"
+msgstr "نزولی"
+
+msgid "Desktop Icons"
+msgstr "آیکون‌های میز کار"
+
+msgid "Desktop Page"
+msgstr "صفحهٔ میز کار"
+
+msgid "Direction"
+msgstr "جهت"
+
+msgid "Disable all notification and alert sounds across the application."
+msgstr "همهٔ صداهای اعلان و هشدار را در کل برنامه غیرفعال کنید."
+
+msgid "Disabled options (a page-size picker)"
+msgstr "گزینه‌های غیرفعال (انتخاب‌گر اندازهٔ صفحه)"
+
+msgid "Discard the draft and go back to this"
+msgstr "پیش‌نویس را کنار بگذارید و به این برگردید"
+
+msgid "Discard your unapplied changes and go back to what this format prints?"
+msgstr "تغییرات اعمال‌نشدهٔ خود را کنار بگذارید و به آنچه این قالب چاپ می‌کند برگردید؟"
+
+msgid "Discarding…"
+msgstr "در حال کنار گذاشتن…"
+
+msgid "Dismissible"
+msgstr "قابل بستن"
+
+msgid "Display a sidebar in forms with attachments, preview image, tags, and other details."
+msgstr "در فرم‌ها نوار کناری با پیوست‌ها، تصویر پیش‌نمایش، برچسب‌ها و سایر جزئیات نمایش بده."
+
+msgid "Display exact timestamps instead of relative time in the activity timeline."
+msgstr "در خط زمانی فعالیت‌ها به‌جای زمان نسبی، زمان دقیق نمایش بده."
+
+msgid "Display the filter and group-by sidebar in list views."
+msgstr "در نمای فهرست، نوار کناری فیلتر و گروه‌بندی را نمایش بده."
+
+msgid "Display the search bar in the navigation area for quick access."
+msgstr "برای دسترسی سریع، نوار جستجو را در ناحیهٔ ناوبری نمایش بده."
+
+msgid "Doc Status Reset"
+msgstr "بازنشانی وضعیت سند"
+
+msgid "DocType Settings"
+msgstr "تنظیمات نوع سند"
+
+msgid "DocType Settings Map"
+msgstr "نگاشت تنظیمات نوع سند"
+
+msgid "DocType Settings Map Item"
+msgstr "آیتم نگاشت تنظیمات نوع سند"
+
+msgid "DocType {0} not found"
+msgstr "نوع سند {0} پیدا نشد"
+
+msgid "DocTypes this role can access."
+msgstr "انواع سندی که این نقش به آن‌ها دسترسی دارد."
+
+msgid "Dock"
+msgstr "داک"
+
+msgid "Dock Item"
+msgstr "آیتم داک"
+
+msgid "Dock Items"
+msgstr "آیتم‌های داک"
+
+msgid "Dock updated"
+msgstr "داک به‌روزرسانی شد"
+
+msgid "Dock updated for everyone"
+msgstr "داک برای همه به‌روزرسانی شد"
+
+msgid "Document Permissions"
+msgstr "مجوزهای سند"
+
+msgid "Don't panic. Run this command and reload the page:"
+msgstr "نگران نباشید. این فرمان را اجرا و صفحه را دوباره بارگذاری کنید:"
+
+msgid "Done: {0}"
+msgstr "انجام شد: {0}"
+
+msgid "Download Failed Rows"
+msgstr "دانلود ردیف‌های ناموفق"
+
+msgid "Download Skipped Rows"
+msgstr "دانلود ردیف‌های ردشده"
+
+msgid "Draft Data"
+msgstr "داده‌های پیش‌نویس"
+
+msgid "Draft data must be an object"
+msgstr "داده‌های پیش‌نویس باید شیء باشند"
+
+msgid "Draft discarded"
+msgstr "پیش‌نویس کنار گذاشته شد"
+
+msgid "Drag a CSV or Excel file here, or click to browse"
+msgstr "فایل CSV یا Excel را اینجا بکشید یا برای انتخاب کلیک کنید"
+
+msgid "Drag into the layout, or click to insert"
+msgstr "در چیدمان بکشید یا برای درج کلیک کنید"
+
+msgid "Drag to change corner radius"
+msgstr "برای تغییر شعاع گوشه بکشید"
+
+msgid "Drag to change {0} {1}"
+msgstr "برای تغییر {0} {1} بکشید"
+
+msgid "Drag to reorder, and under a section to put an entry in it. The eye takes an entry off the sidebar; the pencil renames it."
+msgstr "برای تغییر ترتیب بکشید و برای قرار دادن موردی در یک بخش، آن را زیر بخش ببرید. چشم یک مورد را از نوار کناری برمی‌دارد؛ مداد نام آن را تغییر می‌دهد."
+
+msgid "Drag to reorder, and under a section to put an entry in it. The eye takes an entry off the sidebar; the pencil renames one and says how a section draws."
+msgstr "برای تغییر ترتیب بکشید و برای قرار دادن موردی در یک بخش، آن را زیر بخش ببرید. چشم یک مورد را از نوار کناری برمی‌دارد؛ مداد نام یک مورد را تغییر می‌دهد و نحوهٔ نمایش بخش را تعیین می‌کند."
+
+msgid "Drag to reorder. The eye takes an entry off the dock."
+msgstr "برای تغییر ترتیب بکشید. چشم یک مورد را از داک برمی‌دارد."
+
+msgid "Drag to resize"
+msgstr "برای تغییر اندازه بکشید"
+
+msgid "Draw it as a row with its entries nested under it, rather than as a heading over them."
+msgstr "آن را به‌جای سرتیتر بالای موارد، به‌صورت ردیفی با موارد تودرتو در زیرش نمایش بده."
+
+msgid "Drop fields here"
+msgstr "فیلدها را اینجا رها کنید"
+
+msgid "Drop the site's arrangement of this sidebar and every person's own, so what you save here is what shows."
+msgstr "ترتیب سایت از این نوار کناری و ترتیب شخصی هر فرد را کنار بگذارید تا آنچه اینجا ذخیره می‌کنید همان نمایش داده شود."
+
+msgid "Drop this arrangement and go back to {0}."
+msgstr "این ترتیب را کنار بگذارید و به {0} برگردید."
+
+msgid "Drops every person's own arrangement of this rail as well as the site's, so everybody is back on what the app ships."
+msgstr "ترتیب شخصی هر فرد از این ریل و ترتیب سایت را کنار می‌گذارد تا همه به آنچه برنامه ارائه می‌کند برگردند."
+
+msgid "Duplicate ID {0} in rows {1}"
+msgstr "شناسهٔ تکراری {0} در ردیف‌های {1}"
+
+msgid "Duplicate Kanban Board"
+msgstr "تکثیر برد کانبان"
+
+msgid "Duplicate Label"
+msgstr "برچسب تکراری"
+
+msgid "Duplicate {0} labels: {1}. Labels are used to tell widgets apart when a workspace is saved, so each {0} needs a unique label."
+msgstr "برچسب‌های {0} تکراری: {1}. برچسب‌ها برای تشخیص ابزارک‌ها هنگام ذخیرهٔ فضای کار استفاده می‌شوند، بنابراین هر {0} به برچسب یکتا نیاز دارد."
+
+msgid "Dynamic Filter Error"
+msgstr "خطای فیلتر پویا"
+
+msgid "Each row maps a field on a Single (Settings) doctype to surface for this doctype."
+msgstr "هر ردیف فیلدی از نوع سند منفرد (تنظیمات) را برای نمایش در این نوع سند نگاشت می‌کند."
+
+msgid "Edit Layout"
+msgstr "ویرایش چیدمان"
+
+msgid "Edit Letter Head HTML"
+msgstr "ویرایش HTML سربرگ"
+
+msgid "Edit Series"
+msgstr "ویرایش سری"
+
+msgid "Edit Typst"
+msgstr "ویرایش Typst"
+
+msgid "Edit in the visual builder."
+msgstr "در سازندهٔ بصری ویرایش کنید."
+
+msgid "Edit layout"
+msgstr "ویرایش چیدمان"
+
+msgid "Edited"
+msgstr "ویرایش‌شده"
+
+msgid "Empty State Message"
+msgstr "پیام حالت خالی"
+
+msgid "Empty Typst block"
+msgstr "بلوک Typst خالی"
+
+msgid "Empty canvas. Drag and drop fields to build from scratch."
+msgstr "بوم خالی. برای ساخت از صفر، فیلدها را بکشید و رها کنید."
+
+msgid "Empty text"
+msgstr "متن خالی"
+
+msgid "Enable checkboxes to select multiple records and perform bulk operations."
+msgstr "برای انتخاب چند رکورد و انجام عملیات گروهی، چک‌باکس‌ها را فعال کنید."
+
+msgid "Enable developer mode to change whether a dock is standard -- it is backed by a file in its app."
+msgstr "برای تغییر استاندارد بودن داک، حالت توسعه‌دهنده را فعال کنید -- پشتوانهٔ آن فایلی در برنامه‌اش است."
+
+msgid "Enable developer mode to change whether a sidebar is standard -- it is backed by a file in its app."
+msgstr "برای تغییر استاندارد بودن نوار کناری، حالت توسعه‌دهنده را فعال کنید -- پشتوانهٔ آن فایلی در برنامه‌اش است."
+
+msgid "Enable developer mode to create a standard Print Format Snippet"
+msgstr "برای ایجاد قطعهٔ استاندارد قالب چاپ، حالت توسعه‌دهنده را فعال کنید"
+
+msgid "Enable this option to include the field in the data import template"
+msgstr "برای درج فیلد در قالب درون‌ریزی داده، این گزینه را فعال کنید"
+
+msgid "Enter expressions that will be evaluated when the card is displayed. For example:"
+msgstr "عبارت‌هایی وارد کنید که هنگام نمایش کارت ارزیابی می‌شوند. برای مثال:"
+
+msgid "Enter this code to complete your login."
+msgstr "برای تکمیل ورود، این کد را وارد کنید."
+
+msgid "Entries"
+msgstr "ثبت‌ها"
+
+msgid "Everyone is back on the dock this app ships"
+msgstr "همه به داکی که این برنامه ارائه می‌کند برگشتند"
+
+msgid "Exit full screen"
+msgstr "خروج از تمام‌صفحه"
+
+msgid "Expand all"
+msgstr "باز کردن همه"
+
+msgid "Expand sidebar"
+msgstr "باز کردن نوار کناری"
+
+msgid "Expand/Collapse"
+msgstr "باز/بسته کردن"
+
+msgid "Expected an unsaved Print Format document"
+msgstr "سند قالب چاپ ذخیره‌نشده انتظار می‌رفت"
+
+msgid "Export this snippet to its module so it ships with the app. Requires developer mode."
+msgstr "این قطعه را به ماژولش برون‌بری کنید تا همراه برنامه ارائه شود. نیازمند حالت توسعه‌دهنده است."
+
+msgid "Export to app"
+msgstr "برون‌بری به برنامه"
+
+msgid "Exported to the app"
+msgstr "به برنامه برون‌بری شد"
+
+msgid "Exported to the module and shipped with its app"
+msgstr "به ماژول برون‌بری شد و همراه برنامه‌اش ارائه شد"
+
+msgid "Failed ({0})"
+msgstr "ناموفق ({0})"
+
+msgid "Failed Scheduled Jobs"
+msgstr "کارهای زمان‌بندی‌شدهٔ ناموفق"
+
+msgid "Failed to add access."
+msgstr "افزودن دسترسی ناموفق بود."
+
+msgid "Failed to add user."
+msgstr "افزودن کاربر ناموفق بود."
+
+msgid "Failed to create user."
+msgstr "ایجاد کاربر ناموفق بود."
+
+msgid "Failed to load Kanban board"
+msgstr "بارگذاری برد کانبان ناموفق بود"
+
+msgid "Failed to load data."
+msgstr "بارگذاری داده ناموفق بود."
+
+msgid "Failed to load import file"
+msgstr "بارگذاری فایل درون‌ریزی ناموفق بود"
+
+msgid "Failed to load settings"
+msgstr "بارگذاری تنظیمات ناموفق بود"
+
+msgid "Failed to load the import wizard bundle."
+msgstr "بارگذاری بستهٔ جادوگر درون‌ریزی ناموفق بود."
+
+msgid "Failed to load the import wizard. Please hard-refresh and try again."
+msgstr "بارگذاری جادوگر درون‌ریزی ناموفق بود. لطفاً صفحه را کامل تازه‌سازی کنید و دوباره امتحان کنید."
+
+msgid "Failed to remove permission."
+msgstr "حذف مجوز ناموفق بود."
+
+msgid "Failed to render template: {0}"
+msgstr "نمایش قالب ناموفق بود: {0}"
+
+msgid "Failed to save"
+msgstr "ذخیره ناموفق بود"
+
+msgid "Failed to save permission."
+msgstr "ذخیرهٔ مجوز ناموفق بود."
+
+msgid "Fallback themes"
+msgstr "پوسته‌های جایگزین"
+
+msgid "Fast card"
+msgstr "کارت سریع"
+
+msgid "Fetching latest status..."
+msgstr "در حال دریافت آخرین وضعیت..."
+
+msgid "Field Template block"
+msgstr "بلوک قالب فیلد"
+
+msgid "Field \\u201c{0}\\u201d no longer exists on {1}"
+msgstr "فیلد \\u201c{0}\\u201d دیگر در {1} وجود ندارد"
+
+msgid "Field borders"
+msgstr "حاشیه‌های فیلد"
+
+msgid "Field label"
+msgstr "برچسب فیلد"
+
+msgid "Field of the board's reference doctype to show on the card."
+msgstr "فیلدی از نوع سند مرجع برد که روی کارت نمایش داده می‌شود."
+
+msgid "Field saved as snippet"
+msgstr "فیلد به‌عنوان قطعه ذخیره شد"
+
+msgid "Field shown as the card title: ID or a text field."
+msgstr "فیلدی که به‌عنوان عنوان کارت نمایش داده می‌شود: شناسه یا فیلد متنی."
+
+msgid "Fieldname on the Settings DocType to surface for this doctype."
+msgstr "نام فیلد در نوع سند تنظیمات که برای این نوع سند نمایش داده می‌شود."
+
+msgid "Fields shown in the card hover preview, in order. Icon and Label behave the same as Card Fields. Leave empty to use the doctype's preview fields, then card fields."
+msgstr "فیلدهایی که به ترتیب در پیش‌نمایش شناور کارت نمایش داده می‌شوند. آیکون و برچسب مانند فیلدهای کارت عمل می‌کنند. برای استفاده از فیلدهای پیش‌نمایش نوع سند و سپس فیلدهای کارت، خالی بگذارید."
+
+msgid "Fields shown on cards and in the hover preview."
+msgstr "فیلدهایی که روی کارت‌ها و در پیش‌نمایش شناور نمایش داده می‌شوند."
+
+msgid "Fields shown on each card, in order. Set an Icon to show it on the card (label on hover); leave Icon empty to show the Label text. Leave the table empty to auto-pick."
+msgstr "فیلدهایی که به ترتیب روی هر کارت نمایش داده می‌شوند. برای نمایش روی کارت آیکون تعیین کنید (برچسب هنگام شناور شدن)؛ برای نمایش متن برچسب، آیکون را خالی بگذارید. برای انتخاب خودکار، جدول را خالی بگذارید."
+
+msgid "Fields the board can group cards by (swimlanes). New boards are pre-filled with the doctype's Select fields (except the column field). Add Link fields to offer more groupings; leave empty to hide the Group button."
+msgstr "فیلدهایی که برد می‌تواند کارت‌ها را بر اساس آن‌ها گروه‌بندی کند (مسیرها). بردهای جدید از قبل با فیلدهای انتخابی نوع سند (به‌جز فیلد ستون) پر می‌شوند. برای گروه‌بندی‌های بیشتر فیلدهای پیوند اضافه کنید؛ برای پنهان کردن دکمهٔ گروه خالی بگذارید."
+
+msgid "Fields the board can group cards into swimlanes by."
+msgstr "فیلدهایی که برد می‌تواند کارت‌ها را در مسیرها بر اساس آن‌ها گروه‌بندی کند."
+
+msgid "File upload"
+msgstr "بارگذاری فایل"
+
+msgid "Filter Name, Reference Document Type and Module are required for a standard list layout"
+msgstr "برای چیدمان فهرست استاندارد، نام فیلتر، نوع سند مرجع و ماژول الزامی است"
+
+msgid "Filter import log"
+msgstr "فیلتر لاگ درون‌ریزی"
+
+msgid "Filter nodes"
+msgstr "فیلتر گره‌ها"
+
+msgid "Filters & Sorting"
+msgstr "فیلترها و مرتب‌سازی"
+
+msgid "Filters applied"
+msgstr "فیلترها اعمال شد"
+
+msgid "Finish {0} to finish this step."
+msgstr "برای تکمیل این مرحله، {0} را تکمیل کنید."
+
+msgid "Finishing up..."
+msgstr "در حال اتمام..."
+
+msgid "Fix issues"
+msgstr "رفع مشکلات"
+
+msgid "Fix issues summary"
+msgstr "خلاصهٔ رفع مشکلات"
+
+msgid "Fixed text like a title or a note"
+msgstr "متن ثابت مانند عنوان یا یادداشت"
+
+msgid "Floating"
+msgstr "شناور"
+
+msgid "Follows a promise"
+msgstr "پس از یک وعده انجام می‌شود"
+
+msgid "Font size"
+msgstr "اندازهٔ قلم"
+
+msgid "Footer Date"
+msgstr "تاریخ پاورقی"
+
+msgid "For everyone"
+msgstr "برای همه"
+
+msgid "For {0}"
+msgstr "برای {0}"
+
+msgid "Force a new page"
+msgstr "اجبار به صفحهٔ جدید"
+
+msgid "Formatting options"
+msgstr "گزینه‌های قالب‌بندی"
+
+msgid "Forms"
+msgstr "فرم‌ها"
+
+msgid "Full screen"
+msgstr "تمام‌صفحه"
+
+msgid "Gantt View Mode"
+msgstr "حالت نمای گانت"
+
+msgid "Gap"
+msgstr "فاصله"
+
+msgid "Generating preview…"
+msgstr "در حال تولید پیش‌نمایش…"
+
+msgid "Geo"
+msgstr "جغرافیایی"
+
+msgid "Get Started"
+msgstr "شروع کنید"
+
+msgid "Get around the system quickly with keyboard shortcuts."
+msgstr "با میان‌برهای صفحه‌کلید سریع در سیستم حرکت کنید."
+
+msgid "Get notified when a recipient opens an email you send."
+msgstr "وقتی گیرنده ایمیلی را که فرستاده‌اید باز می‌کند مطلع شوید."
+
+msgid "Get notified when there's a new reply in an email thread you're part of."
+msgstr "وقتی در رشتهٔ ایمیلی که عضو آن هستید پاسخ جدیدی آمد مطلع شوید."
+
+msgid "Getting started"
+msgstr "شروع کار"
+
+msgid "Give the version a name"
+msgstr "برای نسخه نامی بگذارید"
+
+msgid "Global"
+msgstr "سراسری"
+
+msgid "Global Layouts"
+msgstr "چیدمان‌های سراسری"
+
+msgid "Global Search"
+msgstr "جستجوی سراسری"
+
+msgid "Global search updated"
+msgstr "جستجوی سراسری به‌روزرسانی شد"
+
+msgid "Go back to the current version before applying"
+msgstr "پیش از اعمال، به نسخهٔ فعلی برگردید"
+
+msgid "Go to list"
+msgstr "رفتن به فهرست"
+
+msgid "Going to Projects"
+msgstr "رفتن به پروژه‌ها"
+
+msgid "Good afternoon"
+msgstr "عصر بخیر"
+
+msgid "Good afternoon, {0}"
+msgstr "{0} عزیز، عصر بخیر"
+
+msgid "Good evening"
+msgstr "شب بخیر"
+
+msgid "Good evening, {0}"
+msgstr "{0} عزیز، شب بخیر"
+
+msgid "Good morning"
+msgstr "صبح بخیر"
+
+msgid "Good morning, {0}"
+msgstr "{0} عزیز، صبح بخیر"
+
+msgid "Google Sheet"
+msgstr "Google Sheet"
+
+msgid "Granted"
+msgstr "اعطاشده"
+
+msgid "Great"
+msgstr "عالی"
+
+msgid "Grid"
+msgstr "شبکه"
+
+msgid "Grid lines"
+msgstr "خطوط شبکه"
+
+msgid "Groups and submenus"
+msgstr "گروه‌ها و زیرمنوها"
+
+msgid "Groups, shortcuts and disabled rows"
+msgstr "گروه‌ها، میان‌برها و ردیف‌های غیرفعال"
+
+msgid "HTML block"
+msgstr "بلوک HTML"
+
+msgid "HTML message with inline link"
+msgstr "پیام HTML با پیوند درون‌خطی"
+
+msgid "Heading {0}"
+msgstr "سرتیتر {0}"
+
+msgid "Height"
+msgstr "ارتفاع"
+
+msgid "Hi {0}, an account has been created for you at {1}. Before you can log in, you'll need to set your password."
+msgstr "{0} عزیز، حسابی برای شما در {1} ایجاد شده است. پیش از ورود باید گذرواژهٔ خود را تعیین کنید."
+
+msgid "Hi {0}, let's get the basics right"
+msgstr "{0} عزیز، بیایید موارد پایه را درست کنیم"
+
+msgid "Hidden by its visibility condition"
+msgstr "با شرط نمایش آن پنهان شده است"
+
+msgid "Hide colon"
+msgstr "پنهان کردن دونقطه"
+
+msgid "Hide this item. Explicit rather than implied by the row's presence, which is what lets a user's `hidden: 0` un-hide something the site hid."
+msgstr "این مورد را پنهان کن. به‌صورت صریح و نه ضمنی از وجود ردیف، که باعث می‌شود `hidden: 0` کاربر چیزی را که سایت پنهان کرده دوباره آشکار کند."
+
+msgid "Horizontal"
+msgstr "افقی"
+
+msgid "Horizontal (arrows move between tabs, Home/End jump)"
+msgstr "افقی (فلش‌ها بین زبانه‌ها جابه‌جا می‌شوند، Home/End می‌پرند)"
+
+msgid "Horizontal rule"
+msgstr "خط افقی"
+
+msgid "Horizontal, with icons"
+msgstr "افقی، با آیکون"
+
+msgid "Hover me"
+msgstr "مرا شناور کن"
+
+msgid "How cards look in the new Kanban experience."
+msgstr "ظاهر کارت‌ها در تجربهٔ جدید کانبان."
+
+msgid "How do you want to start?"
+msgstr "چطور می‌خواهید شروع کنید؟"
+
+msgid "How it reads on the rail."
+msgstr "چگونه روی ریل نمایش داده می‌شود."
+
+msgid "How this entry reads on the rail. Required when the row adds and optional when it references, exactly as `icon` is -- and outside the row's identity, so re-labelling can never detach a row from itself."
+msgstr "این مورد چگونه روی ریل نمایش داده می‌شود. وقتی ردیف اضافه می‌کند الزامی است و وقتی ارجاع می‌دهد اختیاری، دقیقاً مانند `icon` -- و خارج از هویت ردیف است، بنابراین تغییر برچسب هرگز ردیف را از خودش جدا نمی‌کند."
+
+msgid "ID or a text field."
+msgstr "شناسه یا فیلد متنی."
+
+msgid "IP address:"
+msgstr "نشانی IP:"
+
+msgid "Icon-only pills (label becomes the accessible name)"
+msgstr "قرص‌های فقط‌آیکون (برچسب به نام دسترس‌پذیر تبدیل می‌شود)"
+
+msgid "Icons"
+msgstr "آیکون‌ها"
+
+msgid "If this was you:"
+msgstr "اگر این شما بودید:"
+
+msgid "If this wasn't you:"
+msgstr "اگر این شما نبودید:"
+
+msgid "If you didn't request this code, you can safely ignore this email."
+msgstr "اگر این کد را درخواست نکرده‌اید، با خیال راحت این ایمیل را نادیده بگیرید."
+
+msgid "If you didn't request this, you can safely ignore this email. Your account is safe."
+msgstr "اگر این را درخواست نکرده‌اید، با خیال راحت این ایمیل را نادیده بگیرید. حساب شما امن است."
+
+msgid "If you didn't request this, you can safely ignore this email. Your password won't be changed."
+msgstr "اگر این را درخواست نکرده‌اید، با خیال راحت این ایمیل را نادیده بگیرید. گذرواژهٔ شما تغییر نمی‌کند."
+
+msgid "If you weren't expecting this account, you can safely ignore this email."
+msgstr "اگر منتظر این حساب نبودید، با خیال راحت این ایمیل را نادیده بگیرید."
+
+msgid "If you weren't expecting this, you can safely ignore this email."
+msgstr "اگر منتظر این نبودید، با خیال راحت این ایمیل را نادیده بگیرید."
+
+msgid "Image loaded from a web address"
+msgstr "تصویر بارگذاری‌شده از نشانی وب"
+
+msgid "Image size"
+msgstr "اندازهٔ تصویر"
+
+msgid "Import Action"
+msgstr "اقدام درون‌ریزی"
+
+msgid "Import could not start. Please resolve the errors in the import file."
+msgstr "درون‌ریزی شروع نشد. لطفاً خطاهای فایل درون‌ریزی را رفع کنید."
+
+msgid "Import failed"
+msgstr "درون‌ریزی ناموفق بود"
+
+msgid "Import is running. Progress updates will appear shortly."
+msgstr "درون‌ریزی در حال اجراست. به‌روزرسانی پیشرفت به‌زودی نمایش داده می‌شود."
+
+msgid "Import log"
+msgstr "لاگ درون‌ریزی"
+
+msgid "Import settings"
+msgstr "تنظیمات درون‌ریزی"
+
+msgid "Import steps"
+msgstr "مراحل درون‌ریزی"
+
+msgid "Import {0}"
+msgstr "درون‌ریزی {0}"
+
+msgid "Imported"
+msgstr "درون‌ریزی‌شده"
+
+msgid "Importing or updating {0} of {1}, {2}"
+msgstr "در حال درون‌ریزی یا به‌روزرسانی {0} از {1}، {2}"
+
+msgid "Importing row {0} of {1}"
+msgstr "در حال درون‌ریزی ردیف {0} از {1}"
+
+msgid "Importing your data"
+msgstr "در حال درون‌ریزی داده‌های شما"
+
+msgid "In developer mode a standard workspace's edits belong to the app's JSON, not to a customization."
+msgstr "در حالت توسعه‌دهنده، ویرایش‌های فضای کار استاندارد متعلق به JSON برنامه است، نه سفارشی‌سازی."
+
+msgid "Include in Import Template"
+msgstr "درج در قالب درون‌ریزی"
+
+msgid "Include {0} in global search"
+msgstr "درج {0} در جستجوی سراسری"
+
+msgid "Incorrect configuration"
+msgstr "پیکربندی نادرست"
+
+msgid "Increase"
+msgstr "افزایش"
+
+msgid "Increase indent"
+msgstr "افزایش تورفتگی"
+
+msgid "Inherit"
+msgstr "ارث‌بری"
+
+msgid "Insert image"
+msgstr "درج تصویر"
+
+msgid "Insert link"
+msgstr "درج پیوند"
+
+msgid "Insert or Update Records"
+msgstr "درج یا به‌روزرسانی رکوردها"
+
+msgid "Insert video"
+msgstr "درج ویدیو"
+
+msgid "Inserted"
+msgstr "درج‌شده"
+
+msgid "Interactive content (a filters panel)"
+msgstr "محتوای تعاملی (پنل فیلترها)"
+
+msgid "Intervals"
+msgstr "بازه‌ها"
+
+msgid "Invalid Cloud Settings data."
+msgstr "داده‌های تنظیمات ابری نامعتبر است."
+
+msgid "Invalid Cloud Settings operation."
+msgstr "عملیات تنظیمات ابری نامعتبر است."
+
+msgid "Invalid Cloud Settings query."
+msgstr "پرس‌وجوی تنظیمات ابری نامعتبر است."
+
+msgid "Invalid Cloud Settings time window."
+msgstr "بازهٔ زمانی تنظیمات ابری نامعتبر است."
+
+msgid "Invalid Condition"
+msgstr "شرط نامعتبر"
+
+msgid "Invalid Snippet"
+msgstr "قطعهٔ نامعتبر"
+
+msgid "Invalid Typst block"
+msgstr "بلوک Typst نامعتبر"
+
+msgid "Invalid Typst markup"
+msgstr "نشانه‌گذاری Typst نامعتبر"
+
+msgid "Invalid arguments"
+msgstr "آرگومان‌های نامعتبر"
+
+msgid "Invalid expression in Web Form Dynamic Filter for {0}: {1}"
+msgstr "عبارت نامعتبر در فیلتر پویای فرم وب برای {0}: {1}"
+
+msgid "Invalid group field"
+msgstr "فیلد گروه نامعتبر"
+
+msgid "Invalid value for {0}"
+msgstr "مقدار نامعتبر برای {0}"
+
+msgid "Is Default Module"
+msgstr "ماژول پیش‌فرض است"
+
+msgid "Is Dismissible"
+msgstr "قابل بستن است"
+
+msgid "Is Optional"
+msgstr "اختیاری است"
+
+msgid "It expires in 1 minute."
+msgstr "۱ دقیقه دیگر منقضی می‌شود."
+
+msgid "It expires in {0} minutes."
+msgstr "{0} دقیقه دیگر منقضی می‌شود."
+
+msgid "Italic"
+msgstr "مورب"
+
+msgid "Item definitions (shortcuts / charts / cards ...) backing blocks the site added, so they can be rendered. Managed by the workspace editor."
+msgstr "تعریف آیتم‌ها (میان‌برها / نمودارها / کارت‌ها ...) که پشتوانهٔ بلوک‌های اضافه‌شده توسط سایت هستند تا قابل نمایش باشند. توسط ویرایشگر فضای کار مدیریت می‌شود."
+
+msgid "Its sidebar is derived from the module that owns it."
+msgstr "نوار کناری آن از ماژول مالکش گرفته می‌شود."
+
+msgid "Job was not running; status updated."
+msgstr "کار در حال اجرا نبود؛ وضعیت به‌روزرسانی شد."
+
+msgid "Jobs"
+msgstr "کارها"
+
+msgid "Just for me"
+msgstr "فقط برای من"
+
+msgid "Kanban Board Field"
+msgstr "فیلد برد کانبان"
+
+msgid "Kanban Board Group Field"
+msgstr "فیلد گروه برد کانبان"
+
+msgid "Kanban Board {0} not found."
+msgstr "برد کانبان {0} پیدا نشد."
+
+msgid "Keep Row {0}, Skip Rest"
+msgstr "ردیف {0} را نگه دار، بقیه را رد کن"
+
+msgid "Keep scanner open after scan"
+msgstr "اسکنر پس از اسکن باز بماند"
+
+msgid "Keep the app dock beside the sidebar, or let it slide in from the left edge."
+msgstr "داک برنامه را کنار نوار کناری نگه دارید یا بگذارید از لبهٔ چپ بیرون بیاید."
+
+msgid "Keep together"
+msgstr "کنار هم نگه دار"
+
+msgid "Kept in the row so an explicitly hidden entry stays hidden when its app later adds entries, instead of reappearing because it is simply absent."
+msgstr "در ردیف نگه داشته می‌شود تا مورد صریحاً پنهان‌شده وقتی برنامه‌اش بعداً موارد جدید اضافه می‌کند پنهان بماند و فقط به‌دلیل نبودن دوباره ظاهر نشود."
+
+msgid "Label Color"
+msgstr "رنگ برچسب"
+
+msgid "Label gap"
+msgstr "فاصلهٔ برچسب"
+
+msgid "Label side"
+msgstr "سمت برچسب"
+
+msgid "Language, timezone and notification preferences."
+msgstr "زبان، منطقهٔ زمانی و ترجیحات اعلان."
+
+msgid "Last modified by"
+msgstr "آخرین ویرایش توسط"
+
+msgid "Last modified on"
+msgstr "آخرین ویرایش در"
+
+msgid "Layers"
+msgstr "لایه‌ها"
+
+msgid "Layout <b>{0}</b> created"
+msgstr "چیدمان <b>{0}</b> ایجاد شد"
+
+msgid "Layout <b>{0}</b> deleted"
+msgstr "چیدمان <b>{0}</b> حذف شد"
+
+msgid "Layout <b>{0}</b> updated"
+msgstr "چیدمان <b>{0}</b> به‌روزرسانی شد"
+
+msgid "Layout Order"
+msgstr "ترتیب چیدمان"
+
+msgid "Layout and fields used by the new Kanban experience for this board."
+msgstr "چیدمان و فیلدهایی که تجربهٔ جدید کانبان برای این برد استفاده می‌کند."
+
+msgid "Layout name"
+msgstr "نام چیدمان"
+
+msgid "Layout name is required"
+msgstr "نام چیدمان الزامی است"
+
+msgid "Layouts you create will show up here."
+msgstr "چیدمان‌هایی که ایجاد می‌کنید اینجا نمایش داده می‌شوند."
+
+msgid "Leave anyway"
+msgstr "به هر حال خارج شو"
+
+msgid "Leave blank to inherit the app-shipped color."
+msgstr "برای ارث‌بری رنگ ارائه‌شده با برنامه خالی بگذارید."
+
+msgid "Leave blank to inherit the app-shipped icon."
+msgstr "برای ارث‌بری آیکون ارائه‌شده با برنامه خالی بگذارید."
+
+msgid "Leave blank to make this snippet available for all document types"
+msgstr "برای در دسترس بودن این قطعه برای همهٔ انواع سند خالی بگذارید"
+
+msgid "Leave blank to make this template available in all print formats"
+msgstr "برای در دسترس بودن این قالب در همهٔ قالب‌های چاپ خالی بگذارید"
+
+msgid "Leave blank to show every row. Reference the row with"
+msgstr "برای نمایش همهٔ ردیف‌ها خالی بگذارید. ردیف را ارجاع دهید با"
+
+msgid "Leave empty to grant {0} directly."
+msgstr "برای اعطای مستقیم {0} خالی بگذارید."
+
+msgid "Leave it empty to keep the one it inherits."
+msgstr "برای نگه داشتن مقدار ارث‌بری‌شده خالی بگذارید."
+
+msgid "Leaves the desk. It has no sidebar."
+msgstr "از میز کار خارج می‌شود. نوار کناری ندارد."
+
+msgid "Legacy html content (frappe.show_alert)"
+msgstr "محتوای html قدیمی (frappe.show_alert)"
+
+msgid "Let's get the basics right"
+msgstr "بیایید موارد پایه را درست کنیم"
+
+msgid "Let's get your workspace ready. It only takes a few minutes."
+msgstr "بیایید فضای کار شما را آماده کنیم. فقط چند دقیقه طول می‌کشد."
+
+msgid "Letter head"
+msgstr "سربرگ"
+
+msgid "Letter head changes are saved right away and apply to every print format that uses it."
+msgstr "تغییرات سربرگ بلافاصله ذخیره می‌شوند و روی هر قالب چاپی که از آن استفاده می‌کند اعمال می‌شوند."
+
+msgid "Letterhead footer with HTML content"
+msgstr "پاورقی سربرگ با محتوای HTML"
+
+msgid "Letterhead image loaded from a web address"
+msgstr "تصویر سربرگ بارگذاری‌شده از نشانی وب"
+
+msgid "Letterhead with HTML content"
+msgstr "سربرگ با محتوای HTML"
+
+msgid "Letterhead with custom CSS"
+msgstr "سربرگ با CSS سفارشی"
+
+msgid "Linked Field"
+msgstr "فیلد پیوندشده"
+
+msgid "Links To"
+msgstr "پیوند به"
+
+msgid "List virtualization failed to load. Rendering full list."
+msgstr "بارگذاری مجازی‌سازی فهرست ناموفق بود. فهرست کامل نمایش داده می‌شود."
+
+msgid "Lists"
+msgstr "فهرست‌ها"
+
+msgid "Live (next / previous on the first stepper above)"
+msgstr "زنده (بعدی / قبلی روی اولین گام‌شمار بالا)"
+
+msgid "Live (updates via set_value)"
+msgstr "زنده (به‌روزرسانی از طریق set_value)"
+
+msgid "Live activity updates will appear here."
+msgstr "به‌روزرسانی‌های زندهٔ فعالیت اینجا نمایش داده می‌شوند."
+
+msgid "Load a document to see live status"
+msgstr "برای دیدن وضعیت زنده، یک سند بارگذاری کنید"
+
+msgid "Load the template from a file in a module instead of the Template field. Requires developer mode."
+msgstr "قالب را به‌جای فیلد قالب، از فایلی در یک ماژول بارگذاری کن. نیازمند حالت توسعه‌دهنده است."
+
+msgid "Loading full tree..."
+msgstr "در حال بارگذاری درخت کامل..."
+
+msgid "Loading groups…"
+msgstr "در حال بارگذاری گروه‌ها…"
+
+msgid "Loading import log"
+msgstr "در حال بارگذاری لاگ درون‌ریزی"
+
+msgid "Loading import preview..."
+msgstr "در حال بارگذاری پیش‌نمایش درون‌ریزی..."
+
+msgid "Loading preview..."
+msgstr "در حال بارگذاری پیش‌نمایش..."
+
+msgid "Loading tree preview..."
+msgstr "در حال بارگذاری پیش‌نمایش درخت..."
+
+msgid "Locale"
+msgstr "منطقه"
+
+msgid "Locked steps"
+msgstr "مراحل قفل‌شده"
+
+msgid "Login to {0}"
+msgstr "ورود به {0}"
+
+msgid "Long"
+msgstr "بلند"
+
+msgid "Long current page (truncates)"
+msgstr "صفحهٔ فعلی بلند (کوتاه می‌شود)"
+
+msgid "Long text (wraps)"
+msgstr "متن بلند (شکسته می‌شود)"
+
+msgid "Manage"
+msgstr "مدیریت"
+
+msgid "Manage Dock"
+msgstr "مدیریت داک"
+
+msgid "Manage Layouts"
+msgstr "مدیریت چیدمان‌ها"
+
+msgid "Manage Workspaces"
+msgstr "مدیریت فضاهای کار"
+
+msgid "Manage priority"
+msgstr "مدیریت اولویت"
+
+msgid "Manage your profile information and display picture."
+msgstr "اطلاعات نمایه و تصویر نمایش خود را مدیریت کنید."
+
+msgid "Manage {0} Dock"
+msgstr "مدیریت داک {0}"
+
+msgid "Manage {0} Sidebar"
+msgstr "مدیریت نوار کناری {0}"
+
+msgid "Map To"
+msgstr "نگاشت به"
+
+msgid "Map each file column to a field. Save to apply changes."
+msgstr "هر ستون فایل را به یک فیلد نگاشت کنید. برای اعمال تغییرات ذخیره کنید."
+
+msgid "Mapping warnings"
+msgstr "هشدارهای نگاشت"
+
+msgid "Mappings"
+msgstr "نگاشت‌ها"
+
+msgid "Margin"
+msgstr "حاشیهٔ بیرونی"
+
+msgid "Margins"
+msgstr "حاشیه‌های بیرونی"
+
+msgid "Mark as Standard"
+msgstr "علامت‌گذاری به‌عنوان استاندارد"
+
+msgid "Mark as group"
+msgstr "علامت‌گذاری به‌عنوان گروه"
+
+msgid "Mark as leaf"
+msgstr "علامت‌گذاری به‌عنوان برگ"
+
+msgid "Marks this DocType as deprecated. It will continue to work, but users will be warned against using it."
+msgstr "این نوع سند را منسوخ علامت می‌زند. همچنان کار می‌کند اما به کاربران نسبت به استفاده از آن هشدار داده می‌شود."
+
+msgid "Max Bulk Print Documents"
+msgstr "حداکثر اسناد چاپ گروهی"
+
+msgid "Max Concurrent Bulk Exports Per User"
+msgstr "حداکثر برون‌بری‌های گروهی هم‌زمان به‌ازای هر کاربر"
+
+msgid "Maximum number of bulk PDF export jobs a single user can have queued or running at once."
+msgstr "حداکثر تعداد کارهای برون‌بری گروهی PDF که یک کاربر می‌تواند هم‌زمان در صف یا در حال اجرا داشته باشد."
+
+msgid "Maximum number of documents that can be combined into a single bulk PDF export."
+msgstr "حداکثر تعداد اسنادی که می‌توان در یک برون‌بری گروهی PDF ترکیب کرد."
+
+msgid "Merge fields"
+msgstr "ادغام فیلدها"
+
+msgid "Merged From"
+msgstr "ادغام‌شده از"
+
+msgid "Merged table columns"
+msgstr "ستون‌های جدول ادغام‌شده"
+
+msgid "Message (default, no icon)"
+msgstr "پیام (پیش‌فرض، بدون آیکون)"
+
+msgid "Min height"
+msgstr "حداقل ارتفاع"
+
+msgid "Minimum 8 characters, including at least one number or special character."
+msgstr "حداقل ۸ نویسه، شامل حداقل یک عدد یا نویسهٔ خاص."
+
+msgid "Mixed"
+msgstr "ترکیبی"
+
+msgid "Modified"
+msgstr "تغییریافته"
+
+msgid "Module is required for a standard Kanban Board"
+msgstr "برای برد کانبان استاندارد، ماژول الزامی است"
+
+msgid "Module is required for a standard Print Format Snippet"
+msgstr "برای قطعهٔ استاندارد قالب چاپ، ماژول الزامی است"
+
+msgid "Module is required for a standard Print Template"
+msgstr "برای قالب چاپ استاندارد، ماژول الزامی است"
+
+msgid "Module is required for a standard layout"
+msgstr "برای چیدمان استاندارد، ماژول الزامی است"
+
+msgid "Module {0} has no folder in an app, so a standard sidebar cannot be written to it."
+msgstr "ماژول {0} در هیچ برنامه‌ای پوشه ندارد، بنابراین نوار کناری استاندارد در آن نوشته نمی‌شود."
+
+msgid "Module {0} is now shipped by {1}; this site's module of that name is now {2}."
+msgstr "ماژول {0} اکنون توسط {1} ارائه می‌شود؛ ماژول این سایت با این نام اکنون {2} است."
+
+msgid "More actions"
+msgstr "اقدام‌های بیشتر"
+
+msgid "More options"
+msgstr "گزینه‌های بیشتر"
+
+msgid "More send options"
+msgstr "گزینه‌های ارسال بیشتر"
+
+msgid "Mount On"
+msgstr "نصب روی"
+
+msgid "Move to..."
+msgstr "انتقال به..."
+
+msgid "Move to…"
+msgstr "انتقال به…"
+
+msgid "Move {0}"
+msgstr "انتقال {0}"
+
+msgid "Moving {0}"
+msgstr "در حال انتقال {0}"
+
+msgid "Multiple actions (create button + docs link)"
+msgstr "چند اقدام (دکمهٔ ایجاد + پیوند مستندات)"
+
+msgid "Mute sounds"
+msgstr "بی‌صدا کردن"
+
+msgid "Muted"
+msgstr "بی‌صدا"
+
+msgid "My Space"
+msgstr "فضای من"
+
+msgid "Naming Rules"
+msgstr "قوانین نام‌گذاری"
+
+msgid "Narrow down the list."
+msgstr "فهرست را محدودتر کنید."
+
+msgid "Navigation on the desktop has two modes:"
+msgstr "ناوبری در میز کار دو حالت دارد:"
+
+msgid "New Format Name"
+msgstr "نام قالب جدید"
+
+msgid "New Kanban"
+msgstr "کانبان جدید"
+
+msgid "New Parent"
+msgstr "والد جدید"
+
+msgid "New Print Format"
+msgstr "قالب چاپ جدید"
+
+msgid "New Workflow"
+msgstr "گردش کار جدید"
+
+msgid "New login to the Administrator account"
+msgstr "ورود جدید به حساب مدیر"
+
+msgid "Next page"
+msgstr "صفحهٔ بعد"
+
+msgid "Next step"
+msgstr "مرحلهٔ بعد"
+
+msgid "Next: {0}"
+msgstr "بعدی: {0}"
+
+msgid "No Email Templates found"
+msgstr "قالب ایمیلی پیدا نشد"
+
+msgid "No HTML content yet."
+msgstr "هنوز محتوای HTML وجود ندارد."
+
+msgid "No Kanban Board specified."
+msgstr "برد کانبان مشخص نشده است."
+
+msgid "No Print Formats found"
+msgstr "قالب چاپی پیدا نشد"
+
+msgid "No Role Profiles include this role."
+msgstr "هیچ پروفایل نقشی این نقش را شامل نمی‌شود."
+
+msgid "No Workflows found"
+msgstr "گردش کاری پیدا نشد"
+
+msgid "No access"
+msgstr "بدون دسترسی"
+
+msgid "No actions available"
+msgstr "اقدامی در دسترس نیست"
+
+msgid "No active user found with email address {0}"
+msgstr "کاربر فعالی با نشانی ایمیل {0} پیدا نشد"
+
+msgid "No addresses added yet"
+msgstr "هنوز نشانی‌ای اضافه نشده است"
+
+msgid "No available parents"
+msgstr "والد در دسترسی نیست"
+
+msgid "No barcode value — set one in the panel"
+msgstr "مقدار بارکد وجود ندارد — یکی را در پنل تعیین کنید"
+
+msgid "No cards to group."
+msgstr "کارتی برای گروه‌بندی نیست."
+
+msgid "No charts or cards yet"
+msgstr "هنوز نمودار یا کارتی وجود ندارد"
+
+msgid "No columns configured"
+msgstr "ستونی پیکربندی نشده است"
+
+msgid "No contact details"
+msgstr "جزئیات تماسی وجود ندارد"
+
+msgid "No contacts added yet"
+msgstr "هنوز مخاطبی اضافه نشده است"
+
+msgid "No data yet"
+msgstr "هنوز داده‌ای نیست"
+
+msgid "No delay"
+msgstr "بدون تأخیر"
+
+msgid "No document available to preview"
+msgstr "سندی برای پیش‌نمایش موجود نیست"
+
+msgid "No document to preview"
+msgstr "سندی برای پیش‌نمایش نیست"
+
+msgid "No documents added."
+msgstr "سندی اضافه نشده است."
+
+msgid "No documents found."
+msgstr "سندی پیدا نشد."
+
+msgid "No email account associated with the User. Please add an account under User > Settings > User Emails."
+msgstr "حساب ایمیلی به کاربر مرتبط نیست. لطفاً حسابی را در کاربر > تنظیمات > ایمیل‌های کاربر اضافه کنید."
+
+msgid "No error log found for this import."
+msgstr "لاگ خطایی برای این درون‌ریزی پیدا نشد."
+
+msgid "No failed log entries"
+msgstr "ثبت لاگ ناموفقی وجود ندارد"
+
+msgid "No fields match"
+msgstr "فیلدی مطابقت ندارد"
+
+msgid "No filters available for this report"
+msgstr "فیلتری برای این گزارش موجود نیست"
+
+msgid "No image — set one in the panel"
+msgstr "تصویری وجود ندارد — یکی را در پنل تعیین کنید"
+
+msgid "No issues to fix"
+msgstr "مشکلی برای رفع نیست"
+
+msgid "No letter head"
+msgstr "بدون سربرگ"
+
+msgid "No linked field set"
+msgstr "فیلد پیوندشده‌ای تعیین نشده است"
+
+msgid "No matching field"
+msgstr "فیلد منطبقی نیست"
+
+msgid "No matching records"
+msgstr "رکورد منطبقی نیست"
+
+msgid "No matching records."
+msgstr "رکورد منطبقی نیست."
+
+msgid "No module"
+msgstr "بدون ماژول"
+
+msgid "No notifications configured"
+msgstr "اعلانی پیکربندی نشده است"
+
+msgid "No options"
+msgstr "گزینه‌ای نیست"
+
+msgid "No pages found."
+msgstr "صفحه‌ای پیدا نشد."
+
+msgid "No pre-upgrade edits to standard workspaces were found."
+msgstr "ویرایشی از پیش از ارتقا روی فضاهای کار استاندارد پیدا نشد."
+
+msgid "No pre-upgrade layout edit is recorded for {0}."
+msgstr "ویرایش چیدمان پیش از ارتقا برای {0} ثبت نشده است."
+
+msgid "No preview data for this row"
+msgstr "داده‌ای برای پیش‌نمایش این ردیف نیست"
+
+msgid "No printable fields"
+msgstr "فیلد قابل چاپی نیست"
+
+msgid "No private workspaces yet"
+msgstr "هنوز فضای کار خصوصی‌ای نیست"
+
+msgid "No problem. You can try it anytime from Desktop Settings."
+msgstr "مشکلی نیست. هر زمان می‌توانید از تنظیمات میز کار امتحانش کنید."
+
+msgid "No records found."
+msgstr "رکوردی پیدا نشد."
+
+msgid "No related settings"
+msgstr "تنظیمات مرتبطی نیست"
+
+msgid "No reports found."
+msgstr "گزارشی پیدا نشد."
+
+msgid "No results"
+msgstr "نتیجه‌ای نیست"
+
+msgid "No roles have access yet."
+msgstr "هنوز هیچ نقشی دسترسی ندارد."
+
+msgid "No rows were imported"
+msgstr "هیچ ردیفی درون‌ریزی نشد"
+
+msgid "No rules found."
+msgstr "قانونی پیدا نشد."
+
+msgid "No saved layouts yet"
+msgstr "هنوز چیدمان ذخیره‌شده‌ای نیست"
+
+msgid "No sections yet"
+msgstr "هنوز بخشی نیست"
+
+msgid "No session defaults configured."
+msgstr "پیش‌فرض نشستی پیکربندی نشده است."
+
+msgid "No settings from other areas are linked to {0}."
+msgstr "هیچ تنظیماتی از بخش‌های دیگر به {0} پیوند نشده است."
+
+msgid "No source table selected"
+msgstr "جدول مبدأ انتخاب نشده است"
+
+msgid "No successful log entries"
+msgstr "ثبت لاگ موفقی وجود ندارد"
+
+msgid "No templates"
+msgstr "قالبی نیست"
+
+msgid "No thanks"
+msgstr "نه، متشکرم"
+
+msgid "No user permissions yet."
+msgstr "هنوز مجوز کاربری نیست."
+
+msgid "No users have this role."
+msgstr "هیچ کاربری این نقش را ندارد."
+
+msgid "No valid tree nodes found in the import file."
+msgstr "گره معتبر درختی در فایل درون‌ریزی پیدا نشد."
+
+msgid "No value to encode"
+msgstr "مقداری برای کدگذاری نیست"
+
+msgid "No warnings or mapping issues were found. You can continue to import."
+msgstr "هشدار یا مشکل نگاشتی پیدا نشد. می‌توانید درون‌ریزی را ادامه دهید."
+
+msgid "No workspaces found."
+msgstr "فضای کاری پیدا نشد."
+
+msgid "No workspaces in this module."
+msgstr "در این ماژول فضای کاری نیست."
+
+msgid "No {0} created"
+msgstr "{0} ایجاد نشده است"
+
+msgid "No {0} records yet"
+msgstr "هنوز رکورد {0} وجود ندارد"
+
+msgid "No. of Rows"
+msgstr "تعداد ردیف‌ها"
+
+msgid "Not Editable"
+msgstr "غیرقابل ویرایش"
+
+msgid "Not a builder format"
+msgstr "قالب سازنده نیست"
+
+msgid "Not imported:"
+msgstr "درون‌ریزی نشد:"
+
+msgid "Not in any app"
+msgstr "در هیچ برنامه‌ای نیست"
+
+msgid "Not printed: no values for this record"
+msgstr "چاپ نشد: این رکورد مقداری ندارد"
+
+msgid "Not set"
+msgstr "تعیین نشده"
+
+msgid "Not yet overwritten"
+msgstr "هنوز بازنویسی نشده"
+
+msgid "Not your workspace"
+msgstr "فضای کار شما نیست"
+
+msgid "Nothing has been added yet."
+msgstr "هنوز چیزی اضافه نشده است."
+
+msgid "Nothing here yet"
+msgstr "هنوز اینجا چیزی نیست"
+
+msgid "Nothing left to navigate to"
+msgstr "چیزی برای رفتن باقی نمانده است"
+
+msgid "Nothing on the dock"
+msgstr "چیزی روی داک نیست"
+
+msgid "Nothing on the sidebar"
+msgstr "چیزی روی نوار کناری نیست"
+
+msgid "Nothing to paste"
+msgstr "چیزی برای چسباندن نیست"
+
+msgid "Nothing to restore"
+msgstr "چیزی برای بازیابی نیست"
+
+msgid "Notification categories"
+msgstr "دسته‌های اعلان"
+
+msgid "Notifications By Type"
+msgstr "اعلان‌ها بر اساس نوع"
+
+msgid "Numbered list"
+msgstr "فهرست شماره‌دار"
+
+msgid "One entry on the dock. `link_type` says what kind of thing it opens, and each kind answers the two questions a click asks -- which page comes up and which shell comes up beside it -- in its own way. A `Sidebar` row *is* the shell: it selects that sidebar and opens its landing route. A `Workspace` row opens a page and derives its shell from the module that owns it. A `URL` row leaves the desk and has no shell at all. Every row also carries its own `icon` and `title`, so the rail reads the way its author wrote it -- blank at an upper layer means inherit. What a row points at *is* its identity, and none of it is stored: re-labelling cannot detach a row from itself, and re-pointing is not an edit but a different row. The same rows at all three layers -- the app's own dock, the site's arrangement and one person's -- told apart by the parent `Dock`, never by the row."
+msgstr "یک مورد روی داک. `link_type` می‌گوید چه نوع چیزی را باز می‌کند و هر نوع به دو پرسشی که یک کلیک می‌پرسد -- کدام صفحه باز شود و کدام پوسته کنارش بیاید -- به شیوهٔ خودش پاسخ می‌دهد. ردیف `Sidebar` خودِ پوسته *است*: آن نوار کناری را انتخاب می‌کند و مسیر فرودش را باز می‌کند. ردیف `Workspace` صفحه‌ای را باز می‌کند و پوسته‌اش را از ماژول مالکش می‌گیرد. ردیف `URL` از میز کار خارج می‌شود و اصلاً پوسته‌ای ندارد. هر ردیف `icon` و `title` خودش را هم دارد، پس ریل همان‌طور که نویسنده‌اش نوشته نمایش داده می‌شود -- خالی در لایهٔ بالاتر یعنی ارث‌بری. آنچه ردیف به آن اشاره می‌کند هویت آن *است* و هیچ‌کدام ذخیره نمی‌شود: تغییر برچسب نمی‌تواند ردیف را از خودش جدا کند و تغییر مقصد ویرایش نیست بلکه ردیفی دیگر است. همین ردیف‌ها در هر سه لایه -- داک خود برنامه، ترتیب سایت و ترتیب یک فرد -- با `Dock` والد از هم تشخیص داده می‌شوند، نه با ردیف."
+
+msgid "One layer of one app's dock. Three of them share this table, told apart by `app`, `user` and `standard`: the app's own dock, which an app ships as an exported document and a developer authors; the site's arrangement of it, curated by a Workspace Manager and applying to everyone; and one person's own, applied last and winning. A dock belongs to an app, so arranging ERPNext's rail does not touch frappe's -- and a layer is addressed by app plus user rather than by user alone. Same shape at all three, because the rows are identical and the parent is what says whose they are; see `Custom Sidebar`, which layers a sidebar the same way in a table of its own."
+msgstr "یک لایه از داک یک برنامه. سه لایه این جدول را به اشتراک می‌گذارند و با `app`، `user` و `standard` از هم تشخیص داده می‌شوند: داک خود برنامه که برنامه به‌صورت سند برون‌بری‌شده ارائه می‌کند و توسعه‌دهنده می‌نویسد؛ ترتیب سایت از آن که مدیر فضای کار مدیریت می‌کند و برای همه اعمال می‌شود؛ و ترتیب شخصی یک فرد که آخر اعمال می‌شود و برنده است. داک متعلق به یک برنامه است، پس چیدن ریل ERPNext به ریل frappe دست نمی‌زند -- و لایه با برنامه به‌علاوهٔ کاربر آدرس‌دهی می‌شود، نه فقط کاربر. شکل هر سه یکسان است، چون ردیف‌ها یکسان‌اند و والد مشخص می‌کند مال چه کسی هستند؛ `Custom Sidebar` را ببینید که نوار کناری را به همین روش در جدول خودش لایه‌بندی می‌کند."
+
+msgid "One ordered list holding both references to base items (`added` unset -- non-empty fields override, empty fields mean no opinion) and items this layer added (`added` set -- full items, rendered as they stand). Row order is the arrangement; base items not named here keep their base order and follow the ones that are, which is how a newly installed app's items still reach someone who has already reordered."
+msgstr "یک فهرست مرتب که هم ارجاع به آیتم‌های پایه را در بر دارد (`added` تعیین‌نشده -- فیلدهای غیرخالی بازنویسی می‌کنند و فیلدهای خالی یعنی نظری نیست) و هم آیتم‌هایی که این لایه اضافه کرده (`added` تعیین‌شده -- آیتم‌های کامل که همان‌طور که هستند نمایش داده می‌شوند). ترتیب ردیف‌ها همان چینش است؛ آیتم‌های پایه‌ای که اینجا نام برده نشده‌اند ترتیب پایهٔ خود را نگه می‌دارند و بعد از موارد نام‌برده می‌آیند، و به همین ترتیب آیتم‌های برنامهٔ تازه‌نصب‌شده هم به کسی که قبلاً ترتیب را عوض کرده می‌رسد."
+
+msgid "Only a new Kanban Board can be made standard"
+msgstr "فقط برد کانبان جدید می‌تواند استاندارد شود"
+
+msgid "Only a new list layout can be made standard"
+msgstr "فقط چیدمان فهرست جدید می‌تواند استاندارد شود"
+
+msgid "Only files up to {0} MB are supported for preview."
+msgstr "برای پیش‌نمایش فقط فایل‌های تا {0} مگابایت پشتیبانی می‌شوند."
+
+msgid "Only if Creator"
+msgstr "فقط اگر ایجادکننده باشد"
+
+msgid "Only meaningful on a `Custom Sidebar` row referring to a base item that has no link -- a Section Break or a spacer -- which is the one kind of row with nothing else to name it by. A base row stores none: an unlinked one is identified by a hash of its type and label, and a linked one by its own link columns, which is what lets a rename repair the base row and the customization naming it together."
+msgstr "فقط روی ردیف `Custom Sidebar` معنا دارد که به آیتم پایه‌ای بدون پیوند ارجاع می‌دهد -- جداکنندهٔ بخش یا فاصله -- که تنها نوع ردیفی است که چیز دیگری برای نام بردنش ندارد. ردیف پایه چیزی ذخیره نمی‌کند: ردیف بدون پیوند با هش نوع و برچسبش و ردیف پیوندشده با ستون‌های پیوند خودش شناسایی می‌شود، و به همین دلیل تغییر نام می‌تواند ردیف پایه و سفارشی‌سازی‌ای را که آن را نام می‌برد با هم اصلاح کند."
+
+msgid "Only meaningful on a `Custom Sidebar`, where a row is either a reference to a base item or an item the site or the user added."
+msgstr "فقط روی `Custom Sidebar` معنا دارد، جایی که هر ردیف یا ارجاعی به آیتم پایه است یا آیتمی که سایت یا کاربر اضافه کرده است."
+
+msgid "Only own"
+msgstr "فقط متعلق به خود"
+
+msgid "Only standard (app-shipped) workspaces can be customized."
+msgstr "فقط فضاهای کار استاندارد (همراه برنامه) قابل سفارشی‌سازی هستند."
+
+msgid "Only to you"
+msgstr "فقط برای شما"
+
+msgid "Open Role Permissions Manager"
+msgstr "باز کردن مدیر مجوزهای نقش"
+
+msgid "Open a linked document in a side panel instead of navigating away from the report. Not available on mobile."
+msgstr "سند پیوندشده را به‌جای خروج از گزارش، در پنل کناری باز کن. در موبایل در دسترس نیست."
+
+msgid "Open file"
+msgstr "باز کردن فایل"
+
+msgid "Open file in new tab"
+msgstr "باز کردن فایل در زبانهٔ جدید"
+
+msgid "Open in Desk"
+msgstr "باز کردن در میز کار"
+
+msgid "Open in New Tab"
+msgstr "باز کردن در زبانهٔ جدید"
+
+msgid "Open in full page"
+msgstr "باز کردن در صفحهٔ کامل"
+
+msgid "Open linked documents in a side panel instead of navigating away from the report."
+msgstr "اسناد پیوندشده را به‌جای خروج از گزارش، در پنل کناری باز کن."
+
+msgid "Open the app dock"
+msgstr "باز کردن داک برنامه"
+
+msgid "Open this board in the new Kanban experience. When off, the classic Kanban is used. Same List / Kanban route either way."
+msgstr "این برد را در تجربهٔ جدید کانبان باز کن. وقتی خاموش است، کانبان کلاسیک استفاده می‌شود. مسیر فهرست / کانبان در هر دو حالت یکی است."
+
+msgid "Open {0} Workspace"
+msgstr "باز کردن فضای کار {0}"
+
+msgid "Opening settings..."
+msgstr "در حال باز کردن تنظیمات..."
+
+msgid "Opens the module's home and shows its sidebar."
+msgstr "صفحهٔ اصلی ماژول را باز می‌کند و نوار کناری آن را نشان می‌دهد."
+
+msgid "Optional"
+msgstr "اختیاری"
+
+msgid "Optional heading"
+msgstr "سرتیتر اختیاری"
+
+msgid "Optional. When set, the card shows this icon and the label on hover; when empty, the label is shown directly."
+msgstr "اختیاری. در صورت تعیین، کارت این آیکون را نشان می‌دهد و برچسب هنگام شناور شدن؛ در صورت خالی بودن، برچسب مستقیم نمایش داده می‌شود."
+
+msgid "Or copy and paste:"
+msgstr "یا کپی و جای‌گذاری کنید:"
+
+msgid "Or skip rows instead"
+msgstr "یا به‌جای آن ردیف‌ها را رد کنید"
+
+msgid "Override Sidebar Position"
+msgstr "بازنویسی موقعیت نوار کناری"
+
+msgid "Override whether the standard workspace is shown. \"Inherit\" keeps the app-shipped value."
+msgstr "نمایش یا عدم نمایش فضای کار استاندارد را بازنویسی کنید. «ارث‌بری» مقدار ارائه‌شده با برنامه را نگه می‌دارد."
+
+msgid "Overrides the dock label for this module."
+msgstr "برچسب داک این ماژول را بازنویسی می‌کند."
+
+msgid "Overwritten"
+msgstr "بازنویسی‌شده"
+
+msgid "Owned by an app: exported to its module's folder -- or to the app's own folder when it has no module -- and re-imported by migrate. Set via the Mark as Standard action, not by hand -- a standard sidebar with no exported file is an orphan and gets deleted on the next migrate. Everything else belongs to this site, however it got here."
+msgstr "متعلق به یک برنامه: به پوشهٔ ماژولش -- یا وقتی ماژول ندارد به پوشهٔ خود برنامه -- برون‌بری و با migrate دوباره درون‌ریزی می‌شود. از طریق اقدام «علامت‌گذاری به‌عنوان استاندارد» تعیین می‌شود، نه دستی -- نوار کناری استاندارد بدون فایل برون‌بری‌شده یتیم است و در migrate بعدی حذف می‌شود. همهٔ موارد دیگر به این سایت تعلق دارند، به هر شکل که اینجا آمده باشند."
+
+msgid "Owned by the app: exported to `<app>/dock/<app>/<app>.json` and re-imported by migrate. This is the app layer, and the layer the other two are laid over. Ordinarily set via the Export to App action rather than by hand, which is why it is writable only in developer mode -- a standard dock with no exported file is an orphan and gets deleted on the next migrate."
+msgstr "متعلق به برنامه: به `<app>/dock/<app>/<app>.json` برون‌بری و با migrate دوباره درون‌ریزی می‌شود. این لایهٔ برنامه است و دو لایهٔ دیگر روی آن قرار می‌گیرند. معمولاً از طریق اقدام «برون‌بری به برنامه» تعیین می‌شود، نه دستی، و به همین دلیل فقط در حالت توسعه‌دهنده قابل نوشتن است -- داک استاندارد بدون فایل برون‌بری‌شده یتیم است و در migrate بعدی حذف می‌شود."
+
+msgid "PDF encryption is not supported by the Typst renderer"
+msgstr "رمزگذاری PDF توسط رندرکنندهٔ Typst پشتیبانی نمی‌شود"
+
+msgid "PDF renderer"
+msgstr "رندرکنندهٔ PDF"
+
+msgid "Padding"
+msgstr "فاصلهٔ داخلی"
+
+msgid "Page break must follow a section"
+msgstr "شکست صفحه باید بعد از یک بخش باشد"
+
+msgid "Page numbers"
+msgstr "شمارهٔ صفحه‌ها"
+
+msgid "Page size: {0}"
+msgstr "اندازهٔ صفحه: {0}"
+
+msgid "Pages"
+msgstr "صفحه‌ها"
+
+msgid "Pages this role can access."
+msgstr "صفحه‌هایی که این نقش به آن‌ها دسترسی دارد."
+
+msgid "Paragraph"
+msgstr "پاراگراف"
+
+msgid "Parent {0} not found in file"
+msgstr "والد {0} در فایل پیدا نشد"
+
+msgid "Pass either an existing {0} name or a {1} to import into."
+msgstr "یا نام یک {0} موجود را بدهید یا یک {1} برای درون‌ریزی."
+
+msgid "Password changed"
+msgstr "گذرواژه تغییر کرد"
+
+msgid "Path to the template file inside the app, e.g. templates/print_formats/my_template.html"
+msgstr "مسیر فایل قالب درون برنامه، مثلاً templates/print_formats/my_template.html"
+
+msgid "Per-row parent / is_group overrides for tree DocType imports, keyed by sheet row number. Applied at import time."
+msgstr "بازنویسی‌های والد / is_group به‌ازای هر ردیف برای درون‌ریزی انواع سند درختی، با کلید شمارهٔ ردیف برگه. هنگام درون‌ریزی اعمال می‌شود."
+
+msgid "Permission added."
+msgstr "مجوز اضافه شد."
+
+msgid "Permission removed."
+msgstr "مجوز حذف شد."
+
+msgid "Permission row not found after add. Please refresh."
+msgstr "ردیف مجوز پس از افزودن پیدا نشد. لطفاً تازه‌سازی کنید."
+
+msgid "Permission row not found after conversion. Please refresh."
+msgstr "ردیف مجوز پس از تبدیل پیدا نشد. لطفاً تازه‌سازی کنید."
+
+msgid "Permission updated."
+msgstr "مجوز به‌روزرسانی شد."
+
+msgid "Permissions for this doctype have been customized."
+msgstr "مجوزهای این نوع سند سفارشی شده‌اند."
+
+msgid "Permissions reset"
+msgstr "مجوزها بازنشانی شد"
+
+msgid "Pick a module"
+msgstr "یک ماژول انتخاب کنید"
+
+msgid "Pick a record in the toolbar above to preview it."
+msgstr "برای پیش‌نمایش، در نوار ابزار بالا یک رکورد انتخاب کنید."
+
+msgid "Pick a source table"
+msgstr "یک جدول مبدأ انتخاب کنید"
+
+msgid "Pick a {0} to preview..."
+msgstr "برای پیش‌نمایش یک {0} انتخاب کنید..."
+
+msgid "Pick another title"
+msgstr "عنوان دیگری انتخاب کنید"
+
+msgid "Pick something for it to open."
+msgstr "چیزی را برای باز شدن انتخاب کنید."
+
+msgid "Pilot returned an invalid domain."
+msgstr "Pilot دامنهٔ نامعتبری برگرداند."
+
+msgid "Pinned sits beside the sidebar. Floating slides in from the left edge."
+msgstr "«سنجاق‌شده» کنار نوار کناری می‌نشیند. «شناور» از لبهٔ چپ بیرون می‌آید."
+
+msgid "Placement"
+msgstr "جایگذاری"
+
+msgid "Placement and empty state"
+msgstr "جایگذاری و حالت خالی"
+
+msgid "Plain"
+msgstr "ساده"
+
+msgid "Plain text (strings render as text, never HTML)"
+msgstr "متن ساده (رشته‌ها به‌صورت متن نمایش داده می‌شوند، هرگز HTML)"
+
+msgid "Play video"
+msgstr "پخش ویدیو"
+
+msgid "Please attach an import file or provide a Google Sheets URL."
+msgstr "لطفاً فایل درون‌ریزی را پیوست کنید یا نشانی Google Sheets بدهید."
+
+msgid "Please configure the start field for this Doctype in the controller file."
+msgstr "لطفاً فیلد شروع این نوع سند را در فایل کنترلر پیکربندی کنید."
+
+msgid "Please select Document Type and Import Type."
+msgstr "لطفاً نوع سند و نوع درون‌ریزی را انتخاب کنید."
+
+msgid "Please select a Document Type first"
+msgstr "لطفاً ابتدا نوع سند را انتخاب کنید"
+
+msgid "Please select a Report first"
+msgstr "لطفاً ابتدا یک گزارش انتخاب کنید"
+
+msgid "Please set at least one filter: User or DocType"
+msgstr "لطفاً حداقل یک فیلتر تعیین کنید: کاربر یا نوع سند"
+
+msgid "Please {0}, click on the three dots (⋯) and select Manage to configure it."
+msgstr "لطفاً {0}، روی سه‌نقطه (⋯) کلیک کنید و برای پیکربندی «مدیریت» را انتخاب کنید."
+
+msgid "Poor"
+msgstr "ضعیف"
+
+msgid "Pre-filled with all document fields. Customize from there."
+msgstr "از قبل با همهٔ فیلدهای سند پر شده است. از آنجا سفارشی کنید."
+
+msgid "Prefix and suffix (rich content per option)"
+msgstr "پیشوند و پسوند (محتوای غنی برای هر گزینه)"
+
+msgid "Prefix, suffix and icon-only crumbs"
+msgstr "پیشوند، پسوند و خرده‌نان‌های فقط‌آیکون"
+
+msgid "Preparing import..."
+msgstr "در حال آماده‌سازی درون‌ریزی..."
+
+msgid "Preview Fields"
+msgstr "فیلدهای پیش‌نمایش"
+
+msgid "Preview Image"
+msgstr "تصویر پیش‌نمایش"
+
+msgid "Preview not available for this file type."
+msgstr "پیش‌نمایش برای این نوع فایل در دسترس نیست."
+
+msgid "Preview: {0}"
+msgstr "پیش‌نمایش: {0}"
+
+msgid "Previous page"
+msgstr "صفحهٔ قبل"
+
+msgid "Previous step"
+msgstr "مرحلهٔ قبل"
+
+msgid "Print Format Snippet"
+msgstr "قطعهٔ قالب چاپ"
+
+msgid "Print Formats"
+msgstr "قالب‌های چاپ"
+
+msgid "Print Settings updated"
+msgstr "تنظیمات چاپ به‌روزرسانی شد"
+
+msgid "Print format"
+msgstr "قالب چاپ"
+
+msgid "Print if empty"
+msgstr "چاپ در صورت خالی بودن"
+
+msgid "Product engineer. Writes the release notes nobody reads."
+msgstr "مهندس محصول. یادداشت‌های انتشاری می‌نویسد که کسی نمی‌خواند."
+
+msgid "Profiles"
+msgstr "پروفایل‌ها"
+
+msgid "Progress summary"
+msgstr "خلاصهٔ پیشرفت"
+
+msgid "Promise that fails"
+msgstr "وعده‌ای که شکست می‌خورد"
+
+msgid "Promise that succeeds"
+msgstr "وعده‌ای که موفق می‌شود"
+
+msgid "Protect"
+msgstr "محافظت"
+
+msgid "Published version"
+msgstr "نسخهٔ منتشرشده"
+
+msgid "Put <b>{0}</b> back to the sidebar its app ships? This removes the site's arrangement and every person's own, so nobody keeps a customization of this module."
+msgstr "<b>{0}</b> به نوار کناری ارائه‌شده با برنامه‌اش برگردانده شود؟ این کار ترتیب سایت و ترتیب شخصی هر فرد را حذف می‌کند، پس هیچ‌کس سفارشی‌سازی این ماژول را نگه نمی‌دارد."
+
+msgid "Put this sidebar back to the site's arrangement? Everything you have arranged here is dropped."
+msgstr "این نوار کناری به ترتیب سایت برگردانده شود؟ هر چه اینجا چیده‌اید کنار گذاشته می‌شود."
+
+msgid "Put this sidebar back to what the apps ship? Everything the site has arranged here is dropped, for everyone."
+msgstr "این نوار کناری به آنچه برنامه‌ها ارائه می‌کنند برگردانده شود؟ هر چه سایت اینجا چیده برای همه کنار گذاشته می‌شود."
+
+msgid "Quick List"
+msgstr "فهرست سریع"
+
+msgid "Radius"
+msgstr "شعاع"
+
+msgid "Raw HTML or Jinja template"
+msgstr "HTML خام یا قالب Jinja"
+
+msgid "Raw Typst markup"
+msgstr "نشانه‌گذاری خام Typst"
+
+msgid "Read the migration guide"
+msgstr "راهنمای مهاجرت را بخوانید"
+
+msgid "Receive a copy of every email you send in your inbox."
+msgstr "نسخه‌ای از هر ایمیلی را که می‌فرستید در صندوق ورودی خود دریافت کنید."
+
+msgid "Recent activity"
+msgstr "فعالیت اخیر"
+
+msgid "Records you add will appear here."
+msgstr "رکوردهایی که اضافه می‌کنید اینجا نمایش داده می‌شوند."
+
+msgid "Refresh to see changes"
+msgstr "برای دیدن تغییرات تازه‌سازی کنید"
+
+msgid "Related Reports"
+msgstr "گزارش‌های مرتبط"
+
+msgid "Reload Tree"
+msgstr "بارگذاری دوبارهٔ درخت"
+
+msgid "Remove Default"
+msgstr "حذف پیش‌فرض"
+
+msgid "Remove Permission"
+msgstr "حذف مجوز"
+
+msgid "Remove formatting"
+msgstr "حذف قالب‌بندی"
+
+msgid "Remove selected"
+msgstr "حذف موارد انتخاب‌شده"
+
+msgid "Remove this role's access to {0}?"
+msgstr "دسترسی این نقش به {0} حذف شود؟"
+
+msgid "Remove this role's permission on {0}?"
+msgstr "مجوز این نقش روی {0} حذف شود؟"
+
+msgid "Remove {0} from this role?"
+msgstr "{0} از این نقش حذف شود؟"
+
+msgid "Removed Roles"
+msgstr "نقش‌های حذف‌شده"
+
+msgid "Removed from global search"
+msgstr "از جستجوی سراسری حذف شد"
+
+msgid "Rename Entry"
+msgstr "تغییر نام ثبت"
+
+msgid "Renderer unavailable"
+msgstr "رندرکننده در دسترس نیست"
+
+msgid "Replace your current draft with {0}? Nothing prints differently until you Save & Apply."
+msgstr "پیش‌نویس فعلی شما با {0} جایگزین شود؟ تا زمانی که «ذخیره و اعمال» نکنید چاپ تفاوتی نمی‌کند."
+
+msgid "Reply-To Addresses still include {0}. Change it to {1} as well?"
+msgstr "نشانی‌های پاسخ‌به هنوز {0} را شامل می‌شوند. آن را هم به {1} تغییر دهیم؟"
+
+msgid "Report Settings"
+msgstr "تنظیمات گزارش"
+
+msgid "Reporting & Sharing"
+msgstr "گزارش‌گیری و اشتراک‌گذاری"
+
+msgid "Reports this role can access."
+msgstr "گزارش‌هایی که این نقش به آن‌ها دسترسی دارد."
+
+msgid "Request read receipts for outgoing emails"
+msgstr "درخواست رسید خواندن برای ایمیل‌های خروجی"
+
+msgid "Reset <b>{0}</b> to the standard, app-shipped version? This removes all site customizations."
+msgstr "<b>{0}</b> به نسخهٔ استاندارد ارائه‌شده با برنامه بازنشانی شود؟ این کار همهٔ سفارشی‌سازی‌های سایت را حذف می‌کند."
+
+msgid "Reset all"
+msgstr "بازنشانی همه"
+
+msgid "Reset for everyone"
+msgstr "بازنشانی برای همه"
+
+msgid "Reset node"
+msgstr "بازنشانی گره"
+
+msgid "Reset password"
+msgstr "بازنشانی گذرواژه"
+
+msgid "Reset to Standard"
+msgstr "بازنشانی به استاندارد"
+
+msgid "Reset {0} permissions to their default? This removes all customizations."
+msgstr "مجوزهای {0} به پیش‌فرض بازنشانی شوند؟ این کار همهٔ سفارشی‌سازی‌ها را حذف می‌کند."
+
+msgid "Resizing preview..."
+msgstr "در حال تغییر اندازهٔ پیش‌نمایش..."
+
+msgid "Restore Workspace"
+msgstr "بازیابی فضای کار"
+
+msgid "Restore again"
+msgstr "بازیابی دوباره"
+
+msgid "Restore classic layout"
+msgstr "بازیابی چیدمان کلاسیک"
+
+msgid "Restore the pre-upgrade layout of <b>{0}</b>? The layout becomes a site customization, so later layout changes from the app will not show until it is reset to standard."
+msgstr "چیدمان پیش از ارتقای <b>{0}</b> بازیابی شود؟ چیدمان به سفارشی‌سازی سایت تبدیل می‌شود، پس تغییرات بعدی چیدمان از برنامه تا بازنشانی به استاندارد نمایش داده نمی‌شود."
+
+msgid "Restore this version"
+msgstr "بازیابی این نسخه"
+
+msgid "Restore this version as your draft"
+msgstr "بازیابی این نسخه به‌عنوان پیش‌نویس شما"
+
+msgid "Restored with limits"
+msgstr "با محدودیت بازیابی شد"
+
+msgid "Restoring…"
+msgstr "در حال بازیابی…"
+
+msgid "Restrict specific users to specific {0} records."
+msgstr "کاربران مشخص را به رکوردهای {0} مشخص محدود کنید."
+
+msgid "Reuse email templates when emailing {0}."
+msgstr "هنگام ایمیل {0} از قالب‌های ایمیل دوباره استفاده کنید."
+
+msgid "Review pending imports"
+msgstr "بررسی درون‌ریزی‌های در انتظار"
+
+msgid "Revisiting a finished flow (factual completion)"
+msgstr "مرور دوبارهٔ جریان تمام‌شده (تکمیل واقعی)"
+
+msgid "Right-click here"
+msgstr "اینجا راست‌کلیک کنید"
+
+msgid "Right-click this task card"
+msgstr "روی این کارت تسک راست‌کلیک کنید"
+
+msgid "Role Managed by Role Profile"
+msgstr "نقش مدیریت‌شده با پروفایل نقش"
+
+msgid "Role Profiles that include this role."
+msgstr "پروفایل‌های نقشی که این نقش را شامل می‌شوند."
+
+msgid "Roles granted access on top of the app-shipped roles."
+msgstr "نقش‌هایی که علاوه بر نقش‌های ارائه‌شده با برنامه دسترسی دارند."
+
+msgid "Root records can't be deleted"
+msgstr "رکوردهای ریشه قابل حذف نیستند"
+
+msgid "Root records can't be renamed"
+msgstr "نام رکوردهای ریشه قابل تغییر نیست"
+
+msgid "Route Signature"
+msgstr "امضای مسیر"
+
+msgid "Row #{0}"
+msgstr "ردیف #{0}"
+
+msgid "Row #{0}: a dock entry opens a Sidebar, a Workspace or a web address, not a {1}."
+msgstr "ردیف #{0}: مورد داک، نوار کناری، فضای کار یا نشانی وب را باز می‌کند، نه {1}."
+
+msgid "Row #{0}: an entry on this dock needs an icon and a title of its own."
+msgstr "ردیف #{0}: هر مورد این داک به آیکون و عنوان مخصوص خودش نیاز دارد."
+
+msgid "Row Data"
+msgstr "داده‌های ردیف"
+
+msgid "Row Numbers"
+msgstr "شمارهٔ ردیف‌ها"
+
+msgid "Row errors"
+msgstr "خطاهای ردیف"
+
+msgid "Row validation failed"
+msgstr "اعتبارسنجی ردیف ناموفق بود"
+
+msgid "Row {0} failed"
+msgstr "ردیف {0} ناموفق بود"
+
+msgid "Rows checked"
+msgstr "ردیف‌های بررسی‌شده"
+
+msgid "Rows skipped"
+msgstr "ردیف‌های ردشده"
+
+msgid "Run 3-step progress"
+msgstr "اجرای پیشرفت ۳ مرحله‌ای"
+
+msgid "Same as what prints"
+msgstr "همان چیزی که چاپ می‌شود"
+
+msgid "Same id updates in place"
+msgstr "شناسهٔ یکسان همان‌جا به‌روزرسانی می‌شود"
+
+msgid "Save & Apply"
+msgstr "ذخیره و اعمال"
+
+msgid "Save & Apply Print Format"
+msgstr "ذخیره و اعمال قالب چاپ"
+
+msgid "Save Field as Snippet"
+msgstr "ذخیرهٔ فیلد به‌عنوان قطعه"
+
+msgid "Save Filters"
+msgstr "ذخیرهٔ فیلترها"
+
+msgid "Save Layout"
+msgstr "ذخیرهٔ چیدمان"
+
+msgid "Save Section as Snippet"
+msgstr "ذخیرهٔ بخش به‌عنوان قطعه"
+
+msgid "Save a named version"
+msgstr "ذخیرهٔ نسخهٔ نام‌دار"
+
+msgid "Save as snippet"
+msgstr "ذخیره به‌عنوان قطعه"
+
+msgid "Save failed"
+msgstr "ذخیره ناموفق بود"
+
+msgid "Save the role first to view this information."
+msgstr "برای دیدن این اطلاعات ابتدا نقش را ذخیره کنید."
+
+msgid "Save version"
+msgstr "ذخیرهٔ نسخه"
+
+msgid "Save your changes before importing."
+msgstr "پیش از درون‌ریزی، تغییرات خود را ذخیره کنید."
+
+msgid "Saved Reports"
+msgstr "گزارش‌های ذخیره‌شده"
+
+msgid "Saved Snippets"
+msgstr "قطعه‌های ذخیره‌شده"
+
+msgid "Saved versions"
+msgstr "نسخه‌های ذخیره‌شده"
+
+msgid "Saving your language and region"
+msgstr "در حال ذخیرهٔ زبان و منطقهٔ شما"
+
+msgid "Saving…"
+msgstr "در حال ذخیره…"
+
+msgid "Schedule Send"
+msgstr "زمان‌بندی ارسال"
+
+msgid "Schedule email"
+msgstr "زمان‌بندی ایمیل"
+
+msgid "Scheduled Jobs"
+msgstr "کارهای زمان‌بندی‌شده"
+
+msgid "Search by label or field name"
+msgstr "جستجو بر اساس برچسب یا نام فیلد"
+
+msgid "Secondary"
+msgstr "ثانویه"
+
+msgid "Section background, padding, radius or custom CSS"
+msgstr "پس‌زمینه، فاصلهٔ داخلی، شعاع یا CSS سفارشی بخش"
+
+msgid "Section saved as snippet"
+msgstr "بخش به‌عنوان قطعه ذخیره شد"
+
+msgid "Sections hold the columns and fields of your document."
+msgstr "بخش‌ها ستون‌ها و فیلدهای سند شما را نگه می‌دارند."
+
+msgid "See warning icons on nodes below or check the Warnings section."
+msgstr "آیکون‌های هشدار روی گره‌های زیر را ببینید یا بخش هشدارها را بررسی کنید."
+
+msgid "Select Options"
+msgstr "انتخاب گزینه‌ها"
+
+msgid "Select a Document Type to upload a file or Google Sheet."
+msgstr "برای بارگذاری فایل یا Google Sheet، یک نوع سند انتخاب کنید."
+
+msgid "Select a field"
+msgstr "یک فیلد انتخاب کنید"
+
+msgid "Select a link field"
+msgstr "یک فیلد پیوند انتخاب کنید"
+
+msgid "Select at least one field"
+msgstr "حداقل یک فیلد انتخاب کنید"
+
+msgid "Select attachments"
+msgstr "انتخاب پیوست‌ها"
+
+msgid "Select date format"
+msgstr "انتخاب قالب تاریخ"
+
+msgid "Select field whose options become the board columns."
+msgstr "فیلدی را که گزینه‌هایش ستون‌های برد می‌شوند انتخاب کنید."
+
+msgid "Select format"
+msgstr "انتخاب قالب"
+
+msgid "Select or Link field of the board's reference doctype to group cards by (swimlanes)."
+msgstr "فیلد انتخابی یا پیوند نوع سند مرجع برد که کارت‌ها بر اساس آن گروه‌بندی شوند (مسیرها)."
+
+msgid "Select table…"
+msgstr "انتخاب جدول…"
+
+msgid "Selected row, descriptions and links"
+msgstr "ردیف انتخاب‌شده، شرح‌ها و پیوندها"
+
+msgid "Selection"
+msgstr "انتخاب"
+
+msgid "Send automatic notifications for events on any {0}."
+msgstr "برای رویدادهای هر {0} اعلان خودکار ارسال کن."
+
+msgid "Send me a copy of outgoing emails"
+msgstr "نسخه‌ای از ایمیل‌های خروجی را برای من بفرست"
+
+msgid "Send notifications for email threads"
+msgstr "برای رشته‌های ایمیل اعلان بفرست"
+
+msgid "Send raw ESC/POS commands to a label or thermal printer."
+msgstr "فرمان‌های خام ESC/POS را به چاپگر برچسب یا حرارتی بفرستید."
+
+msgid "Send read receipt"
+msgstr "ارسال رسید خواندن"
+
+msgid "Series added"
+msgstr "سری اضافه شد"
+
+msgid "Series already exists"
+msgstr "سری از قبل وجود دارد"
+
+msgid "Series removed"
+msgstr "سری حذف شد"
+
+msgid "Series updated"
+msgstr "سری به‌روزرسانی شد"
+
+msgid "Set <strong>{0}</strong> = <em>?</em> to auto complete"
+msgstr "برای تکمیل خودکار، <strong>{0}</strong> = <em>?</em> را تعیین کنید"
+
+msgid "Set as Primary"
+msgstr "تعیین به‌عنوان اصلی"
+
+msgid "Set as default"
+msgstr "تعیین به‌عنوان پیش‌فرض"
+
+msgid "Set default values for the current session. Values set here will be autofilled in forms and reports."
+msgstr "مقادیر پیش‌فرض نشست فعلی را تعیین کنید. مقادیر تعیین‌شده اینجا در فرم‌ها و گزارش‌ها خودکار پر می‌شوند."
+
+msgid "Set dynamic filter values as Python expressions."
+msgstr "مقادیر فیلتر پویا را به‌صورت عبارت‌های پایتون تعیین کنید."
+
+msgid "Set this to decide which position a layout appears in the dropdown"
+msgstr "این را تعیین کنید تا مشخص شود چیدمان در کدام موقعیت منوی کشویی نمایش داده شود"
+
+msgid "Set up your authenticator app"
+msgstr "برنامهٔ احراز هویت خود را راه‌اندازی کنید"
+
+msgid "Set {0} in {1} to finish this step."
+msgstr "برای تکمیل این مرحله، {0} را در {1} تعیین کنید."
+
+msgid "Set {0}…"
+msgstr "تعیین {0}…"
+
+msgid "Setting Field"
+msgstr "فیلد تنظیم"
+
+msgid "Setting things up"
+msgstr "در حال راه‌اندازی"
+
+msgid "Setting up your apps"
+msgstr "در حال راه‌اندازی برنامه‌های شما"
+
+msgid "Settings DocType"
+msgstr "نوع سند تنظیمات"
+
+msgid "Settings from Single doctypes applied to a doctype, with one standard and one custom record shown in DocType Settings → General."
+msgstr "تنظیماتی از انواع سند منفرد که روی یک نوع سند اعمال می‌شوند، با یک رکورد استاندارد و یک رکورد سفارشی که در تنظیمات نوع سند ← عمومی نمایش داده می‌شود."
+
+msgid "Settings from across the system that apply to {0}."
+msgstr "تنظیمات سراسر سیستم که روی {0} اعمال می‌شوند."
+
+msgid "Setup a multi-step workflow for {0}."
+msgstr "گردش کار چندمرحله‌ای برای {0} راه‌اندازی کنید."
+
+msgid "Shapes"
+msgstr "شکل‌ها"
+
+msgid "Share usage data to help us improve"
+msgstr "برای کمک به بهبود، داده‌های استفاده را به اشتراک بگذارید"
+
+msgid "Ship as files in an app, tracked in git."
+msgstr "به‌صورت فایل در برنامه ارائه می‌شود و در git پیگیری می‌شود."
+
+msgid "Ship as files in an app, tracked in git. Developer mode only; duplicate to edit."
+msgstr "به‌صورت فایل در برنامه ارائه می‌شود و در git پیگیری می‌شود. فقط حالت توسعه‌دهنده؛ برای ویرایش تکثیر کنید."
+
+msgid "Ship this off by default"
+msgstr "این را به‌طور پیش‌فرض خاموش ارائه کن"
+
+msgid "Ship with the app"
+msgstr "ارائه همراه برنامه"
+
+msgid "Shortcut"
+msgstr "میان‌بر"
+
+msgid "Show Assigned To"
+msgstr "نمایش تخصیص‌یافته به"
+
+msgid "Show Colon After Field Labels"
+msgstr "نمایش دونقطه پس از برچسب فیلدها"
+
+msgid "Show My Space"
+msgstr "نمایش فضای من"
+
+msgid "Show Tags on Cards"
+msgstr "نمایش برچسب‌ها روی کارت‌ها"
+
+msgid "Show a colon after field labels (e.g. \"Name:\"), matching the older print style."
+msgstr "پس از برچسب فیلدها دونقطه نمایش بده (مثلاً «نام:») مطابق سبک قدیمی‌تر چاپ."
+
+msgid "Show a summary dashboard with charts and statistics, where available, at the top of forms."
+msgstr "در صورت وجود، داشبورد خلاصه با نمودار و آمار را بالای فرم‌ها نمایش بده."
+
+msgid "Show absolute datetime in timeline"
+msgstr "نمایش تاریخ و زمان دقیق در خط زمانی"
+
+msgid "Show all (including disabled)"
+msgstr "نمایش همه (از جمله غیرفعال‌ها)"
+
+msgid "Show column when"
+msgstr "نمایش ستون وقتی"
+
+msgid "Show custom icon"
+msgstr "نمایش آیکون سفارشی"
+
+msgid "Show dashboard"
+msgstr "نمایش داشبورد"
+
+msgid "Show desktop and in-app notifications for activity on your account."
+msgstr "اعلان‌های میز کار و درون‌برنامه‌ای برای فعالیت‌های حساب شما نمایش بده."
+
+msgid "Show document tags on cards (left of footer date), using the standard colored tag style."
+msgstr "برچسب‌های سند را روی کارت‌ها (سمت چپ تاریخ پاورقی) با سبک استاندارد برچسب رنگی نمایش بده."
+
+msgid "Show label"
+msgstr "نمایش برچسب"
+
+msgid "Show navigation buttons"
+msgstr "نمایش دکمه‌های ناوبری"
+
+msgid "Show navigation buttons to view the previous and next record in the form toolbar."
+msgstr "دکمه‌های ناوبری برای دیدن رکورد قبلی و بعدی را در نوار ابزار فرم نمایش بده."
+
+msgid "Show row when"
+msgstr "نمایش ردیف وقتی"
+
+msgid "Show search bar"
+msgstr "نمایش نوار جستجو"
+
+msgid "Show the activity timeline with comments, emails, and version history."
+msgstr "خط زمانی فعالیت با دیدگاه‌ها، ایمیل‌ها و تاریخچهٔ نسخه‌ها را نمایش بده."
+
+msgid "Show the assignee stack and Assign control on cards and in the hover preview."
+msgstr "پشتهٔ تخصیص‌گیرندگان و کنترل تخصیص را روی کارت‌ها و در پیش‌نمایش شناور نمایش بده."
+
+msgid "Show timeline"
+msgstr "نمایش خط زمانی"
+
+msgid "Show title"
+msgstr "نمایش عنوان"
+
+msgid "Show view switcher"
+msgstr "نمایش تغییردهندهٔ نما"
+
+msgid "Show with Undo"
+msgstr "نمایش همراه با برگرداندن"
+
+msgid "Show with description"
+msgstr "نمایش همراه با شرح"
+
+msgid "Showing all {0} rows"
+msgstr "نمایش همهٔ {0} ردیف"
+
+msgid "Showing first {0} rows of {1}"
+msgstr "نمایش {0} ردیف اول از {1}"
+
+msgid "Showing {0}"
+msgstr "نمایش {0}"
+
+msgid "Showing {0} of {1}"
+msgstr "نمایش {0} از {1}"
+
+msgid "Showing {0} of {1} columns."
+msgstr "نمایش {0} از {1} ستون."
+
+msgid "Showing {0} of {1} rows and {2} of {3} columns."
+msgstr "نمایش {0} از {1} ردیف و {2} از {3} ستون."
+
+msgid "Showing {0} of {1} rows."
+msgstr "نمایش {0} از {1} ردیف."
+
+msgid "Shown as the field label, or as the icon tooltip when an icon is set. Auto-filled from the field; edit to override."
+msgstr "به‌صورت برچسب فیلد نمایش داده می‌شود یا وقتی آیکون تعیین شده، به‌صورت راهنمای آیکون. از فیلد خودکار پر می‌شود؛ برای بازنویسی ویرایش کنید."
+
+msgid "Shown as the group option's name. Auto-filled from the field; edit to override."
+msgstr "به‌صورت نام گزینهٔ گروه نمایش داده می‌شود. از فیلد خودکار پر می‌شود؛ برای بازنویسی ویرایش کنید."
+
+msgid "Shown only when: {0}"
+msgstr "فقط وقتی نمایش داده می‌شود که: {0}"
+
+msgid "Sidebar Item"
+msgstr "آیتم نوار کناری"
+
+msgid "Sidebar Menu"
+msgstr "منوی نوار کناری"
+
+msgid "Sidebar Moved"
+msgstr "نوار کناری جابه‌جا شد"
+
+msgid "Sidebar Position"
+msgstr "موقعیت نوار کناری"
+
+msgid "Sidebar intent for a module, at either of the two layers a site has. `user` is what tells them apart: blank is the site layer, curated by a Workspace Manager and applying to everyone; a user's name is that person's own arrangement, which is applied on top and wins. The `Custom *` prefix elsewhere in this repo means site-owned override of app-shipped content, and this doctype knowingly overloads it: with the layers structurally identical there is nothing to gain from a second doctype, and `user` makes the layer unambiguous at a glance. Do not \"fix\" this by splitting it."
+msgstr "نیت نوار کناری برای یک ماژول، در هر یک از دو لایهٔ سایت. `user` آن‌ها را از هم جدا می‌کند: خالی یعنی لایهٔ سایت که مدیر فضای کار مدیریت می‌کند و برای همه اعمال می‌شود؛ نام کاربر یعنی ترتیب شخصی همان فرد که روی بقیه اعمال می‌شود و برنده است. پیشوند `Custom *` در جاهای دیگر این مخزن یعنی بازنویسی متعلق به سایت برای محتوای همراه برنامه، و این نوع سند آگاهانه آن را سربار می‌کند: چون لایه‌ها از نظر ساختار یکسان‌اند، نوع سند دوم سودی ندارد و `user` لایه را در یک نگاه روشن می‌کند. این را با تقسیم کردن «اصلاح» نکنید."
+
+msgid "Sidebar is no longer shipped with {0}"
+msgstr "نوار کناری دیگر همراه {0} ارائه نمی‌شود"
+
+msgid "Sidebar reset for everyone"
+msgstr "نوار کناری برای همه بازنشانی شد"
+
+msgid "Sidebar reset to the site's"
+msgstr "نوار کناری به ترتیب سایت بازنشانی شد"
+
+msgid "Sidebar saved to its app"
+msgstr "نوار کناری در برنامه‌اش ذخیره شد"
+
+msgid "Sidebar updated"
+msgstr "نوار کناری به‌روزرسانی شد"
+
+msgid "Sidebar updated for everyone"
+msgstr "نوار کناری برای همه به‌روزرسانی شد"
+
+msgid "Sides"
+msgstr "اضلاع"
+
+msgid "Sizes"
+msgstr "اندازه‌ها"
+
+msgid "Sizes, with icons (sm is the default)"
+msgstr "اندازه‌ها، با آیکون (sm پیش‌فرض است)"
+
+msgid "Skip Row"
+msgstr "رد کردن ردیف"
+
+msgid "Skip every row that has one of these values. Skipped rows are not imported."
+msgstr "هر ردیفی را که یکی از این مقادیر را دارد رد کن. ردیف‌های ردشده درون‌ریزی نمی‌شوند."
+
+msgid "Skipped Rows"
+msgstr "ردیف‌های ردشده"
+
+msgid "Skipped row {0}"
+msgstr "ردیف {0} رد شد"
+
+msgid "Slow"
+msgstr "کند"
+
+msgid "Snippet Type"
+msgstr "نوع قطعه"
+
+msgid "Snippet name"
+msgstr "نام قطعه"
+
+msgid "Some cards were saved in another column"
+msgstr "برخی کارت‌ها در ستون دیگری ذخیره شدند"
+
+msgid "Some columns have invalid values. Map them to valid values below, or skip the rows that have them. Affected columns: {0}."
+msgstr "برخی ستون‌ها مقدارهای نامعتبر دارند. آن‌ها را در زیر به مقدارهای معتبر نگاشت کنید یا ردیف‌هایی را که دارند رد کنید. ستون‌های متأثر: {0}."
+
+msgid "Some settings tabs may not load. Please refresh the page."
+msgstr "ممکن است برخی زبانه‌های تنظیمات بارگذاری نشوند. لطفاً صفحه را تازه‌سازی کنید."
+
+msgid "Someone who can log in to your site."
+msgstr "کسی که می‌تواند وارد سایت شما شود."
+
+msgid "Space Between"
+msgstr "فاصله بین"
+
+msgid "Space Evenly"
+msgstr "فاصلهٔ یکنواخت"
+
+msgid "Spacing"
+msgstr "فاصله‌گذاری"
+
+msgid "Spacing (mm)"
+msgstr "فاصله‌گذاری (میلی‌متر)"
+
+msgid "Split across pages"
+msgstr "تقسیم بین صفحه‌ها"
+
+msgid "Split view"
+msgstr "نمای تقسیم‌شده"
+
+msgid "Split view in reports"
+msgstr "نمای تقسیم‌شده در گزارش‌ها"
+
+msgid "Sr. No"
+msgstr "ردیف"
+
+msgid "Standard DocType Settings Map can only be changed in Developer Mode."
+msgstr "نگاشت تنظیمات نوع سند استاندارد فقط در حالت توسعه‌دهنده قابل تغییر است."
+
+msgid "Standard Kanban Boards can only be changed in developer mode"
+msgstr "بردهای کانبان استاندارد فقط در حالت توسعه‌دهنده قابل تغییرند"
+
+msgid "Standard Kanban Boards can only be deleted in developer mode"
+msgstr "بردهای کانبان استاندارد فقط در حالت توسعه‌دهنده قابل حذف‌اند"
+
+msgid "Standard Report"
+msgstr "گزارش استاندارد"
+
+msgid "Standard list layout {0} already exists with a similar name"
+msgstr "چیدمان فهرست استاندارد {0} با نام مشابه از قبل وجود دارد"
+
+msgid "Standard list layouts can only be changed in developer mode"
+msgstr "چیدمان‌های فهرست استاندارد فقط در حالت توسعه‌دهنده قابل تغییرند"
+
+msgid "Standard list layouts can only be deleted in developer mode"
+msgstr "چیدمان‌های فهرست استاندارد فقط در حالت توسعه‌دهنده قابل حذف‌اند"
+
+msgid "Standard maps are shipped with an app and can only be changed in Developer Mode. Leave unchecked for user-created (custom) maps."
+msgstr "نگاشت‌های استاندارد همراه برنامه ارائه می‌شوند و فقط در حالت توسعه‌دهنده قابل تغییرند. برای نگاشت‌های ساخته‌شده توسط کاربر (سفارشی) علامت نزنید."
+
+msgid "Standard print formats can only be converted in developer mode"
+msgstr "قالب‌های چاپ استاندارد فقط در حالت توسعه‌دهنده قابل تبدیل‌اند"
+
+msgid "Standard print formats can only be restored in developer mode"
+msgstr "قالب‌های چاپ استاندارد فقط در حالت توسعه‌دهنده قابل بازیابی‌اند"
+
+msgid "Standard workspaces can't be edited directly. Your changes are saved as a customization."
+msgstr "فضاهای کار استاندارد مستقیم قابل ویرایش نیستند. تغییرات شما به‌صورت سفارشی‌سازی ذخیره می‌شود."
+
+msgid "Standard workspaces cannot be deleted. Reset to standard instead."
+msgstr "فضاهای کار استاندارد قابل حذف نیستند. به‌جای آن به استاندارد بازنشانی کنید."
+
+msgid "Start Closed"
+msgstr "شروع به‌صورت بسته"
+
+msgid "Start blank"
+msgstr "شروع از صفحهٔ خالی"
+
+msgid "Start from default"
+msgstr "شروع از پیش‌فرض"
+
+msgid "Start the import before opening the Import step."
+msgstr "پیش از باز کردن مرحلهٔ درون‌ریزی، درون‌ریزی را شروع کنید."
+
+msgid "Start with"
+msgstr "شروع با"
+
+msgid "Start with # to search by tag"
+msgstr "برای جستجو بر اساس برچسب با # شروع کنید"
+
+msgid "Started by"
+msgstr "شروع‌شده توسط"
+
+msgid "Started on"
+msgstr "شروع‌شده در"
+
+msgid "Starting from the default layout instead."
+msgstr "به‌جای آن از چیدمان پیش‌فرض شروع می‌شود."
+
+msgid "Starting import..."
+msgstr "در حال شروع درون‌ریزی..."
+
+msgid "Static value"
+msgstr "مقدار ثابت"
+
+msgid "Stop shipping this sidebar with {0}? Its document and its exported file are both removed, and the module goes back to the sidebar generated from its contents."
+msgstr "ارائهٔ این نوار کناری همراه {0} متوقف شود؟ سند و فایل برون‌بری‌شدهٔ آن هر دو حذف می‌شوند و ماژول به نوار کناری تولیدشده از محتوایش برمی‌گردد."
+
+msgid "Stop shipping {0} with its app? Its exported file and this document are removed, and {1} goes back to the sidebar computed from its contents."
+msgstr "ارائهٔ {0} همراه برنامه‌اش متوقف شود؟ فایل برون‌بری‌شده و این سند حذف می‌شوند و {1} به نوار کناری محاسبه‌شده از محتوایش برمی‌گردد."
+
+msgid "Strength:"
+msgstr "قدرت:"
+
+msgid "Strikethrough"
+msgstr "خط‌خورده"
+
+msgid "Striped"
+msgstr "راه‌راه"
+
+msgid "Styled"
+msgstr "استایل‌دار"
+
+msgid "Submenus"
+msgstr "زیرمنوها"
+
+msgid "Submit a {0} to finish this step."
+msgstr "برای تکمیل این مرحله، یک {0} ثبت کنید."
+
+msgid "Submit it to finish this step."
+msgstr "برای تکمیل این مرحله، آن را ثبت کنید."
+
+msgid "Submitting..."
+msgstr "در حال ثبت..."
+
+msgid "Subscript"
+msgstr "زیرنویس"
+
+msgid "Success ({0})"
+msgstr "موفق ({0})"
+
+msgid "Successfully inserted {0}"
+msgstr "{0} با موفقیت درج شد"
+
+msgid "Successfully inserted {0} and updated {1} out of {2} records."
+msgstr "{0} با موفقیت درج و {1} از {2} رکورد به‌روزرسانی شد."
+
+msgid "Superscript"
+msgstr "بالانویس"
+
+msgid "Swimlanes"
+msgstr "مسیرها"
+
+msgid "Swimlanes (Group By)"
+msgstr "مسیرها (گروه‌بندی بر اساس)"
+
+msgid "Switch between light, dark, or system theme."
+msgstr "جابه‌جایی بین پوستهٔ روشن، تیره یا سیستم."
+
+msgid "Switched back to Chromium: {0}"
+msgstr "به Chromium برگشت: {0}"
+
+msgid "Switched to {0}"
+msgstr "به {0} تغییر کرد"
+
+msgid "Switching you to the new navigation…"
+msgstr "در حال انتقال شما به ناوبری جدید…"
+
+msgid "System default"
+msgstr "پیش‌فرض سیستم"
+
+msgid "Table column conditions"
+msgstr "شرط‌های ستون جدول"
+
+msgid "Table styling"
+msgstr "استایل جدول"
+
+msgid "Table title"
+msgstr "عنوان جدول"
+
+msgid "Task list"
+msgstr "فهرست تسک‌ها"
+
+msgid "Text color"
+msgstr "رنگ متن"
+
+msgid "Text direction"
+msgstr "جهت متن"
+
+msgid "Text style"
+msgstr "سبک متن"
+
+msgid "The <strong>Doc Status</strong> for all states has been reset to <strong>0</strong> because <strong>{0}</strong> is not submittable"
+msgstr "<strong>وضعیت سند</strong> همهٔ حالت‌ها به <strong>۰</strong> بازنشانی شد، چون <strong>{0}</strong> قابل ثبت نیست"
+
+msgid "The <strong>Doc Status</strong> for all states has been reset to <strong>Draft</strong> because <strong>{0}</strong> is not submittable"
+msgstr "<strong>وضعیت سند</strong> همهٔ حالت‌ها به <strong>پیش‌نویس</strong> بازنشانی شد، چون <strong>{0}</strong> قابل ثبت نیست"
+
+msgid "The Administrator account may be compromised. Change the Administrator password immediately."
+msgstr "حساب مدیر ممکن است در معرض خطر باشد. گذرواژهٔ مدیر را فوراً تغییر دهید."
+
+msgid "The DocType these settings apply to."
+msgstr "نوع سندی که این تنظیمات برای آن اعمال می‌شود."
+
+msgid "The Typst block could not render its template: {0}"
+msgstr "بلوک Typst نتوانست قالبش را نمایش دهد: {0}"
+
+msgid "The Typst block in {0} does not compile: {1}"
+msgstr "بلوک Typst در {0} کامپایل نمی‌شود: {1}"
+
+msgid "The Typst block in {0} has a template error: {1}"
+msgstr "بلوک Typst در {0} خطای قالب دارد: {1}"
+
+msgid "The Typst renderer cannot embed this image: {0}"
+msgstr "رندرکنندهٔ Typst نمی‌تواند این تصویر را جاسازی کند: {0}"
+
+msgid "The app this one mounts on, for a companion app -- one with no rail of its own, whose entries live on a host's. Blank on every ordinary dock. An **app name** rather than a Link to a `Dock`: every consumer wants a string, and a pin aimed at a record would be a pin aimed at one of that app's three layers, which means nothing. App-layer only: `depends_on` hides it elsewhere and `validate` blanks it, because hiding a field does not stop an API write."
+msgstr "برنامه‌ای که این برنامه روی آن سوار می‌شود، برای برنامهٔ همراه -- برنامه‌ای که ریل خودش را ندارد و موارد آن روی ریل میزبان قرار می‌گیرد. در هر داک معمولی خالی است. **نام برنامه** است، نه پیوند به `Dock`: هر مصرف‌کننده رشته می‌خواهد و سنجاقی که به یک رکورد اشاره کند در واقع به یکی از سه لایهٔ آن برنامه اشاره می‌کند که معنایی ندارد. فقط در لایهٔ برنامه: `depends_on` آن را جاهای دیگر پنهان می‌کند و `validate` آن را خالی می‌کند، چون پنهان کردن فیلد جلوی نوشتن از طریق API را نمی‌گیرد."
+
+msgid "The app this sidebar is placed in. Derived from the module when there is one -- a module sits in exactly one app. Author-set when there is not: an app-rooted sidebar has no module to derive it from, and this is then the only thing that says which app ships the file."
+msgstr "برنامه‌ای که این نوار کناری در آن قرار دارد. وقتی ماژول هست از آن گرفته می‌شود -- هر ماژول دقیقاً در یک برنامه است. وقتی نیست، نویسنده تعیین می‌کند: نوار کناری ریشه‌دار در برنامه ماژولی ندارد که از آن گرفته شود و این تنها چیزی است که می‌گوید کدام برنامه فایل را ارائه می‌کند."
+
+msgid "The app whose dock lists this module. A custom module may leave it empty and stand on its own."
+msgstr "برنامه‌ای که داکش این ماژول را فهرست می‌کند. ماژول سفارشی می‌تواند آن را خالی بگذارد و مستقل باشد."
+
+msgid "The app whose dock this layer arranges. Required: a dock belongs to an app, and a layer that named none would be one arrangement spanning every rail. An `Autocomplete` over installed apps rather than a Link, because there is no `App` doctype -- the house spelling, shared with `Sidebar.app` and `Desktop Icon.app`."
+msgstr "برنامه‌ای که این لایه داکش را می‌چیند. الزامی: داک متعلق به یک برنامه است و لایه‌ای که هیچ برنامه‌ای را نام نبرد یک چینش خواهد بود که همهٔ ریل‌ها را در بر می‌گیرد. یک `Autocomplete` روی برنامه‌های نصب‌شده است، نه پیوند، چون نوع سند `App` وجود ندارد -- همان قاعدهٔ مشترک با `Sidebar.app` و `Desktop Icon.app`."
+
+msgid "The block {0} points at a {1} this version of the app no longer ships."
+msgstr "بلوک {0} به {1} اشاره می‌کند که این نسخهٔ برنامه دیگر آن را ارائه نمی‌کند."
+
+msgid "The card was saved in another column"
+msgstr "کارت در ستون دیگری ذخیره شد"
+
+msgid "The change to {0} cannot be carried by a customization."
+msgstr "تغییر {0} را نمی‌توان با سفارشی‌سازی اعمال کرد."
+
+msgid "The classic builder can no longer create formats"
+msgstr "سازندهٔ کلاسیک دیگر نمی‌تواند قالب بسازد"
+
+msgid "The classic builder will be removed in version 17."
+msgstr "سازندهٔ کلاسیک در نسخهٔ ۱۷ حذف می‌شود."
+
+msgid "The classic builder will be removed in version 17. Convert this format to the new builder to keep editing it."
+msgstr "سازندهٔ کلاسیک در نسخهٔ ۱۷ حذف می‌شود. برای ادامهٔ ویرایش، این قالب را به سازندهٔ جدید تبدیل کنید."
+
+msgid "The colour {0} is not one the desk offers and was skipped."
+msgstr "رنگ {0} جزو رنگ‌های میز کار نیست و رد شد."
+
+msgid "The dock as this arrangement leaves it."
+msgstr "داک همان‌طور که این چینش آن را باقی می‌گذارد."
+
+msgid "The field cards are grouped into columns by, and the column list."
+msgstr "فیلدی که کارت‌ها بر اساس آن در ستون‌ها گروه‌بندی می‌شوند و فهرست ستون‌ها."
+
+msgid "The latest changes could not be saved and will be lost if you leave."
+msgstr "آخرین تغییرات ذخیره نشدند و در صورت خروج از بین می‌روند."
+
+msgid "The latest changes to this letter head are not saved."
+msgstr "آخرین تغییرات این سربرگ ذخیره نشده است."
+
+msgid "The latest changes to this print format are not saved."
+msgstr "آخرین تغییرات این قالب چاپ ذخیره نشده است."
+
+msgid "The latest changes to {0} could not be saved."
+msgstr "آخرین تغییرات {0} ذخیره نشد."
+
+msgid "The layout of {0} will be rewritten for the new builder. The original layout is kept as a backup you can restore from the Print Format form. Continue?"
+msgstr "چیدمان {0} برای سازندهٔ جدید بازنویسی می‌شود. چیدمان اصلی به‌عنوان پشتیبان نگه داشته می‌شود و از فرم قالب چاپ قابل بازیابی است. ادامه می‌دهید؟"
+
+msgid "The link expires in 1 minute."
+msgstr "پیوند ۱ دقیقه دیگر منقضی می‌شود."
+
+msgid "The link expires in {0} minutes."
+msgstr "پیوند {0} دقیقه دیگر منقضی می‌شود."
+
+msgid "The link {0} was added to a shipped card and cannot be carried by a customization."
+msgstr "پیوند {0} به کارت ارائه‌شده اضافه شده است و با سفارشی‌سازی قابل اعمال نیست."
+
+msgid "The module this sidebar belongs to. Neither required nor unique: one module may own several sidebars, and which of them answers for the module itself is decided by the name -- the one called after the module -- rather than by a column here. May also be blank, which means the sidebar belongs to its app rather than to any one of the app's modules; such a sidebar is exported to the app's own folder and says which app in `app`."
+msgstr "ماژولی که این نوار کناری به آن تعلق دارد. نه الزامی است و نه یکتا: یک ماژول ممکن است چند نوار کناری داشته باشد و اینکه کدام‌یک به نمایندگی از خود ماژول پاسخ می‌دهد با نام تعیین می‌شود -- همان که به نام ماژول است -- نه با ستونی اینجا. می‌تواند خالی هم باشد، یعنی نوار کناری به برنامه‌اش تعلق دارد نه به یکی از ماژول‌های آن؛ چنین نوار کناری به پوشهٔ خود برنامه برون‌بری می‌شود و برنامه را در `app` مشخص می‌کند."
+
+msgid "The module this workspace belongs to. Decides which module's dock entry and sidebar it appears under."
+msgstr "ماژولی که این فضای کار به آن تعلق دارد. تعیین می‌کند در مورد داک و نوار کناری کدام ماژول نمایش داده شود."
+
+msgid "The next generated name continues after this number."
+msgstr "نام تولیدشدهٔ بعدی از بعد از این عدد ادامه می‌یابد."
+
+msgid "The ordered entries this layer has an opinion about. Row order is the arrangement; an entry this layer never names keeps its incoming order and follows the ones it does, which is how a newly installed app's modules still reach someone who has already arranged their dock."
+msgstr "موارد مرتبی که این لایه دربارهٔ آن‌ها نظر دارد. ترتیب ردیف‌ها همان چینش است؛ مورد نام‌نبرده ترتیب ورودی خود را نگه می‌دارد و بعد از موارد نام‌برده می‌آید و به همین ترتیب ماژول‌های برنامهٔ تازه‌نصب‌شده هم به کسی که قبلاً داکش را چیده می‌رسد."
+
+msgid "The person whose own arrangement this is. Blank means the app's own dock or the site's arrangement of it, told apart by `standard`."
+msgstr "شخصی که این چینش مال اوست. خالی یعنی داک خود برنامه یا چینش سایت از آن که با `standard` از هم تشخیص داده می‌شوند."
+
+msgid "The record this entry opens, in the doctype `link_type` names. A `Sidebar` target need not exist as a document: most modules have a computed base and no `Sidebar` row at all, so a row of that kind names a shell rather than referencing one, which is why link validation on a `Dock` is a deliberate no-op."
+msgstr "رکوردی که این مورد باز می‌کند، در نوع سندی که `link_type` نام می‌برد. هدف `Sidebar` لازم نیست به‌صورت سند وجود داشته باشد: بیشتر ماژول‌ها پایهٔ محاسبه‌شده دارند و ردیف `Sidebar` ندارند، پس چنین ردیفی پوسته را نام می‌برد نه اینکه به آن ارجاع دهد، و به همین دلیل اعتبارسنجی پیوند روی `Dock` عمداً بی‌اثر است."
+
+msgid "The sidebar as this arrangement leaves it."
+msgstr "نوار کناری همان‌طور که این چینش آن را باقی می‌گذارد."
+
+msgid "The site's editor.js block layout for this workspace, shown verbatim. Once set, the app's later changes to this workspace's layout stop reaching the site; roles, icon and visibility keep updating. Managed by the workspace editor."
+msgstr "چیدمان بلوک‌های editor.js سایت برای این فضای کار، عیناً نمایش داده می‌شود. پس از تعیین، تغییرات بعدی برنامه در چیدمان این فضای کار دیگر به سایت نمی‌رسد؛ نقش‌ها، آیکون و نمایش به‌روزرسانی می‌شوند. توسط ویرایشگر فضای کار مدیریت می‌شود."
+
+msgid "The title of a standard workspace is managed by the app."
+msgstr "عنوان فضای کار استاندارد توسط برنامه مدیریت می‌شود."
+
+msgid "The workspace list may not load. Please refresh the page."
+msgstr "ممکن است فهرست فضاهای کار بارگذاری نشود. لطفاً صفحه را تازه‌سازی کنید."
+
+msgid "The workspace's place in the sidebar is not restored."
+msgstr "جای فضای کار در نوار کناری بازیابی نمی‌شود."
+
+msgid "Theme and layout preferences."
+msgstr "ترجیحات پوسته و چیدمان."
+
+msgid "Themes"
+msgstr "پوسته‌ها"
+
+msgid "There is already a section called {0}."
+msgstr "بخشی به نام {0} از قبل وجود دارد."
+
+msgid "There is nothing else you need to do."
+msgstr "کار دیگری لازم نیست انجام دهید."
+
+msgid "There is nothing to export for {0}. Put some entries on its dock first."
+msgstr "چیزی برای برون‌بری {0} نیست. ابتدا چند مورد روی داکش بگذارید."
+
+msgid "These announcements will appear inside an alert below the Navbar."
+msgstr "این اطلاعیه‌ها در یک هشدار زیر نوار پیمایش نمایش داده می‌شوند."
+
+msgid "These fields no longer exist in the DocType and were removed from the layout: {0}"
+msgstr "این فیلدها دیگر در نوع سند وجود ندارند و از چیدمان حذف شدند: {0}"
+
+msgid "These set how dates, numbers and money look across the app."
+msgstr "این‌ها ظاهر تاریخ، عدد و پول را در سراسر برنامه تعیین می‌کنند."
+
+msgid "This DocType is deprecated and may be removed in a future release"
+msgstr "این نوع سند منسوخ شده و ممکن است در نسخه‌ای آینده حذف شود"
+
+msgid "This app has nothing to arrange"
+msgstr "این برنامه چیزی برای چینش ندارد"
+
+msgid "This can take a minute. Please keep this page open."
+msgstr "ممکن است یک دقیقه طول بکشد. لطفاً این صفحه را باز نگه دارید."
+
+msgid "This can't be saved with a Typst block: {0}"
+msgstr "این را نمی‌توان با بلوک Typst ذخیره کرد: {0}"
+
+msgid "This chart couldn't load"
+msgstr "این نمودار بارگذاری نشد"
+
+msgid "This doctype isn't named by a series."
+msgstr "این نوع سند با سری نام‌گذاری نمی‌شود."
+
+msgid "This document is a draft and cannot be printed."
+msgstr "این سند پیش‌نویس است و قابل چاپ نیست."
+
+msgid "This document is cancelled and cannot be printed."
+msgstr "این سند لغو شده و قابل چاپ نیست."
+
+msgid "This document type has no fields to print."
+msgstr "این نوع سند فیلدی برای چاپ ندارد."
+
+msgid "This drops the dock arrangement of every person on this site for {0}, and the site's own, back to what the app ships. It cannot be undone."
+msgstr "این کار چینش داک هر فرد در این سایت برای {0} و چینش خود سایت را به آنچه برنامه ارائه می‌کند برمی‌گرداند. قابل بازگشت نیست."
+
+msgid "This feature is deprecated and may be removed in a future release"
+msgstr "این قابلیت منسوخ شده و ممکن است در نسخه‌ای آینده حذف شود"
+
+msgid "This format can no longer render through Typst: {0}"
+msgstr "این قالب دیگر نمی‌تواند با Typst نمایش داده شود: {0}"
+
+msgid "This format cannot use the Typst renderer: {0}"
+msgstr "این قالب نمی‌تواند از رندرکنندهٔ Typst استفاده کند: {0}"
+
+msgid "This format still has a classic layout. Convert it to the new builder first."
+msgstr "این قالب هنوز چیدمان کلاسیک دارد. ابتدا آن را به سازندهٔ جدید تبدیل کنید."
+
+msgid "This format uses a Typst block, so its PDF Renderer must be Typst."
+msgstr "این قالب از بلوک Typst استفاده می‌کند، بنابراین رندرکنندهٔ PDF آن باید Typst باشد."
+
+msgid "This format uses a Typst block, which only the Typst renderer can print. Set the PDF Renderer to Typst or remove the block."
+msgstr "این قالب از بلوک Typst استفاده می‌کند که فقط رندرکنندهٔ Typst می‌تواند چاپ کند. رندرکنندهٔ PDF را روی Typst بگذارید یا بلوک را حذف کنید."
+
+msgid "This import is complete. There are no pending warnings or mapping issues."
+msgstr "این درون‌ریزی کامل شد. هشدار یا مشکل نگاشتی در انتظار نیست."
+
+msgid "This invitation expires in 1 day."
+msgstr "این دعوت‌نامه ۱ روز دیگر منقضی می‌شود."
+
+msgid "This invitation expires in {0} days."
+msgstr "این دعوت‌نامه {0} روز دیگر منقضی می‌شود."
+
+msgid "This invitation has expired"
+msgstr "این دعوت‌نامه منقضی شده است"
+
+msgid "This is an archive of the previous navigation. Customize the module's sidebar instead."
+msgstr "این بایگانی ناوبری قبلی است. به‌جای آن نوار کناری ماژول را سفارشی کنید."
+
+msgid "This label is already used by another {0} in this workspace."
+msgstr "این برچسب از قبل توسط {0} دیگری در این فضای کار استفاده شده است."
+
+msgid "This module has nothing to arrange"
+msgstr "این ماژول چیزی برای چینش ندارد"
+
+msgid "This module is the linked entity's default home — where it opens when nothing else decides — even when another app defines it. A sidebar that already lists the entity still holds you, so this settles cold entry rather than overriding where you are. Flag what you mean to own: a claim is declarative, so set it on the entities your app is about rather than only where you expect the default to disagree with you. Only an app-shipped sidebar may claim."
+msgstr "این ماژول خانهٔ پیش‌فرض موجودیت پیوندشده است — جایی که وقتی چیز دیگری تصمیم نمی‌گیرد باز می‌شود — حتی وقتی برنامهٔ دیگری آن را تعریف کرده باشد. نوار کناری‌ای که موجودیت را از قبل فهرست کرده شما را نگه می‌دارد، پس این فقط ورود اولیه را تعیین می‌کند و جایی را که در آن هستید بازنویسی نمی‌کند. مواردی را که می‌خواهید مالکشان باشید علامت بزنید: ادعا اعلامی است، پس آن را روی موجودیت‌هایی تعیین کنید که برنامهٔ شما دربارهٔ آن‌هاست، نه فقط جایی که انتظار دارید پیش‌فرض با شما موافق نباشد. فقط نوار کناری ارائه‌شده با برنامه می‌تواند ادعا کند."
+
+msgid "This restores the classic layout backup and discards the converted layout. Continue?"
+msgstr "پشتیبان چیدمان کلاسیک بازیابی و چیدمان تبدیل‌شده کنار گذاشته می‌شود. ادامه می‌دهید؟"
+
+msgid "This role does not have access to any pages."
+msgstr "این نقش به هیچ صفحه‌ای دسترسی ندارد."
+
+msgid "This role does not have access to any reports."
+msgstr "این نقش به هیچ گزارشی دسترسی ندارد."
+
+msgid "This role does not have access to any workspaces."
+msgstr "این نقش به هیچ فضای کاری دسترسی ندارد."
+
+msgid "This row *is* the entry, rather than an opinion about one a lower layer holds. Stored rather than inferred from the row carrying a body: under partial opinions a reference may carry an icon and no title, so body-presence stops telling the two apart -- and a reference to a row the app has since deleted would resurrect as a label-less button."
+msgstr "این ردیف خودِ مورد *است*، نه نظری دربارهٔ موردی که لایهٔ پایین‌تر دارد. ذخیره می‌شود و از داشتن بدنه در ردیف استنباط نمی‌شود: در نظرهای جزئی ممکن است ارجاع آیکون داشته باشد و عنوان نه، پس وجود بدنه دیگر این دو را از هم جدا نمی‌کند -- و ارجاع به ردیفی که برنامه بعداً حذف کرده به‌صورت دکمهٔ بدون برچسب زنده می‌شود."
+
+msgid "This row has fewer cells than the header — check for missing commas or columns"
+msgstr "این ردیف سلول کمتری از سرستون دارد — ویرگول یا ستون جاافتاده را بررسی کنید"
+
+msgid "This row has more cells than the header — check for extra commas or columns"
+msgstr "این ردیف سلول بیشتری از سرستون دارد — ویرگول یا ستون اضافه را بررسی کنید"
+
+msgid "This sidebar is customized on this site, and that arrangement is applied on top of what you save here."
+msgstr "این نوار کناری در این سایت سفارشی شده است و آن چینش روی آنچه اینجا ذخیره می‌کنید اعمال می‌شود."
+
+msgid "This site is in developer mode, so edits to standard workspaces belong to the app's JSON and there is nothing to restore."
+msgstr "این سایت در حالت توسعه‌دهنده است، پس ویرایش فضاهای کار استاندارد متعلق به JSON برنامه است و چیزی برای بازیابی نیست."
+
+msgid "This site is in read-only mode - it is undergoing maintenance or being updated."
+msgstr "این سایت در حالت فقط‌خواندنی است - در حال نگهداری یا به‌روزرسانی است."
+
+msgid "This site needs a migration"
+msgstr "این سایت به مهاجرت (migrate) نیاز دارد"
+
+msgid "This version does not belong to {0}"
+msgstr "این نسخه متعلق به {0} نیست"
+
+msgid "This workspace is hidden from other users. You can see it because you're a Workspace Manager."
+msgstr "این فضای کار از سایر کاربران پنهان است. شما آن را می‌بینید چون مدیر فضای کار هستید."
+
+msgid "This workspace isn't in any app's sidebar, so it can only be found through search. Ask a Workspace Manager to add it to an app."
+msgstr "این فضای کار در نوار کناری هیچ برنامه‌ای نیست، بنابراین فقط با جستجو پیدا می‌شود. از مدیر فضای کار بخواهید آن را به یک برنامه اضافه کند."
+
+msgid "This workspace isn't in any module's sidebar yet, so there's no way to navigate to it. Pick the module it belongs to."
+msgstr "این فضای کار هنوز در نوار کناری هیچ ماژولی نیست، بنابراین راهی برای رفتن به آن نیست. ماژولی را که به آن تعلق دارد انتخاب کنید."
+
+msgid "Time:"
+msgstr "زمان:"
+
+msgid "Timing (quick preview: shorter delays)"
+msgstr "زمان‌بندی (پیش‌نمایش سریع: تأخیرهای کوتاه‌تر)"
+
+msgid "To a group of users"
+msgstr "به گروهی از کاربران"
+
+msgid "To everyone"
+msgstr "به همه"
+
+msgid "Toggle Flash"
+msgstr "روشن/خاموش کردن فلاش"
+
+msgid "Top level"
+msgstr "سطح بالا"
+
+msgid "Total rows"
+msgstr "کل ردیف‌ها"
+
+msgid "Transparent"
+msgstr "شفاف"
+
+msgid "Tree Parent Overrides"
+msgstr "بازنویسی‌های والد درخت"
+
+msgid "Tree Preview"
+msgstr "پیش‌نمایش درخت"
+
+msgid "Tree preview of {0} nodes"
+msgstr "پیش‌نمایش درخت {0} گره"
+
+msgid "Try a different search."
+msgstr "جستجوی دیگری امتحان کنید."
+
+msgid "Try a different word."
+msgstr "کلمهٔ دیگری امتحان کنید."
+
+msgid "Try it"
+msgstr "امتحان کنید"
+
+msgid "Try the new navigation"
+msgstr "ناوبری جدید را امتحان کنید"
+
+msgid "Type something..."
+msgstr "چیزی بنویسید..."
+
+msgid "Type text, / for a field"
+msgstr "متن بنویسید، / برای فیلد"
+
+msgid "Types"
+msgstr "انواع"
+
+msgid "Types (same options, four looks)"
+msgstr "انواع (گزینه‌های یکسان، چهار ظاهر)"
+
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+msgid "Typst"
+msgstr "Typst"
+
+msgid "Typst (fast)"
+msgstr "Typst (سریع)"
+
+msgid "Typst Markup"
+msgstr "نشانه‌گذاری Typst"
+
+msgid "Typst block requires the Typst renderer"
+msgstr "بلوک Typst به رندرکنندهٔ Typst نیاز دارد"
+
+msgid "Typst block — content appears in the PDF"
+msgstr "بلوک Typst — محتوا در PDF نمایش داده می‌شود"
+
+msgid "Typst cannot render:"
+msgstr "Typst نمی‌تواند نمایش دهد:"
+
+msgid "Typst renderer unavailable"
+msgstr "رندرکنندهٔ Typst در دسترس نیست"
+
+msgid "Underline"
+msgstr "زیرخط"
+
+msgid "Undo Skip"
+msgstr "برگرداندن رد کردن"
+
+msgid "Undo Skip Duplicates"
+msgstr "برگرداندن رد کردن تکراری‌ها"
+
+msgid "Undo skip"
+msgstr "برگرداندن رد کردن"
+
+msgid "Unlink {0}"
+msgstr "برداشتن پیوند {0}"
+
+msgid "Unlink {0} {1} from {2}?"
+msgstr "پیوند {0} {1} از {2} برداشته شود؟"
+
+msgid "Unmark as Standard"
+msgstr "برداشتن علامت استاندارد"
+
+msgid "Unsafe html gets stripped"
+msgstr "HTML ناامن حذف می‌شود"
+
+msgid "Unsaved changes"
+msgstr "تغییرات ذخیره‌نشده"
+
+msgid "Unset as Primary"
+msgstr "برداشتن از حالت اصلی"
+
+msgid "Untitled section"
+msgstr "بخش بدون عنوان"
+
+msgid "Untitled {0}"
+msgstr "{0} بدون عنوان"
+
+msgid "Upcoming events"
+msgstr "رویدادهای پیش‌رو"
+
+msgid "Updated {0}"
+msgstr "{0} به‌روزرسانی شد"
+
+msgid "Updating global search"
+msgstr "در حال به‌روزرسانی جستجوی سراسری"
+
+msgid "Upload Failed"
+msgstr "بارگذاری ناموفق بود"
+
+msgid "Upload an image or use a URL"
+msgstr "تصویری بارگذاری کنید یا از نشانی استفاده کنید"
+
+msgid "Upsert"
+msgstr "درج یا به‌روزرسانی"
+
+msgid "Use 'Download Failed Rows' on the Failed metric, fix the errors and import again."
+msgstr "روی شاخص «ناموفق» از «دانلود ردیف‌های ناموفق» استفاده کنید، خطاها را رفع کنید و دوباره درون‌ریزی کنید."
+
+msgid "Use 'Download Skipped Rows' on the Skipped metric to export the skipped rows."
+msgstr "روی شاخص «ردشده» از «دانلود ردیف‌های ردشده» استفاده کنید تا ردیف‌های ردشده برون‌بری شوند."
+
+msgid "Use HTML editor"
+msgstr "استفاده از ویرایشگر HTML"
+
+msgid "Use Kanban v2 (New Experience)"
+msgstr "استفاده از Kanban v2 (تجربهٔ جدید)"
+
+msgid "Use POST for a Cloud Settings action."
+msgstr "برای اقدام تنظیمات ابری از POST استفاده کنید."
+
+msgid "Use template"
+msgstr "استفاده از قالب"
+
+msgid "Use {0} for values from the document."
+msgstr "برای مقادیر سند از {0} استفاده کنید."
+
+msgid "User Workspaces"
+msgstr "فضاهای کار کاربر"
+
+msgid "User added."
+msgstr "کاربر اضافه شد."
+
+msgid "User created."
+msgstr "کاربر ایجاد شد."
+
+msgid "User permission added"
+msgstr "مجوز کاربر اضافه شد"
+
+msgid "Users who have this role."
+msgstr "کاربرانی که این نقش را دارند."
+
+msgid "Users with any of these roles can see this workspace"
+msgstr "کاربران دارای هر یک از این نقش‌ها می‌توانند این فضای کار را ببینند"
+
+msgid "Value Based On field is required to create a dashboard chart"
+msgstr "برای ایجاد نمودار داشبورد، فیلد «مقدار بر اساس» الزامی است"
+
+msgid "Value Color"
+msgstr "رنگ مقدار"
+
+msgid "Value Mappings"
+msgstr "نگاشت مقدارها"
+
+msgid "Value from"
+msgstr "مقدار از"
+
+msgid "Value in File"
+msgstr "مقدار در فایل"
+
+msgid "Value text"
+msgstr "متن مقدار"
+
+msgid "Variants"
+msgstr "گونه‌ها"
+
+msgid "Version History"
+msgstr "تاریخچهٔ نسخه‌ها"
+
+msgid "Version deleted"
+msgstr "نسخه حذف شد"
+
+msgid "Version history"
+msgstr "تاریخچهٔ نسخه‌ها"
+
+msgid "Version name"
+msgstr "نام نسخه"
+
+msgid "Version restored"
+msgstr "نسخه بازیابی شد"
+
+msgid "Version saved"
+msgstr "نسخه ذخیره شد"
+
+msgid "Vertical"
+msgstr "عمودی"
+
+msgid "Vertical (in a flex row)"
+msgstr "عمودی (در ردیف flex)"
+
+msgid "Vertical (subtle, underline, and right-attached browser-tab)"
+msgstr "عمودی (ظریف، زیرخط‌دار و زبانهٔ مرورگر چسبیده به راست)"
+
+msgid "Vertical whitespace"
+msgstr "فضای خالی عمودی"
+
+msgid "Vertical, with icons"
+msgstr "عمودی، با آیکون"
+
+msgid "Visibility conditions"
+msgstr "شرط‌های نمایش"
+
+msgid "Visible"
+msgstr "قابل مشاهده"
+
+msgid "We couldn't finish setting things up"
+msgstr "نتوانستیم راه‌اندازی را تمام کنیم"
+
+msgid "We couldn't finish setting up your apps"
+msgstr "نتوانستیم راه‌اندازی برنامه‌های شما را تمام کنیم"
+
+msgid "We couldn't save your language and region"
+msgstr "نتوانستیم زبان و منطقهٔ شما را ذخیره کنیم"
+
+msgid "We do not allow editing of this document."
+msgstr "ویرایش این سند مجاز نیست."
+
+msgid "WeasyPrint"
+msgstr "WeasyPrint"
+
+msgid "WeasyPrint cannot render this format: {0}. Switch the PDF Renderer to Chrome."
+msgstr "WeasyPrint نمی‌تواند این قالب را نمایش دهد: {0}. رندرکنندهٔ PDF را روی Chrome بگذارید."
+
+msgid "WeasyPrint cannot render:"
+msgstr "WeasyPrint نمی‌تواند نمایش دهد:"
+
+msgid "WeasyPrint cannot render: {0}"
+msgstr "WeasyPrint نمی‌تواند نمایش دهد: {0}"
+
+msgid "WeasyPrint is deprecated and cannot be selected for a new format. Use Chrome instead."
+msgstr "WeasyPrint منسوخ شده و برای قالب جدید قابل انتخاب نیست. به‌جای آن از Chrome استفاده کنید."
+
+msgid "WeasyPrint is deprecated and will be removed in version 17. Switch this format to Chrome."
+msgstr "WeasyPrint منسوخ شده و در نسخهٔ ۱۷ حذف می‌شود. این قالب را به Chrome تغییر دهید."
+
+msgid "WeasyPrint renderer unavailable"
+msgstr "رندرکنندهٔ WeasyPrint در دسترس نیست"
+
+msgid "Web address"
+msgstr "نشانی وب"
+
+msgid "Welcome to the Portal"
+msgstr "به پورتال خوش آمدید"
+
+msgid "What it opens"
+msgstr "چه چیزی را باز می‌کند"
+
+msgid "What kind of thing this entry opens. Spelled the way `Sidebar Item` spells it, so `frappe.ui.sidebar_item.get_route(row)` takes the two page kinds unchanged. `Sidebar` is a value here because a module entry is an entry like any other: it opens the shell, which is the one destination that is not a page."
+msgstr "این مورد چه نوع چیزی را باز می‌کند. همان‌طور که `Sidebar Item` می‌نویسد نوشته شده، پس `frappe.ui.sidebar_item.get_route(row)` دو نوع صفحه را بدون تغییر می‌پذیرد. `Sidebar` اینجا یک مقدار است، چون مورد ماژول مانند هر مورد دیگری است: پوسته را باز می‌کند که تنها مقصدی است که صفحه نیست."
+
+msgid "What prints now"
+msgstr "آنچه اکنون چاپ می‌شود"
+
+msgid "What the rail draws this entry with. Required when the row *adds* an entry, because nothing below it holds one; optional when it references an entry a lower layer already has, where blank means inherit and filled is an override."
+msgstr "ریل این مورد را با چه چیزی ترسیم می‌کند. وقتی ردیف مورد را *اضافه* می‌کند الزامی است، چون چیزی زیر آن آن را ندارد؛ وقتی به موردی ارجاع می‌دهد که لایهٔ پایین‌تر از قبل دارد اختیاری است، که خالی یعنی ارث‌بری و پر یعنی بازنویسی."
+
+msgid "What this sidebar is called, on screen and as its record name (`autoname: field:title`). Defaults to the module's name, and the default is stored -- so a module's own sidebar keeps the name it has always had, and a second sidebar under that module is told apart by being called something else. `unique` on top of that adds one thing the primary key does not: it refuses a second sidebar claiming the title of a row whose name has drifted away from it -- a legacy row, or one written straight to the table."
+msgstr "این نوار کناری چه نامی دارد، روی صفحه و به‌عنوان نام رکوردش (`autoname: field:title`). به‌طور پیش‌فرض نام ماژول است و پیش‌فرض ذخیره می‌شود -- پس نوار کناری خود ماژول نامی را که همیشه داشته نگه می‌دارد و نوار کناری دوم زیر آن ماژول با نام متفاوت تشخیص داده می‌شود. `unique` علاوه بر آن چیزی اضافه می‌کند که کلید اصلی نمی‌کند: نوار کناری دومی را که عنوان ردیفی را ادعا کند که نامش از آن فاصله گرفته -- ردیف قدیمی یا ردیفی که مستقیم در جدول نوشته شده -- رد می‌کند."
+
+msgid "When active, this map is used for its doctype. An active custom map overrides the standard one."
+msgstr "وقتی فعال است، این نگاشت برای نوع سندش استفاده می‌شود. نگاشت سفارشی فعال، نگاشت استاندارد را بازنویسی می‌کند."
+
+msgid "Where a web address entry goes. A URL row has no shell and is gated by nothing."
+msgstr "مورد نشانی وب کجا می‌رود. ردیف URL پوسته ندارد و چیزی آن را محدود نمی‌کند."
+
+msgid "Which module's sidebar this workspace appears in"
+msgstr "این فضای کار در نوار کناری کدام ماژول نمایش داده می‌شود"
+
+msgid "Which timestamp to show in the card footer."
+msgstr "کدام زمان در پاورقی کارت نمایش داده شود."
+
+msgid "Who can see this workspace"
+msgstr "چه کسانی این فضای کار را می‌بینند"
+
+msgid "Widget Color"
+msgstr "رنگ ابزارک"
+
+msgid "Width (px)"
+msgstr "عرض (px)"
+
+msgid "Width in pixels"
+msgstr "عرض به پیکسل"
+
+msgid "With a create action"
+msgstr "با اقدام ایجاد"
+
+msgid "With action"
+msgstr "با اقدام"
+
+msgid "With click handlers"
+msgstr "با کنترل‌کنندهٔ کلیک"
+
+msgid "With description"
+msgstr "با شرح"
+
+msgid "With icon"
+msgstr "با آیکون"
+
+msgid "With image"
+msgstr "با تصویر"
+
+msgid "With indicator"
+msgstr "با نشانگر"
+
+msgid "Workflow State '{0}' has Document Status {1}, but DocType '{2}' is not submittable. Only Document Status 0 (Draft) is allowed for non-submittable DocTypes."
+msgstr "وضعیت گردش کار «{0}» وضعیت سند {1} دارد، اما نوع سند «{2}» قابل ثبت نیست. برای انواع سند غیرقابل ثبت فقط وضعیت سند ۰ (پیش‌نویس) مجاز است."
+
+msgid "Working draft · not applied yet"
+msgstr "پیش‌نویس در حال کار · هنوز اعمال نشده"
+
+msgid "Working..."
+msgstr "در حال کار..."
+
+msgid "Workspace reset to standard"
+msgstr "فضای کار به استاندارد بازنشانی شد"
+
+msgid "Workspace updated"
+msgstr "فضای کار به‌روزرسانی شد"
+
+msgid "Workspace {0} deleted"
+msgstr "فضای کار {0} حذف شد"
+
+msgid "Workspaces this role can access."
+msgstr "فضاهای کاری که این نقش به آن‌ها دسترسی دارد."
+
+msgid "Workspaces this site edited before the upgrade, as recorded in their version history. Restoring writes the edit as a customization, so the workspace shows it again at its usual address."
+msgstr "فضاهای کاری که این سایت پیش از ارتقا ویرایش کرده، طبق ثبت در تاریخچهٔ نسخه‌هایشان. بازیابی، ویرایش را به‌صورت سفارشی‌سازی می‌نویسد تا فضای کار آن را دوباره در نشانی معمول خود نشان دهد."
+
+msgid "Workspaces whose sidebars were merged to build this one. Read by the module-split tool."
+msgstr "فضاهای کاری که نوار کناری‌شان برای ساخت این یکی ادغام شده است. توسط ابزار تقسیم ماژول خوانده می‌شود."
+
+msgid "Write Typst here. Use {0} for values from the document. Check the PDF preview to see the result."
+msgstr "اینجا Typst بنویسید. برای مقادیر سند از {0} استفاده کنید. برای دیدن نتیجه، پیش‌نمایش PDF را بررسی کنید."
+
+msgid "Write the format by hand in HTML and Jinja."
+msgstr "قالب را دستی با HTML و Jinja بنویسید."
+
+msgid "Write the text to print"
+msgstr "متنی را که باید چاپ شود بنویسید"
+
+msgid "Write {0} into {1} so the app ships it?"
+msgstr "{0} در {1} نوشته شود تا برنامه آن را ارائه کند؟"
+
+msgid "You already have the maximum number of bulk PDF exports in progress. Please wait for one to finish."
+msgstr "هم‌اکنون حداکثر تعداد برون‌بری گروهی PDF در حال اجراست. لطفاً صبر کنید یکی تمام شود."
+
+msgid "You are impersonating {0}."
+msgstr "شما به‌جای {0} وارد شده‌اید."
+
+msgid "You are not allowed to assign layouts to other users"
+msgstr "اجازهٔ تخصیص چیدمان به کاربران دیگر را ندارید"
+
+msgid "You are not allowed to create or edit global layouts"
+msgstr "اجازهٔ ایجاد یا ویرایش چیدمان‌های سراسری را ندارید"
+
+msgid "You are not allowed to delete global layouts"
+msgstr "اجازهٔ حذف چیدمان‌های سراسری را ندارید"
+
+msgid "You are not allowed to delete this layout"
+msgstr "اجازهٔ حذف این چیدمان را ندارید"
+
+msgid "You are not allowed to see this onboarding step"
+msgstr "اجازهٔ دیدن این مرحلهٔ آشنایی را ندارید"
+
+msgid "You are not allowed to update global layouts"
+msgstr "اجازهٔ به‌روزرسانی چیدمان‌های سراسری را ندارید"
+
+msgid "You are not allowed to update this layout"
+msgstr "اجازهٔ به‌روزرسانی این چیدمان را ندارید"
+
+msgid "You are not allowed to update this onboarding step"
+msgstr "اجازهٔ به‌روزرسانی این مرحلهٔ آشنایی را ندارید"
+
+msgid "You are not permitted to access {0}."
+msgstr "اجازهٔ دسترسی به {0} را ندارید."
+
+msgid "You are not permitted to change Print Settings"
+msgstr "اجازهٔ تغییر تنظیمات چاپ را ندارید"
+
+msgid "You are not permitted to print one of the selected documents"
+msgstr "اجازهٔ چاپ یکی از اسناد انتخاب‌شده را ندارید"
+
+msgid "You can also drag column borders directly in the list view to resize"
+msgstr "می‌توانید مرز ستون‌ها را مستقیم در نمای فهرست بکشید تا اندازه تغییر کند"
+
+msgid "You can continue other work while this runs. Progress updates will appear here."
+msgstr "تا اجرای این کار می‌توانید کارهای دیگر را ادامه دهید. به‌روزرسانی پیشرفت اینجا نمایش داده می‌شود."
+
+msgid "You can only create a private workspace for yourself."
+msgstr "فقط می‌توانید برای خودتان فضای کار خصوصی بسازید."
+
+msgid "You don't have permission to view this."
+msgstr "اجازهٔ دیدن این را ندارید."
+
+msgid "You have 1 pending {0} import with a file attached."
+msgstr "۱ درون‌ریزی {0} در انتظار دارید که فایل پیوست دارد."
+
+msgid "You have {0} pending {1} imports with files attached."
+msgstr "{0} درون‌ریزی {1} در انتظار دارید که فایل پیوست دارند."
+
+msgid "You need the Workspace Manager role to create a workspace others can see."
+msgstr "برای ایجاد فضای کاری که دیگران ببینند به نقش مدیر فضای کار نیاز دارید."
+
+msgid "You need the Workspace Manager role to delete this workspace."
+msgstr "برای حذف این فضای کار به نقش مدیر فضای کار نیاز دارید."
+
+msgid "You need the Workspace Manager role to make a workspace public."
+msgstr "برای عمومی کردن فضای کار به نقش مدیر فضای کار نیاز دارید."
+
+msgid "You need the Workspace Manager role to manage this workspace."
+msgstr "برای مدیریت این فضای کار به نقش مدیر فضای کار نیاز دارید."
+
+msgid "You need the Workspace Manager role to move this workspace."
+msgstr "برای جابه‌جایی این فضای کار به نقش مدیر فضای کار نیاز دارید."
+
+msgid "You need the Workspace Manager role to restore workspace edits."
+msgstr "برای بازیابی ویرایش‌های فضای کار به نقش مدیر فضای کار نیاز دارید."
+
+msgid "You need the Workspace Manager role to see pre-upgrade workspace edits."
+msgstr "برای دیدن ویرایش‌های فضای کار پیش از ارتقا به نقش مدیر فضای کار نیاز دارید."
+
+msgid "You need to be Workspace Manager to change the dock for everyone."
+msgstr "برای تغییر داک برای همه باید مدیر فضای کار باشید."
+
+msgid "You need to be Workspace Manager to change this for everyone."
+msgstr "برای تغییر این برای همه باید مدیر فضای کار باشید."
+
+msgid "You need to be Workspace Manager to reset a workspace."
+msgstr "برای بازنشانی فضای کار باید مدیر فضای کار باشید."
+
+msgid "You need to be Workspace Manager to reset the dock for everyone."
+msgstr "برای بازنشانی داک برای همه باید مدیر فضای کار باشید."
+
+msgid "You need to be Workspace Manager to reset this for everyone."
+msgstr "برای بازنشانی این برای همه باید مدیر فضای کار باشید."
+
+msgid "You need to be Workspace Manager to see the dock's site layer."
+msgstr "برای دیدن لایهٔ سایتی داک باید مدیر فضای کار باشید."
+
+msgid "You need to be Workspace Manager to see the sidebar's site layer."
+msgstr "برای دیدن لایهٔ سایتی نوار کناری باید مدیر فضای کار باشید."
+
+msgid "You will receive a copy of this email"
+msgstr "نسخه‌ای از این ایمیل دریافت خواهید کرد"
+
+msgid "You will receive a copy of this email and a read receipt"
+msgstr "نسخه‌ای از این ایمیل و رسید خواندن دریافت خواهید کرد"
+
+msgid "You will receive a read receipt"
+msgstr "رسید خواندن دریافت خواهید کرد"
+
+msgid "You'll use these details to sign in."
+msgstr "از این مشخصات برای ورود استفاده خواهید کرد."
+
+msgid "You're all set."
+msgstr "همه‌چیز آماده است."
+
+msgid "You're invited to join {0}"
+msgstr "به {0} دعوت شده‌اید"
+
+msgid "YouTube video player"
+msgstr "پخش‌کنندهٔ ویدیوی YouTube"
+
+msgid "Your Layouts"
+msgstr "چیدمان‌های شما"
+
+msgid "Your icons and their layout stay just as they are, and you can switch back anytime from Desktop Settings."
+msgstr "آیکون‌ها و چیدمان آن‌ها همان‌طور که هست می‌ماند و هر زمان می‌توانید از تنظیمات میز کار برگردید."
+
+msgid "Your invitation has been cancelled"
+msgstr "دعوت‌نامهٔ شما لغو شده است"
+
+msgid "Your invitation to join {0} is no longer valid. Ask your team to send a new invitation if you'd still like to join."
+msgstr "دعوت‌نامهٔ شما برای پیوستن به {0} دیگر معتبر نیست. اگر هنوز می‌خواهید بپیوندید، از تیم خود بخواهید دعوت‌نامهٔ جدید بفرستد."
+
+msgid "Your invitation to join {0} was cancelled by the site administrator. If this was a mistake, reach out to your team to request a new invitation."
+msgstr "دعوت‌نامهٔ شما برای پیوستن به {0} توسط مدیر سایت لغو شد. اگر اشتباه بوده، با تیم خود تماس بگیرید و دعوت‌نامهٔ جدید بخواهید."
+
+msgid "Your session has expired due to inactivity. Please log in again to continue."
+msgstr "نشست شما به‌دلیل عدم فعالیت منقضی شد. برای ادامه دوباره وارد شوید."
+
+msgid "Your verification code"
+msgstr "کد تأیید شما"
+
+msgid "Zoom"
+msgstr "بزرگ‌نمایی"
+
+msgid "app ships this off"
+msgstr "برنامه این را خاموش ارائه می‌کند"
+
+msgid "applied the builder draft"
+msgstr "پیش‌نویس سازنده را اعمال کرد"
+
+msgid "auto"
+msgstr "خودکار"
+
+msgid "card"
+msgstr "کارت"
+
+msgid "chart"
+msgstr "نمودار"
+
+msgid "custom block"
+msgstr "بلوک سفارشی"
+
+msgid "e.g. doc.apply_discount"
+msgstr "مثلاً doc.apply_discount"
+
+msgid "e.g. row.qty > 0"
+msgstr "مثلاً row.qty > 0"
+
+msgid "e.g. {0}"
+msgstr "مثلاً {0}"
+
+msgid "edited {0} by {1}"
+msgstr "{0} توسط {1} ویرایش شد"
+
+msgid "its app"
+msgstr "برنامه‌اش"
+
+msgid "none"
+msgstr "هیچ‌کدام"
+
+msgid "number card"
+msgstr "کارت عددی"
+
+msgid "onboarding"
+msgstr "آشنایی"
+
+msgid "or image URL"
+msgstr "یا نشانی تصویر"
+
+msgid "quick list"
+msgstr "فهرست سریع"
+
+msgid "row {0}"
+msgstr "ردیف {0}"
+
+msgid "rows {0}"
+msgstr "ردیف‌های {0}"
+
+msgid "saved version {0}"
+msgstr "نسخهٔ {0} ذخیره شد"
+
+msgid "setup_wizard_text"
+msgstr "setup_wizard_text"
+
+msgid "shortcut"
+msgstr "میان‌بر"
+
+msgid "the app"
+msgstr "برنامه"
+
+msgid "the sidebar generated from this module's contents"
+msgstr "نوار کناری تولیدشده از محتوای این ماژول"
+
+msgid "the site's"
+msgstr "از آنِ سایت"
+
+msgid "unlinked"
+msgstr "بدون پیوند"
+
+msgid "what the apps ship"
+msgstr "آنچه برنامه‌ها ارائه می‌کنند"
+
+msgid "widget"
+msgstr "ابزارک"
+
+msgid "wkhtmltopdf is deprecated and will be removed in version 17. Chrome is the supported renderer."
+msgstr "wkhtmltopdf منسوخ شده و در نسخهٔ ۱۷ حذف می‌شود. Chrome رندرکنندهٔ پشتیبانی‌شده است."
+
+msgid "wkhtmltopdf is deprecated and will be removed in version 17. Switch this format to Chrome."
+msgstr "wkhtmltopdf منسوخ شده و در نسخهٔ ۱۷ حذف می‌شود. این قالب را به Chrome تغییر دهید."
+
+msgid "{0} (Copy)"
+msgstr "{0} (کپی)"
+
+msgid "{0} (New Builder)"
+msgstr "{0} (سازندهٔ جدید)"
+
+msgid "{0} (detected)"
+msgstr "{0} (شناسایی‌شده)"
+
+msgid "{0} Permission for {1}"
+msgstr "مجوز {0} برای {1}"
+
+msgid "{0} already answers to the URL {1}, and two shells cannot share one."
+msgstr "{0} از قبل به نشانی {1} پاسخ می‌دهد و دو پوسته نمی‌توانند یک نشانی را به اشتراک بگذارند."
+
+msgid "{0} and {1} more"
+msgstr "{0} و {1} مورد دیگر"
+
+msgid "{0} belongs to its app and can only be edited in developer mode. Customize the sidebar instead to change it for this site."
+msgstr "{0} متعلق به برنامه‌اش است و فقط در حالت توسعه‌دهنده قابل ویرایش است. به‌جای آن نوار کناری را سفارشی کنید تا برای این سایت تغییر کند."
+
+msgid "{0} block"
+msgstr "بلوک {0}"
+
+msgid "{0} blocks"
+msgstr "بلوک‌های {0}"
+
+msgid "{0} documents become searchable for everyone in this site"
+msgstr "{0} سند برای همهٔ افراد این سایت قابل جستجو می‌شود"
+
+msgid "{0} fields"
+msgstr "{0} فیلد"
+
+msgid "{0} has changed since you opened it. Refresh to get the latest version."
+msgstr "{0} از زمانی که آن را باز کرده‌اید تغییر کرده است. برای دریافت آخرین نسخه تازه‌سازی کنید."
+
+msgid "{0} has children but Is Group is 0 — parent must be a group node"
+msgstr "{0} فرزند دارد اما «گروه است» برابر ۰ است — والد باید گره گروهی باشد"
+
+msgid "{0} has invited you to join {1}."
+msgstr "{0} شما را به پیوستن به {1} دعوت کرده است."
+
+msgid "{0} has no classic layout to restore"
+msgstr "{0} چیدمان کلاسیکی برای بازیابی ندارد"
+
+msgid "{0} is a custom HTML format and cannot be edited in the builder."
+msgstr "{0} قالب HTML سفارشی است و در سازنده قابل ویرایش نیست."
+
+msgid "{0} is a shipped {1} edited in place; the app's version is shown."
+msgstr "{0} یک {1} ارائه‌شده است که در جا ویرایش شده؛ نسخهٔ برنامه نمایش داده می‌شود."
+
+msgid "{0} is a standard format and cannot be changed. A copy with this name will open in the new builder."
+msgstr "{0} قالب استاندارد است و قابل تغییر نیست. کپی‌ای با این نام در سازندهٔ جدید باز می‌شود."
+
+msgid "{0} is already on the sidebar"
+msgstr "{0} از قبل روی نوار کناری است"
+
+msgid "{0} is an archive of the previous navigation and can no longer be edited. Customize the module's sidebar instead."
+msgstr "{0} بایگانی ناوبری قبلی است و دیگر قابل ویرایش نیست. به‌جای آن نوار کناری ماژول را سفارشی کنید."
+
+msgid "{0} is another module's name, and a sidebar's title is what the desk calls it by."
+msgstr "{0} نام ماژول دیگری است و میز کار نوار کناری را با عنوانش می‌شناسد."
+
+msgid "{0} is back to standard"
+msgstr "{0} به استاندارد برگشت"
+
+msgid "{0} is empty — click to add"
+msgstr "{0} خالی است — برای افزودن کلیک کنید"
+
+msgid "{0} is no longer a sidebar of {1}. Reopen the one you meant to arrange."
+msgstr "{0} دیگر نوار کناری {1} نیست. همان را که می‌خواستید بچینید دوباره باز کنید."
+
+msgid "{0} is no longer standard; its exported file has been removed."
+msgstr "{0} دیگر استاندارد نیست؛ فایل برون‌بری‌شدهٔ آن حذف شد."
+
+msgid "{0} is not a classic print format"
+msgstr "{0} قالب چاپ کلاسیک نیست"
+
+msgid "{0} is not a module you can assign a workspace to."
+msgstr "{0} ماژولی نیست که بتوانید فضای کار به آن تخصیص دهید."
+
+msgid "{0} is not a module."
+msgstr "{0} ماژول نیست."
+
+msgid "{0} is not a standard workspace."
+msgstr "{0} فضای کار استاندارد نیست."
+
+msgid "{0} is not a valid condition: {1}"
+msgstr "{0} شرط معتبری نیست: {1}"
+
+msgid "{0} is not an app on this site."
+msgstr "{0} برنامه‌ای در این سایت نیست."
+
+msgid "{0} is now standard and exported to {1}."
+msgstr "{0} اکنون استاندارد است و به {1} برون‌بری شد."
+
+msgid "{0} is rendered from an HTML file and cannot be converted"
+msgstr "{0} از فایل HTML نمایش داده می‌شود و قابل تبدیل نیست"
+
+msgid "{0} is rendered from an HTML file and cannot be edited in the builder."
+msgstr "{0} از فایل HTML نمایش داده می‌شود و در سازنده قابل ویرایش نیست."
+
+msgid "{0} is rendered from an HTML file, so this format starts from the standard layout"
+msgstr "{0} از فایل HTML نمایش داده می‌شود، بنابراین این قالب از چیدمان استاندارد شروع می‌شود"
+
+msgid "{0} is the default print format for {1}. Disabling it will remove it as the default. Do you want to continue?"
+msgstr "{0} قالب چاپ پیش‌فرض {1} است. غیرفعال کردن آن، پیش‌فرض بودنش را برمی‌دارد. می‌خواهید ادامه دهید؟"
+
+msgid "{0} items"
+msgstr "{0} آیتم"
+
+msgid "{0} missing"
+msgstr "{0} وجود ندارد"
+
+msgid "{0} more not shown"
+msgstr "{0} مورد دیگر نمایش داده نمی‌شود"
+
+msgid "{0} moved under {1}"
+msgstr "{0} زیر {1} منتقل شد"
+
+msgid "{0} must be a hex color code like #1a5fb4"
+msgstr "{0} باید کد رنگ هگز مانند #1a5fb4 باشد"
+
+msgid "{0} must be text"
+msgstr "{0} باید متن باشد"
+
+msgid "{0} now has no rail; its exported dock has been removed."
+msgstr "{0} اکنون ریل ندارد؛ داک برون‌بری‌شدهٔ آن حذف شد."
+
+msgid "{0} of 120 files"
+msgstr "{0} از ۱۲۰ فایل"
+
+msgid "{0} of this app's modules are on no tier at all"
+msgstr "{0} مورد از ماژول‌های این برنامه در هیچ ردیفی نیستند"
+
+msgid "{0} of {1} cards could not be moved"
+msgstr "{0} از {1} کارت جابه‌جا نشد"
+
+msgid "{0} of {1} done · {2} skipped"
+msgstr "{0} از {1} انجام شد · {2} رد شد"
+
+msgid "{0} of {1} steps done"
+msgstr "{0} از {1} مرحله انجام شد"
+
+msgid "{0} role changes"
+msgstr "{0} تغییر نقش"
+
+msgid "{0} rows"
+msgstr "{0} ردیف"
+
+msgid "{0} saved section(s) already exist by name and were not imported"
+msgstr "{0} بخش ذخیره‌شده با همین نام از قبل وجود دارند و درون‌ریزی نشدند"
+
+msgid "{0} selected"
+msgstr "{0} انتخاب شد"
+
+msgid "{0} ships no dock yet. Export one to the app first."
+msgstr "{0} هنوز داکی ارائه نمی‌کند. ابتدا یکی را به برنامه برون‌بری کنید."
+
+msgid "{0} unlinked"
+msgstr "{0} بدون پیوند"
+
+msgid "{0} warnings found."
+msgstr "{0} هشدار پیدا شد."
+
+msgid "{0} was hidden, and is back on the sidebar"
+msgstr "{0} پنهان شده بود و به نوار کناری برگشت"
+
+msgid "{0} workspace(s) have no module, so nothing can navigate to them. Give each one a module below."
+msgstr "{0} فضای کار ماژول ندارند، بنابراین چیزی نمی‌تواند به آن‌ها برود. در زیر برای هر یک ماژولی تعیین کنید."
+
+msgid "{0} workspace(s) in this module, which this site owns."
+msgstr "{0} فضای کار در این ماژول که متعلق به این سایت است."
+
+msgid "{0} workspace(s) in this module, which {1} ships."
+msgstr "{0} فضای کار در این ماژول که {1} ارائه می‌کند."
+
+msgid "{0} workspace(s) name the module {1}, which doesn't exist on this site — nothing can navigate to them. Give each one a module below."
+msgstr "{0} فضای کار ماژول {1} را نام می‌برند که در این سایت وجود ندارد — چیزی نمی‌تواند به آن‌ها برود. در زیر برای هر یک ماژولی تعیین کنید."
+
+msgid "{0}'s dock belongs to its app and can only be authored in developer mode. Arrange the dock instead to change it for this site."
+msgstr "داک {0} متعلق به برنامه‌اش است و فقط در حالت توسعه‌دهنده قابل نوشتن است. به‌جای آن داک را بچینید تا برای این سایت تغییر کند."
+
+msgid "{0}'s dock is now standard and exported to the app."
+msgstr "داک {0} اکنون استاندارد است و به برنامه برون‌بری شد."
+
+msgid "{0}'s roles come from the Role Profile {1}. Edit that to change this."
+msgstr "نقش‌های {0} از پروفایل نقش {1} می‌آید. برای تغییر، آن را ویرایش کنید."
+
+msgid "{0}: pre-upgrade edits restored"
+msgstr "{0}: ویرایش‌های پیش از ارتقا بازیابی شد"
+
+msgid "{0}: {1} did not match any results."
+msgstr "{0}: {1} با هیچ نتیجه‌ای مطابقت نداشت."
+
+msgid "{0}: {1} is not a valid field on {2}"
+msgstr "{0}: {1} فیلد معتبری در {2} نیست"
+
+# Strings added to the source after the shipped Persian file was made (frappe)
+
+msgid "Add Filter"
+msgstr "افزودن فیلتر"
+
+msgid "Add Section"
+msgstr "افزودن بخش"
+
+msgid "Add User"
+msgstr "افزودن کاربر"
+
+msgid "Creation"
+msgstr "ایجاد"
+
+msgid "Desk"
+msgstr "میز کار"
+
+msgid "Documentation"
+msgstr "مستندات"
+
+msgid "Email Templates"
+msgstr "قالب‌های ایمیل"
+
+msgid "Issues"
+msgstr "درخواست‌ها"
+
+msgid "Owner"
+msgstr "مالک"
+
+msgid "Please enter a valid URL"
+msgstr "لطفاً نشانی معتبری وارد کنید"
+
+msgid "Video"
+msgstr "ویدیو"
