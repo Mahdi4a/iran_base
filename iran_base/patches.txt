@@ -1,0 +1,1 @@
+iran_base.patches.enable_jalali_dates

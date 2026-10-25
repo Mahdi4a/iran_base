@@ -1,0 +1,109 @@
+.iran-jalali-picker {
+	position: fixed;
+	z-index: 1100;
+	width: 264px;
+	padding: 8px;
+	background: var(--fg-color, #fff);
+	color: var(--text-color, #1f272e);
+	border: 1px solid var(--border-color, #d1d8dd);
+	border-radius: var(--border-radius-md, 8px);
+	box-shadow: var(--shadow-lg, 0 8px 24px rgba(0, 0, 0, 0.15));
+	font-size: var(--text-md, 13px);
+	user-select: none;
+}
+
+.iran-jalali-picker .jp-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.iran-jalali-picker .jp-title {
+	flex: 1;
+	text-align: center;
+	font-weight: 600;
+}
+
+.iran-jalali-picker button {
+	border: 0;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+}
+
+.iran-jalali-picker .jp-nav {
+	width: 26px;
+	height: 26px;
+	border-radius: var(--border-radius-sm, 4px);
+}
+
+.iran-jalali-picker .jp-nav:hover,
+.iran-jalali-picker .jp-day:hover:not(.jp-selected):not(:disabled) {
+	background: var(--gray-100, #f3f3f3);
+}
+
+.iran-jalali-picker .jp-grid {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 2px;
+}
+
+.iran-jalali-picker .jp-cell {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	border-radius: var(--border-radius-sm, 4px);
+}
+
+.iran-jalali-picker .jp-weekday {
+	color: var(--text-muted, #6c7680);
+	font-size: var(--text-xs, 11px);
+}
+
+.iran-jalali-picker .jp-today {
+	box-shadow: inset 0 0 0 1px var(--primary, #2490ef);
+}
+
+.iran-jalali-picker .jp-selected {
+	background: var(--primary, #2490ef);
+	color: #fff;
+}
+
+.iran-jalali-picker .jp-inrange {
+	background: var(--gray-100, #f3f3f3);
+	border-radius: 0;
+}
+
+.iran-jalali-picker .jp-disabled {
+	color: var(--text-light, #98a1a9);
+	cursor: not-allowed;
+}
+
+.iran-jalali-picker .jp-time {
+	display: flex;
+	justify-content: center;
+	margin-top: 6px;
+}
+
+.iran-jalali-picker .jp-time-input {
+	width: 96px;
+	text-align: center;
+	background: var(--control-bg, #f3f3f3);
+	border: 1px solid var(--border-color, #d1d8dd);
+	border-radius: var(--border-radius-sm, 4px);
+	color: inherit;
+}
+
+.iran-jalali-picker .jp-foot {
+	display: flex;
+	justify-content: center;
+	margin-top: 6px;
+}
+
+.iran-jalali-picker .jp-today-btn {
+	padding: 4px 12px;
+	color: var(--primary, #2490ef);
+}

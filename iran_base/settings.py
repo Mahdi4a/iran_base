@@ -1,6 +1,12 @@
 from __future__ import annotations
 
 
+def extend_bootinfo(bootinfo):
+	"""Dates show as Jalali on the desk unless "Use Jalali Dates" is switched off in Iran Settings."""
+	value = get_setting("use_jalali_dates")
+	bootinfo.iran_base = {"jalali_dates": 1 if value is None else int(bool(int(value)))}
+
+
 def get_setting(fieldname: str, doctype: str = "Iran Settings", password: bool = False):
 	"""A value from a settings page, or from the same key in site_config.json while the field is empty.
 

@@ -8,6 +8,18 @@
  "description": "Shared settings for the Iran apps. Empty values fall back to the same key in site_config.json.",
  "fields": [
   {
+   "fieldname": "dates_section",
+   "label": "Dates",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "use_jalali_dates",
+   "label": "Use Jalali Dates",
+   "fieldtype": "Check",
+   "default": "1",
+   "description": "Show and enter dates as Jalali on the desk. The database keeps Gregorian dates. Reload the desk after changing it."
+  },
+  {
    "fieldname": "sms_section",
    "label": "SMS",
    "fieldtype": "Section Break"
