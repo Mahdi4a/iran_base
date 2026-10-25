@@ -2949,3 +2949,65 @@ msgstr "{0}: نمی‌توان درون‌ریزی را به عنوان {1} تن
 #: frappe/public/js/frappe/file_uploader/FileBrowser.vue:5
 msgid "← Back to upload files"
 msgstr "← بازگشت به آپلود فایل‌ها"
+
+# Screens of iran_base
+
+msgid "Bearer token from the SignalAds (Transmitor) panel"
+msgstr "توکن Bearer از پنل SignalAds (Transmitor)"
+
+msgid "Iran Settings"
+msgstr "تنظیمات ایران"
+
+msgid "Kavenegar"
+msgstr "کاوه‌نگار"
+
+msgid "Kavenegar API Key"
+msgstr "کلید API کاوه‌نگار"
+
+msgid "Kavenegar Sender Number"
+msgstr "شمارهٔ فرستندهٔ کاوه‌نگار"
+
+msgid "Next month"
+msgstr "ماه بعد"
+
+msgid "Next year"
+msgstr "سال بعد"
+
+msgid "Previous month"
+msgstr "ماه قبل"
+
+msgid "Previous year"
+msgstr "سال قبل"
+
+msgid "SMS Provider"
+msgstr "ارائه‌دهندهٔ پیامک"
+
+msgid "Sender line approved in SignalAds"
+msgstr "خط فرستندهٔ تأییدشده در SignalAds"
+
+msgid "Shared settings for the Iran apps. Empty values fall back to the same key in site_config.json."
+msgstr "تنظیمات مشترک برنامه‌های ایران. مقدارهای خالی از همان کلید در site_config.json خوانده می‌شوند."
+
+msgid "Show and enter dates as Jalali on the desk. The database keeps Gregorian dates. Reload the desk after changing it."
+msgstr "تاریخ‌ها را در میز کار به‌صورت شمسی نمایش بده و دریافت کن. پایگاه داده تاریخ میلادی را نگه می‌دارد. پس از تغییر، میز کار را دوباره بارگذاری کنید."
+
+msgid "SignalAds"
+msgstr "SignalAds"
+
+msgid "SignalAds API Token"
+msgstr "توکن API سیگنال‌ادز"
+
+msgid "SignalAds Sender Number"
+msgstr "شمارهٔ فرستندهٔ سیگنال‌ادز"
+
+msgid "Use Jalali Dates"
+msgstr "استفاده از تاریخ شمسی"
+
+msgid "Which service sends SMS for the Iran apps"
+msgstr "پیامک برنامه‌های ایران از کدام سرویس ارسال شود"
+
+msgid "kavenegar"
+msgstr "کاوه‌نگار"
+
+msgid "signalads"
+msgstr "سیگنال‌ادز"
