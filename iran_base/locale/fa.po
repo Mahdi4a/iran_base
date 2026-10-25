@@ -1,29 +1,21 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: crm_iran\n"
+"Project-Id-Version: iran\n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# Strings that had no translation
+
 #: frappe/email/doctype/notification/notification.json:None
-msgid "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>
-<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
-</code></pre>
-"
-msgstr "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>
-<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
-</code></pre>
-"
+msgid "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>\n<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n</code></pre>\n"
+msgstr "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>\n<pre><code class=\"language-python\">doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n</code></pre>\n"
 
 #: frappe/integrations/doctype/webhook/webhook.json:None
-msgid "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>
-<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
-</pre>"
-msgstr "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>
-<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000
-</pre>"
+msgid "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>\n<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n</pre>"
+msgstr "<p><strong>{{ __(\"Condition Examples\") }}:</strong></p>\n<pre>doc.status==\"Open\"<br>doc.due_date==nowdate()<br>doc.total &gt; 40000\n</pre>"
 
 #: frappe/core/doctype/file/file.py:124
 msgid "A folder cannot have a File URL"
@@ -1944,3 +1936,1016 @@ msgstr "{0} {1} برگرداند {2}: {3}"
 #: frappe/website/doctype/web_form/web_form.py:121
 msgid "{0}: Link field cannot reference DocType {1} without Guest read permission"
 msgstr "{0}: فیلد پیوند نمی‌تواند به نوع سند {1} بدون دسترسی خواندن مهمان ارجاع دهد"
+
+# Corrections to existing translations
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:231
+msgid "1 record will be exported"
+msgstr "1 رکورد برون‌بری خواهد شد"
+
+#: frappe/contacts/doctype/address/address.py:207
+msgid "Addresses"
+msgstr "آدرس‌ها"
+
+#: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.json:None
+msgid "Addresses And Contacts"
+msgstr "آدرس‌ها و مخاطبین"
+
+#: frappe/core/doctype/server_script/server_script.json:None
+msgid "After Submit"
+msgstr "پس از ثبت"
+
+#: frappe/public/js/frappe/form/form.js:2336
+msgid "All Submissions"
+msgstr "تمام ارسال‌ها"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:475
+msgid "All customizations will be removed. Please confirm."
+msgstr "تمام سفارشی‌سازی‌ها حذف خواهند شد. لطفا تأیید کنید."
+
+#: frappe/workflow/doctype/workflow/workflow.json:None
+msgid "All possible Workflow States and roles of the workflow. Docstatus Options: 0 is \"Saved\", 1 is \"Submitted\" and 2 is \"Cancelled\""
+msgstr "تمام وضعیت‌ها و نقش‌های ممکن گردش کار. گزینه‌های وضعیت اسناد: ۰ به معنای «ذخیره شده»، ۱ به معنای «ثبت‌شده» و ۲ به معنای «لغو شده» است"
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Allow Consecutive Login Attempts"
+msgstr "اجازه تلاش‌های متوالی برای ورود به سیستم"
+
+#: frappe/core/doctype/doctype/doctype.json:None
+msgid "Allow Import (via Data Import Tool)"
+msgstr "اجازه درون‌ریزی (از طریق ابزار درون‌ریزی داده)"
+
+#: frappe/core/doctype/docfield/docfield.json:None
+msgid "Allow on Submit"
+msgstr "در ثبت مجاز است"
+
+#: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json:None
+msgid "An email to verify your request has been sent to your email address. Please verify your request to complete the process."
+msgstr "ایمیلی برای تأیید درخواست شما به آدرس ایمیل شما ارسال شده است. لطفاً برای تکمیل فرایند، درخواست خود را تأیید کنید."
+
+#: frappe/website/doctype/web_form/web_form.json:None
+msgid "Anonymous responses"
+msgstr "پاسخ‌های ناشناس"
+
+#: frappe/public/js/frappe/list/list_view.js:2254
+msgid "Are you sure you want to clear the assignments?"
+msgstr "آیا مطمئن هستید که می‌خواهید واگذاری‌ها را پاک کنید؟"
+
+#: frappe/public/js/frappe/views/dashboard/dashboard_view.js:268
+msgid "Are you sure you want to reset all customizations?"
+msgstr "آیا مطمئن هستید که می‌خواهید همه سفارشی‌سازی‌ها را بازنشانی کنید؟"
+
+#: frappe/website/doctype/website_slideshow/website_slideshow.js:8
+msgid "Attach files / urls and add in table."
+msgstr "فایل‌ها / آدرس‌ها را پیوست کنید و در جدول اضافه کنید."
+
+#: frappe/custom/report/audit_system_hooks/audit_system_hooks.json:None
+msgid "Audit System Hooks"
+msgstr "قلاب‌های سیستم حسابرسی"
+
+#: frappe/core/workspace/build/build.json:None
+msgid "Automate processes and extend standard functionality using scripts and background jobs"
+msgstr "فرایندها را خودکار کنید و عملکرد استاندارد را با استفاده از اسکریپت‌ها و کارهای پس‌زمینه گسترش دهید"
+
+#: frappe/utils/password_strength.py:124
+msgid "Avoid recent years."
+msgstr "از سال‌های اخیر اجتناب کنید."
+
+#: frappe/core/doctype/server_script/server_script.json:None
+msgid "Before Save (Submitted Document)"
+msgstr "قبل از ذخیره (سند ثبت‌شده)"
+
+#: frappe/core/doctype/server_script/server_script.json:None
+msgid "Before Submit"
+msgstr "قبل از ثبت"
+
+#: frappe/contacts/doctype/address/address.json:None
+msgid "Billing"
+msgstr "فاکتور"
+
+#: frappe/public/js/frappe/form/templates/contact_list.html:27
+msgid "Billing Contact"
+msgstr "مخاطب فاکتور"
+
+#: frappe/core/workspace/build/build.json:None
+msgid "Build your own reports, print formats, and dashboards. Create personalized workspaces for easier navigation"
+msgstr "گزارش‌ها، قالب‌های چاپ و داشبوردهای خودتان را بسازید. برای پیمایش آسان‌تر، فضای کارهای شخصی‌سازی‌شده ایجاد کنید"
+
+#: frappe/public/js/frappe/list/bulk_operations.js:131
+msgid "Bulk PDF Export"
+msgstr "برون‌بری PDF انبوه"
+
+#: frappe/model/workflow.py:320
+msgid "Bulk {0} is enqueued in background."
+msgstr "انبوه {0} در پس‌زمینه در صف قرار می‌گیرد."
+
+#: frappe/website/doctype/website_theme/website_theme.json:None
+msgid "Button Shadows"
+msgstr "سایه‌های دکمه"
+
+#: frappe/core/doctype/data_import/data_import.js:180
+msgid "Cancel Import"
+msgstr "لغو درون‌ریزی"
+
+#: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json:None
+msgid "Cancelled"
+msgstr "لغوشده"
+
+#: frappe/model/base_document.py:1304
+msgid "Cannot Update After Submit"
+msgstr "پس از ثبت امکان به‌روزرسانی وجود ندارد"
+
+#: frappe/desk/doctype/workspace/workspace.py:307
+msgid "Cannot create private workspace of other users"
+msgstr "نمی‌توان فضای کار خصوصی از سایر کاربران ایجاد کرد"
+
+#: frappe/public/js/frappe/form/grid.js:1490
+msgid "Cannot import table with more than 5000 rows."
+msgstr "نمی‌توان جدولی با بیش از ۵۰۰۰ ردیف را درون‌ریزی کرد."
+
+#: frappe/core/doctype/data_export/exporter.py:141
+msgid "Column Labels:"
+msgstr "برچسب‌های ستون:"
+
+#: frappe/public/js/frappe/widgets/onboarding_widget.js:525
+msgid "Congratulations on completing the module setup. If you want to learn more you can refer to the documentation <a target=\"_blank\" href=\"{0}\">here</a>."
+msgstr "بابت تکمیل راه‌اندازی ماژول تبریک می‌گویم. اگر می‌خواهید بیشتر بدانید، می‌توانید به مستندات <a target=\"_blank\" href=\"{0}\">اینجا</a> مراجعه کنید."
+
+#: frappe/integrations/doctype/oauth_client/oauth_client.json:None
+msgid "Contacts"
+msgstr "مخاطبان"
+
+#: frappe/public/js/frappe/widgets/widget_dialog.js:540
+msgid "Count Customizations"
+msgstr "تعداد سفارشی‌سازی‌ها"
+
+#: frappe/core/doctype/communication/communication.js:117
+msgid "Create"
+msgstr "ایجاد"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Custom Delimiters"
+msgstr "جداکننده‌های سفارشی"
+
+#: frappe/core/doctype/data_export/data_export.json:None
+msgid "Data Export"
+msgstr "برون‌بری داده‌ها"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Data Import"
+msgstr "درون‌ریزی داده"
+
+#: frappe/core/doctype/data_import_log/data_import_log.json:None
+msgid "Data Import Log"
+msgstr "لاگ درون‌ریزی داده"
+
+#: frappe/core/doctype/data_export/exporter.py:175
+msgid "Data Import Template"
+msgstr "الگوی درون‌ریزی داده"
+
+#: frappe/core/doctype/data_import/data_import.py:78
+msgid "Data Import is not allowed for {0}. Enable 'Allow Import' in DocType settings."
+msgstr "درون‌ریزی داده‌ها برای {0} مجاز نیست. «اجازه درون‌ریزی» را در تنظیمات DocType فعال کنید."
+
+#: frappe/core/doctype/user/user.json:None
+msgid "Default Workspace"
+msgstr "فضای کار پیش‌فرض"
+
+#: frappe/workflow/doctype/workflow_transition/workflow_transition.json:None
+msgid "Defines actions on states and the next step and allowed roles."
+msgstr "اقدامات مربوط به وضعیت‌ها و مرحله بعدی و نقش‌های مجاز را تعریف می‌کند."
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Defines how long exported reports sent via email are kept in the system. Older files will be automatically deleted."
+msgstr "مدت زمان نگهداری گزارش‌های برون‌بری شده از طریق ایمیل در سیستم را تعیین می‌کند. فایل‌های قدیمی‌تر به طور خودکار حذف می‌شوند."
+
+#: frappe/workflow/doctype/workflow/workflow.json:None
+msgid "Defines workflow states and rules for a document."
+msgstr "وضعیت‌ها و قوانین گردش کار را برای یک سند تعریف می‌کند."
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Delete Background Exported Reports After (Hours)"
+msgstr "حذف گزارش‌های برون‌بری شده در پس‌زمینه پس از (برحسب ساعت)"
+
+#: frappe/desk/doctype/workspace_link/workspace_link.json:None
+msgid "Dependencies"
+msgstr "وابستگی‌ها"
+
+#: frappe/integrations/doctype/webhook/webhook.py:83
+msgid "DocType must be Submittable for the selected Doc Event"
+msgstr "DocType باید برای رویداد Doc انتخابی قابل ثبت باشد"
+
+#: frappe/permissions.py:160
+msgid "Document Type is not importable"
+msgstr "نوع سند قابل درون‌ریزی نیست"
+
+#: frappe/public/js/frappe/data_import/import_preview.js:274
+msgid "Don't Import"
+msgstr "درون‌ریزی نکنید"
+
+#: frappe/desk/page/backups/backups.js:14
+msgid "Download Files Backup"
+msgstr "دانلود فایل‌های پشتیبان"
+
+#: frappe/public/js/frappe/widgets/widget_dialog.js:42
+msgid "Edit Links"
+msgstr "ویرایش لینک‌ها"
+
+#: frappe/email/queue.py:161
+msgid "Email Queue flushing aborted due to too many failures."
+msgstr "فلاشینگ صف ایمیل به دلیل خرابی‌های زیاد متوقف شد."
+
+#: frappe/desk/doctype/system_health_report/system_health_report.json:None
+msgid "Emails"
+msgstr "ایمیل‌ها"
+
+#: frappe/email/queue.py:138
+msgid "Emails are muted"
+msgstr "ایمیل‌ها بی‌صدا هستند"
+
+#: frappe/core/doctype/custom_docperm/custom_docperm.json:None
+msgid "Export"
+msgstr "برون‌بری"
+
+#: frappe/public/js/frappe/list/list_view.js:2444
+msgctxt "Button in list view actions menu"
+msgid "Export"
+msgstr "برون‌بری"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:249
+msgid "Export 1 record"
+msgstr "برون‌بری 1 رکورد"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:275
+msgid "Export Custom Permissions"
+msgstr "برون‌بری مجوزهای سفارشی"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:255
+msgid "Export Customizations"
+msgstr "برون‌بری سفارشی‌سازی‌ها"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:14
+msgid "Export Data"
+msgstr "برون‌بری داده‌ها"
+
+#: frappe/core/doctype/access_log/access_log.json:None
+msgid "Export From"
+msgstr "برون‌بری از"
+
+#: frappe/core/doctype/data_import/data_import.js:544
+msgid "Export Import Log"
+msgstr "لاگ درون‌ریزی برون‌بری"
+
+#: frappe/public/js/frappe/views/reports/report_utils.js:245
+msgctxt "Export report"
+msgid "Export Report: {0}"
+msgstr "گزارش برون‌بری: {0}"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:26
+msgid "Export Type"
+msgstr "نوع برون‌بری"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:1744
+msgid "Export all matching rows?"
+msgstr "برون‌بری تمام ردیف‌های منطبق؟"
+
+#: frappe/public/js/frappe/views/reports/report_view.js:1754
+msgid "Export all {0} rows?"
+msgstr "برون‌بری همه {0} ردیف؟"
+
+#: frappe/public/js/frappe/views/file/file_view.js:148
+msgid "Export as zip"
+msgstr "برون‌بری به صورت zip"
+
+#: frappe/public/js/frappe/views/reports/report_utils.js:184
+msgid "Export in Background"
+msgstr "برون‌بری در پس‌زمینه"
+
+#: frappe/public/js/frappe/utils/tools.js:11
+msgid "Export not allowed. You need {0} role to export."
+msgstr "برون‌بری مجاز نیست برای برون‌بری به نقش {0} نیاز دارید."
+
+#: frappe/custom/doctype/customize_form/customize_form.js:285
+msgid "Export only customizations assigned to the selected module.<br><span class='text-muted'><strong>Note:</strong> You must set the <em>Module (for export)</em> field on Custom Field and Property Setter records before applying this filter.</span><p class='alert alert-warning'> <strong>Warning:</strong> Customizations from other modules will be excluded.</p>"
+msgstr "فقط سفارشی‌سازی‌های اختصاص داده شده به ماژول انتخاب شده را برون‌بری کنید.<br><span class='text-muted'><strong>توجه:</strong> قبل از اعمال این فیلتر، باید فیلد <em>ماژول (برای برون‌بری)</em> را در رکوردهای فیلد سفارشی و تنظیم کننده ویژگی تنظیم کنید.</span><p class='alert alert-warning'> <strong>هشدار:</strong> سفارشی‌سازی‌ها از ماژول‌های دیگر حذف خواهند شد.</p>"
+
+#: frappe/core/doctype/data_export/data_export.json:None
+msgid "Export the data without any header notes and column descriptions"
+msgstr "برون‌بری داده‌ها بدون یادداشت‌های سربرگ و توضیحات ستون"
+
+#: frappe/core/doctype/data_export/data_export.json:None
+msgid "Export without main header"
+msgstr "برون‌بری بدون سربرگ اصلی"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:251
+msgid "Export {0} records"
+msgstr "برون‌بری {0} رکورد"
+
+#: frappe/desk/doctype/system_health_report/system_health_report.json:None
+msgid "Failed Emails"
+msgstr "ایمیل‌های ناموفق"
+
+#: frappe/utils/synchronization.py:46
+msgid "Failed to aquire lock: {}. Lock may be held by another process."
+msgstr "دریافت قفل ناموفق بود: {}. قفل ممکن است توسط فرایند دیگری حفظ شود."
+
+#: frappe/model/virtual_doctype.py:63
+msgid "Failed to import virtual doctype {}, is controller file present?"
+msgstr "درون‌ریزی doctype مجازی {} انجام نشد، آیا فایل کنترل کننده وجود دارد؟"
+
+#: frappe/database/schema.py:398
+msgid "Fieldname {0} cannot have special characters like {1}"
+msgstr "نام فیلد {0} نمی‌تواند نویسه‌های خاصی مانند {1} داشته باشد"
+
+#: frappe/core/doctype/system_settings/system_settings.json:None
+msgid "Files"
+msgstr "فایل‌ها"
+
+#: frappe/website/doctype/web_page/web_page.js:97
+msgid "Frappe page builder using components"
+msgstr "صفحه ساز Frappe با استفاده از کامپوننت‌ها"
+
+#: frappe/core/doctype/document_naming_settings/document_naming_settings.json:None
+msgid "Get a preview of generated names with a series."
+msgstr "دریافت پیش‌نمایش نام‌های تولید شده با یک سری."
+
+#: frappe/public/js/frappe/form/controls/duration.js:29
+msgctxt "Duration"
+msgid "Hours"
+msgstr "ساعت‌ها"
+
+#: frappe/core/workspace/welcome_workspace/welcome_workspace.json:None
+msgid "I guess you don't have access to any workspace yet, but you can create one just for yourself. Click on the <b>Create Workspace</b> button to create one.<br>"
+msgstr "حدس می‌زنم هنوز به هیچ فضای کار دسترسی ندارید، اما می‌توانید یکی برای خودتان ایجاد کنید. برای ایجاد آن، روی دکمه‌ی <b>ایجاد فضای کار</b> کلیک کنید.<br>"
+
+#: frappe/desk/page/desktop/desktop.js:1157
+msgid "Icon is not correctly configured please check the workspace sidebar to it"
+msgstr "آیکون به درستی پیکربندی نشده است، لطفاً نوار کناری فضای کار را بررسی کنید"
+
+#: frappe/core/doctype/user/user.json:None
+msgid "If left empty, the default workspace will be the last visited workspace"
+msgstr "اگر خالی گذاشته شود، فضای کار پیش‌فرض آخرین فضای کار بازدید شده خواهد بود"
+
+#: frappe/core/doctype/custom_docperm/custom_docperm.json:None
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: frappe/public/js/frappe/list/list_view.js:1976
+msgctxt "Button in list view menu"
+msgid "Import"
+msgstr "درون‌ریزی"
+
+#: frappe/email/doctype/email_group/email_group.js:14
+msgid "Import Email From"
+msgstr "درون‌ریزی ایمیل از"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Import File"
+msgstr "درون‌ریزی فایل"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Import File Errors and Warnings"
+msgstr "خطاها و هشدارهای فایل درون‌ریزی"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Import Log"
+msgstr "لاگ درون‌ریزی"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Import Log Preview"
+msgstr "پیش‌نمایش لاگ درون‌ریزی"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Import Preview"
+msgstr "پیش‌نمایش درون‌ریزی"
+
+#: frappe/core/doctype/data_import/data_import.js:41
+msgid "Import Progress"
+msgstr "پیشرفت درون‌ریزی"
+
+#: frappe/email/doctype/email_group/email_group.js:8
+msgid "Import Subscribers"
+msgstr "درون‌ریزی مشترکین"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Import Type"
+msgstr "نوع درون‌ریزی"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Import Warnings"
+msgstr "هشدارهای درون‌ریزی"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Import from Google Sheets"
+msgstr "درون‌ریزی از Google Sheets"
+
+#: frappe/core/doctype/data_import/importer.py:627
+msgid "Import template should be of type .csv, .xlsx or .xls"
+msgstr "الگوی درون‌ریزی باید از نوع csv.، xlsx. یا xls. باشد"
+
+#: frappe/core/doctype/data_import/importer.py:497
+msgid "Import template should contain a Header and atleast one row."
+msgstr "الگوی درون‌ریزی باید حاوی سربرگ و حداقل یک ردیف باشد."
+
+#: frappe/core/doctype/data_import/data_import.js:171
+msgid "Import timed out, please re-try."
+msgstr "زمان درون‌ریزی تمام شد، لطفاً دوباره امتحان کنید."
+
+#: frappe/core/doctype/data_import/data_import.py:73
+msgid "Importing {0} is not allowed."
+msgstr "درون‌ریزی {0} مجاز نیست."
+
+#: frappe/integrations/doctype/google_contacts/google_contacts.js:19
+msgid "Importing {0} of {1}"
+msgstr "در حال درون‌ریزی {0} از {1}"
+
+#: frappe/core/doctype/data_import/data_import.js:35
+msgid "Importing {0} of {1}, {2}"
+msgstr "در حال درون‌ریزی {0} از {1}، {2}"
+
+#: frappe/public/js/frappe/views/treeview.js:120
+msgid "Include Disabled"
+msgstr "شامل غیرفعال‌ها"
+
+#: frappe/desk/doctype/system_health_report/system_health_report.json:None
+msgid "Incoming Emails (Last 7 days)"
+msgstr "ایمیل‌های دریافتی (7 روز گذشته)"
+
+#: frappe/core/doctype/user/user.json:None
+msgid "Interests"
+msgstr "علاقمندی‌ها"
+
+#: frappe/core/doctype/data_import/importer.py:468
+msgid "Invalid or corrupted content for import"
+msgstr "محتوای نامعتبر یا خراب برای درون‌ریزی"
+
+#: frappe/app.py:382
+msgid "Invalid request arguments"
+msgstr "آرگومان‌های درخواست نامعتبر"
+
+#: frappe/core/doctype/data_import/importer.py:445
+msgid "Invalid template file for import"
+msgstr "فایل الگو برای درون‌ریزی نامعتبر است"
+
+#: frappe/core/doctype/doctype/doctype.json:None
+msgid "Is Submittable"
+msgstr "قابل ثبت است"
+
+#: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.json:None
+msgid "Items"
+msgstr "کالاها"
+
+#: frappe/utils/password_strength.py:111
+msgid "Let's avoid repeated words and characters"
+msgstr "از کلمات و شخصیت‌های تکراری خودداری کنیم"
+
+#: frappe/core/doctype/patch_log/patch_log.json:None
+msgid "List of patches executed"
+msgstr "لیست پچ‌های اجرا شده"
+
+#: frappe/core/doctype/data_import/data_import.js:283
+msgid "Loading import file..."
+msgstr "در حال بارگیری فایل درون‌ریزی..."
+
+#: frappe/public/js/frappe/widgets/onboarding_widget.js:317
+msgid "Looks like you didn't change the value"
+msgstr "به نظر می‌رسد شما مقدار را تغییر نداده اید"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:372
+msgid "Looks like you haven’t received any notifications."
+msgstr "به نظر می‌رسد هیچ اعلانی دریافت نکرده‌اید."
+
+#: frappe/public/js/billing.bundle.js:81
+msgid "Manage Billing"
+msgstr "مدیریت فاکتور"
+
+#: frappe/email/doctype/notification/notification.json:None
+msgid "Message Examples"
+msgstr "نمونه‌های پیام"
+
+#: frappe/core/doctype/data_import_log/data_import_log.json:None
+msgid "Messages"
+msgstr "پیام‌ها"
+
+#: frappe/core/doctype/server_script/server_script.json:None
+msgid "Module (for export)"
+msgstr "ماژول (برای برون‌بری)"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:263
+msgid "Module to Export"
+msgstr "ماژول برای برون‌بری"
+
+#: frappe/model/naming.py:517
+msgid "Name cannot contain special characters like {0}"
+msgstr "نام نمی‌تواند شامل نویسه‌های خاصی مانند {0} باشد"
+
+#: frappe/desk/doctype/workspace/workspace.py:370
+msgid "Need Workspace Manager role to edit private workspace of other users."
+msgstr "برای ویرایش فضای کار خصوصی سایر کاربران به نقش مدیر فضای کار نیاز دارید."
+
+#: frappe/public/js/frappe/widgets/widget_dialog.js:62
+msgid "New Links"
+msgstr "لینک‌های جدید"
+
+#: frappe/public/js/frappe/views/workspace/workspace.js:423
+msgid "New Workspace"
+msgstr "فضای کار جدید"
+
+#: frappe/utils/change_log.py:414
+msgid "New updates are available"
+msgstr "به‌روزرسانی‌های جدید در دسترس هستند"
+
+#: frappe/desk/query_report.py:495
+msgid "No data to export"
+msgstr "داده ای برای برون‌بری نیست"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:229
+msgid "No records will be exported"
+msgstr "هیچ رکوردی برون‌بری نخواهد شد"
+
+#: frappe/desk/doctype/workspace/workspace.json:None
+msgid "Number Cards"
+msgstr "کارت‌های اعداد"
+
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json:None
+msgid "On Hold"
+msgstr "نگه‌داشته‌شده"
+
+#: frappe/desk/doctype/workspace/workspace.js:32
+msgid "Only Workspace Manager can edit public workspaces"
+msgstr "فقط Workspace Manager می‌تواند فضای کارهای عمومی را ویرایش کند"
+
+#: frappe/desk/doctype/system_health_report/system_health_report.json:None
+msgid "Outgoing Emails (Last 7 days)"
+msgstr "ایمیل‌های خروجی (7 روز گذشته)"
+
+#: frappe/printing/page/print/print.js:683
+msgid "PDF generation may not work as expected."
+msgstr "تولید PDF ممکن است آنطور که انتظار می‌رود کار نکند."
+
+#: frappe/core/doctype/package_import/package_import.json:None
+msgid "Package Import"
+msgstr "درون‌ریزی بسته"
+
+#: frappe/core/workspace/build/build.json:None
+msgid "Packages"
+msgstr "بسته‌ها"
+
+#: frappe/core/workspace/build/build.json:None
+msgid "Packages are lightweight apps (collection of Module Defs) that can be created, imported, or released right from the UI"
+msgstr "بسته‌ها برنامه‌های سبک‌وزن (مجموعه‌ای از Module Defs) هستند که می‌توانند مستقیماً از رابط کاربری ایجاد، درون‌ریزی یا منتشر شوند"
+
+#: frappe/automation/doctype/automation_action/automation_action.json:None
+msgid "Parameters"
+msgstr "مولفه‌های"
+
+#: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json:None
+msgid "Pending"
+msgstr "در انتظار"
+
+#: frappe/public/js/frappe/form/form.js:903
+msgid "Permanently Submit {0}?"
+msgstr "برای همیشه {0} ثبت شود؟"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:5
+msgid "Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions."
+msgstr "مجوزها روی نقش‌ها و انواع اسناد (به نام DocTypes) با تنظیم حقوقی مانند خواندن، نوشتن، ایجاد، حذف، ارسال، لغو، اصلاح، گزارش، درون‌ریزی، برون‌بری، چاپ، ایمیل و تنظیم مجوزهای کاربر تنظیم می‌شوند."
+
+#: frappe/desk/doctype/workspace/workspace.js:23
+msgid "Please click Edit on the Workspace for best results"
+msgstr "برای بهترین نتیجه، لطفاً روی ویرایش در فضای کار کلیک کنید"
+
+#: frappe/core/doctype/data_import/data_import.js:164
+msgid "Please click on 'Export Errored Rows', fix the errors and import again."
+msgstr "لطفاً روی «برون‌بری ردیف‌های دارای خطا» کلیک کنید، خطاها را برطرف کرده و دوباره درون‌ریزی کنید."
+
+#: frappe/twofactor.py:283
+msgid "Please click on the following link and follow the instructions on the page. {0}"
+msgstr "لطفا روی لینک زیر کلیک کنید و دستورالعمل‌های موجود در صفحه را دنبال کنید. {0}"
+
+#: frappe/desk/doctype/notification_log/notification_log.js:51
+msgid "Please enable pop-ups"
+msgstr "لطفا پنجره‌های بازشو را فعال کنید"
+
+#: frappe/public/js/frappe/microtemplate.js:162
+msgid "Please enable pop-ups in your browser"
+msgstr "لطفا پنجره‌های پاپ آپ را در مرورگر خود فعال کنید"
+
+#: frappe/utils/password_strength.py:187
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much."
+msgstr "جایگزین‌های قابل پیش بینی مانند '@' به جای 'a' چندان کمکی نمی‌کند."
+
+#: frappe/contacts/doctype/address/address.json:None
+msgid "Preferred Billing Address"
+msgstr "آدرس فاکتور ترجیحی"
+
+#: frappe/core/doctype/doctype/doctype.json:None
+msgid "Protect Attached Files"
+msgstr "محافظت از فایل‌های پیوست شده"
+
+#: frappe/desk/doctype/system_health_report/system_health_report.json:None
+msgid "Public Files (MB)"
+msgstr "فایل‌های عمومی (مگابایت)"
+
+#: frappe/utils/password_strength.py:123
+msgid "Recent years are easy to guess."
+msgstr "حدس زدن سال‌های اخیر آسان است."
+
+#: frappe/public/js/frappe/file_uploader/FilePreview.vue:70
+msgid "Remove"
+msgstr "حذف"
+
+#: frappe/core/doctype/doctype/doctype.py:715
+msgid "Renamed files and replaced code in controllers, please check!"
+msgstr "تغییر نام فایل‌ها و جایگزینی کد در کنترلرها، لطفا بررسی کنید!"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:2181
+msgid "Report with more than 10 columns looks better in Landscape mode."
+msgstr "گزارش با بیش از 10 ستون در حالت افقی بهتر به نظر می‌رسد."
+
+#: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json:None
+msgid "Represents the states allowed in one document and role assigned to change the state."
+msgstr "نشان دهنده وضعیت‌های مجاز در یک سند و نقش تعیین شده برای تغییر وضعیت است."
+
+#: frappe/core/doctype/sms_log/sms_log.json:None
+msgid "Requested Numbers"
+msgstr "شماره‌های درخواستی"
+
+#: frappe/custom/doctype/customize_form/customize_form.js:145
+msgid "Reset All Customizations"
+msgstr "بازنشانی همه سفارشی‌سازی‌ها"
+
+#: frappe/public/js/frappe/color_picker/color_picker.js:23
+msgid "SWATCHES"
+msgstr "نمونه‌ها"
+
+#: frappe/public/js/frappe/views/dashboard/dashboard_view.js:63
+msgid "Save Customizations"
+msgstr "سفارشی‌سازی‌ها را ذخیره کنید"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:363
+msgid "See all Activity"
+msgstr "مشاهده تمام فعالیت‌ها"
+
+#: frappe/website/doctype/web_form/templates/web_form.html:171
+msgctxt "Button in web form"
+msgid "See previous responses"
+msgstr "پاسخ‌های قبلی را ببینید"
+
+#: frappe/core/doctype/custom_docperm/custom_docperm.json:None
+msgid "Select"
+msgstr "انتخاب"
+
+#: frappe/desk/doctype/form_tour/form_tour.json:None
+msgid "Select Workspace"
+msgstr "انتخاب فضای کار"
+
+#: frappe/desk/page/backups/backups.js:8
+msgid "Set Number of Backups"
+msgstr "تنظیم تعداد بک آپ‌ها"
+
+#: frappe/core/doctype/doctype/doctype.json:None
+msgid "Setup"
+msgstr "راه‌اندازی"
+
+#: frappe/desk/doctype/kanban_board/kanban_board.json:None
+msgid "Show Labels"
+msgstr "نمایش برچسب‌ها"
+
+#: frappe/desk/doctype/system_console/system_console.json:None
+msgid "Show Processlist"
+msgstr "نمایش لیست فرایندها"
+
+#: frappe/public/js/frappe/views/calendar/calendar.js:180
+msgid "Show Weekends"
+msgstr "نمایش آخر هفته‌ها"
+
+#: frappe/public/js/frappe/form/footer/form_timeline.js:71
+msgid "Show all activity"
+msgstr "نمایش تمام فعالیت‌ها"
+
+#: frappe/core/doctype/data_import/data_import.js:111
+msgid "Start Import"
+msgstr "شروع درون‌ریزی"
+
+#: frappe/contacts/report/addresses_and_contacts/addresses_and_contacts.py:40
+msgid "State"
+msgstr "استان"
+
+#: frappe/contacts/doctype/address/address.json:None
+msgid "State/Province"
+msgstr "استان"
+
+#: frappe/core/doctype/custom_docperm/custom_docperm.json:None
+msgid "Submit"
+msgstr "ثبت"
+
+#: frappe/public/js/frappe/list/list_view.js:2366
+msgctxt "Button in list view actions menu"
+msgid "Submit"
+msgstr "ثبت"
+
+#: frappe/website/doctype/web_form/templates/web_form.html:57
+msgctxt "Button in web form"
+msgid "Submit"
+msgstr "ثبت"
+
+#: frappe/public/js/frappe/ui/dialog.js:74
+msgctxt "Primary action in dialog"
+msgid "Submit"
+msgstr "ثبت"
+
+#: frappe/public/js/frappe/ui/messages.js:103
+msgctxt "Primary action of prompt dialog"
+msgid "Submit"
+msgstr "ثبت"
+
+#: frappe/public/js/frappe/desk.js:236
+msgctxt "Submit password for Email Account"
+msgid "Submit"
+msgstr "ثبت"
+
+#: frappe/core/doctype/data_import/data_import.json:None
+msgid "Submit After Import"
+msgstr "ثبت پس از درون‌ریزی"
+
+#: frappe/core/page/permission_manager/permission_manager_help.html:106
+msgid "Submit an Issue"
+msgstr "ثبت یک مسئله"
+
+#: frappe/website/doctype/web_form/web_form.json:None
+msgid "Submit button label"
+msgstr "برچسب دکمه ثبت"
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.json:None
+msgid "Submit on Creation"
+msgstr "ثبت در هنگام ایجاد"
+
+#: frappe/public/js/frappe/widgets/onboarding_widget.js:395
+msgid "Submit this document to complete this step."
+msgstr "برای تکمیل این مرحله این سند را ثبت کنید."
+
+#: frappe/public/js/frappe/form/form.js:1272
+msgid "Submit this document to confirm"
+msgstr "برای تأیید، این سند را ثبت کنید"
+
+#: frappe/public/js/frappe/list/list_view.js:2371
+msgctxt "Title of confirmation dialog"
+msgid "Submit {0} documents?"
+msgstr "{0} سند ثبت شود؟"
+
+#: frappe/core/doctype/comment/comment.json:None
+msgid "Submitted"
+msgstr "ثبت‌شده"
+
+#: frappe/workflow/doctype/workflow/workflow.py:108
+msgid "Submitted Document cannot be converted back to draft. Transition row {0}"
+msgstr "سند ثبت‌شده را نمی‌توان به پیش‌نویس تبدیل کرد. ردیف انتقال {0}"
+
+#: frappe/desk/doctype/bulk_update/bulk_update.py:98
+msgid "Submitting {0}"
+msgstr "در حال ثبت {0}"
+
+#: frappe/core/doctype/data_import/data_import.js:451
+msgid "Successfully imported {0}"
+msgstr "{0} با موفقیت درون‌ریزی شد"
+
+#: frappe/core/doctype/data_import/data_import.js:150
+msgid "Successfully imported {0} out of {1} records."
+msgstr "{0} رکورد از {1} رکورد با موفقیت درون‌ریزی شد."
+
+#: frappe/public/js/frappe/views/translation_manager.js:22
+msgid "Successfully updated translations"
+msgstr "ترجمه‌ها با موفقیت به روز شدند"
+
+#: frappe/public/js/frappe/views/workspace/blocks/paragraph.js:78
+msgid "Templates"
+msgstr "قالب‌ها"
+
+#: frappe/core/doctype/data_import/importer.py:1032
+msgid "The column {0} has {1} different date formats. Automatically setting {2} as the default format as it is the most common. Please change other values in this column to this format."
+msgstr "ستون {0} دارای {1} قالب‌های مختلف تاریخ است. تنظیم خودکار {2} به عنوان قالب پیش‌فرض، زیرا رایج‌ترین فرمت است. لطفاً مقادیر دیگر این ستون را به این قالب تغییر دهید."
+
+#: frappe/website/doctype/web_page/web_page.js:125
+msgid "The meta description is an HTML attribute that provides a brief summary of a web page. Search engines such as Google often display the meta description in search results, which can influence click-through rates."
+msgstr "توضیحات متا یک ویژگی HTML است که خلاصه ای از یک صفحه وب را ارائه می‌دهد. موتورهای جستجو مانند گوگل اغلب توضیحات متا را در نتایج جستجو نشان می‌دهند که می‌تواند بر نرخ کلیک تأثیر بگذارد."
+
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:399
+msgid "The process for deletion of {0} data associated with {1} has been initiated."
+msgstr "فرایند حذف {0} داده‌های مرتبط با {1} آغاز شده است."
+
+#: frappe/workflow/doctype/workflow/workflow.js:129
+msgid "There are documents which have workflow states that do not exist in this Workflow. It is recommended that you add these states to the Workflow and change their states before removing these states."
+msgstr "اسنادی وجود دارند که حالت‌های گردش کار دارند که در این گردش کار وجود ندارند. توصیه می‌شود قبل از حذف این حالت‌ها این حالت‌ها را به Workflow اضافه کنید و حالت‌های آنها را تغییر دهید."
+
+#: frappe/core/doctype/data_export/exporter.py:163
+msgid "There is no data to be exported"
+msgstr "هیچ داده ای برای برون‌بری نیست"
+
+#: frappe/printing/doctype/network_printer_settings/network_printer_settings.py:31
+msgid "This feature can not be used as dependencies are missing.\n				Please contact your system manager to enable this by installing pycups!"
+msgstr "این ویژگی را نمی‌توان استفاده کرد زیرا وابستگی‌ها یافت نشدند.\n				لطفا با مدیر سیستم خود تماس بگیرید تا با نصب pycups این قابلیت را فعال کند!"
+
+#: frappe/website/doctype/web_page/web_page.js:71
+msgid "This title will be used as the title of the webpage as well as in meta tags"
+msgstr "این عنوان به عنوان عنوان صفحه وب و همچنین در متا تگ‌ها استفاده می‌شود"
+
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:419
+msgid "Time series based on is required to create a dashboard chart"
+msgstr "برای ایجاد نمودار داشبورد سری‌های زمانی بر اساس مورد نیاز است"
+
+#: frappe/rate_limiter.py:101
+msgid "Too Many Requests"
+msgstr "درخواست‌های خیلی زیاد"
+
+#: frappe/email/doctype/email_account/email_account.json:None
+msgid "Total number of emails to sync in initial sync process"
+msgstr "تعداد کل ایمیل هایی که در فرایند همگام سازی اولیه باید همگام شوند"
+
+#: frappe/public/js/frappe/views/translation_manager.js:46
+msgid "Translations"
+msgstr "ترجمه‌ها"
+
+#: frappe/utils/password_strength.py:106
+msgid "Try to avoid repeated words and characters"
+msgstr "سعی کنید از کلمات و شخصیت‌های تکراری خودداری کنید"
+
+#: frappe/public/js/frappe/views/file/file_view.js:119
+msgid "Unzipping files..."
+msgstr "از حالت فشرده خارج کردن فایل‌ها..."
+
+#: frappe/public/js/frappe/views/translation_manager.js:13
+msgid "Update Translations"
+msgstr "به‌روزرسانی ترجمه‌ها"
+
+#: frappe/email/doctype/email_queue/email_queue_list.js:49
+msgid "Updating Email Queue Statuses. The emails will be picked up in the next scheduled run."
+msgstr "به‌روزرسانی وضعیت‌های صف ایمیل. ایمیل‌ها در اجرای زمان‌بندی شده بعدی دریافت خواهند شد."
+
+#: frappe/desk/doctype/workspace/workspace.py:310
+msgid "User {0} does not have the permission to create a Workspace."
+msgstr "کاربر {0} مجوز ایجاد فضای کار را ندارد."
+
+#: frappe/public/js/frappe/desk.js:163
+msgid "Using this console may allow attackers to impersonate you and steal your information. Do not enter or paste code that you do not understand."
+msgstr "استفاده از این کنسول ممکن است به مهاجمان اجازه دهد که شما را جعل کنند و اطلاعات شما را بدزدند. کدی را که متوجه نمی‌شوید وارد یا جایگذاری نکنید."
+
+#: frappe/custom/doctype/customize_form/customize_form.js:230
+msgid "Warning: DATA LOSS IMMINENT! Proceeding will permanently delete following database columns from doctype {0}:"
+msgstr "هشدار: از دست دادن داده‌ها قریب‌الوقوع است! ادامه‌ی این فرایند، ستون‌های پایگاه داده‌ی زیر را از doctype {0} به طور دائم حذف خواهد کرد:"
+
+#: frappe/desk/doctype/workspace/workspace.js:34
+msgid "We do not allow editing of this document. Simply click the Edit button on the workspace page to make your workspace editable and customize it as you wish"
+msgstr "ما اجازه ویرایش این سند را نمی‌دهیم. به سادگی روی دکمه ویرایش در صفحه فضای کار کلیک کنید تا فضای کار شما قابل ویرایش باشد و آن را به دلخواه سفارشی‌سازی کنید."
+
+#: frappe/core/workspace/welcome_workspace/welcome_workspace.json:None
+msgid "Welcome Workspace"
+msgstr "فضای کار خوش آمدید"
+
+#: frappe/public/js/frappe/views/workspace/workspace.js:696
+msgid "Welcome to the {0} workspace"
+msgstr "به فضای کار {0} خوش آمدید"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:78
+msgid "What's New"
+msgstr "تازه‌ها"
+
+#: frappe/printing/page/print_format_builder/print_format_builder_column_selector.html:2
+msgid "Widths can be set in px or %."
+msgstr "عرض‌ها را می‌توان بر حسب px یا % تنظیم کرد."
+
+#: frappe/printing/page/print_format_builder/print_format_builder.js:426
+msgid "Will only be shown if section headings are enabled"
+msgstr "فقط در صورتی نشان داده می‌شود که سرفصل‌های بخش فعال باشد"
+
+#: frappe/core/doctype/user/user.json:None
+msgid "Workspace"
+msgstr "فضای کار"
+
+#: frappe/public/js/frappe/router.js:181
+msgid "Workspace <b>{0}</b> does not exist"
+msgstr "فضای کار <b>{0}</b> وجود ندارد"
+
+#: frappe/desk/doctype/workspace_chart/workspace_chart.json:None
+msgid "Workspace Chart"
+msgstr "نمودار فضای کار"
+
+#: frappe/desk/doctype/workspace_custom_block/workspace_custom_block.json:None
+msgid "Workspace Custom Block"
+msgstr "بلوک سفارشی فضای کار"
+
+#: frappe/desk/doctype/workspace_link/workspace_link.json:None
+msgid "Workspace Link"
+msgstr "پیوند فضای کار"
+
+#: frappe/core/doctype/domain/domain.json:None
+msgid "Workspace Manager"
+msgstr "مدیر فضای کار"
+
+#: frappe/desk/doctype/workspace_number_card/workspace_number_card.json:None
+msgid "Workspace Number Card"
+msgstr "کارت شماره فضای کار"
+
+#: frappe/desk/doctype/workspace_quick_list/workspace_quick_list.json:None
+msgid "Workspace Quick List"
+msgstr "فهرست سریع فضای کار"
+
+#: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json:None
+msgid "Workspace Shortcut"
+msgstr "میانبر فضای کار"
+
+#: frappe/desk/doctype/desktop_icon/desktop_icon.js:17
+msgid "Workspace Sidebar"
+msgstr "نوار کناری فضای کار"
+
+#: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json:None
+msgid "Workspace Sidebar Item"
+msgstr "آیتم نوار کناری فضای کار"
+
+#: frappe/desk/doctype/workspace/workspace.js:58
+msgid "Workspace added to desktop"
+msgstr "فضای کار به دسکتاپ اضافه شد"
+
+#: frappe/public/js/frappe/views/workspace/workspace.js:575
+msgid "Workspace {0} created"
+msgstr "فضای کار {0} ایجاد شد"
+
+#: frappe/core/doctype/data_import/exporter.py:132
+msgid "You are not allowed to export {} doctype"
+msgstr "شما مجاز به برون‌بری {} doctype نیستید"
+
+#: frappe/public/js/frappe/views/communication.js:849
+msgid "You are not allowed to send emails related to this document"
+msgstr "شما مجاز به ارسال ایمیل‌های مرتبط با این سند نیستید"
+
+#: frappe/public/js/frappe/form/sidebar/document_follow.js:128
+msgid "You are now following this document. You will receive daily updates via email. You can change this in User Settings."
+msgstr "شما اکنون این سند را دنبال می‌کنید. به‌روزرسانی‌های روزانه را از طریق ایمیل دریافت خواهید کرد. می‌توانید این مورد را در تنظیمات کاربر تغییر دهید."
+
+#: frappe/email/doctype/email_account/email_account.js:284
+msgid "You are selecting Sync Option as ALL, It will resync all read as well as unread message from server. This may also cause the duplication of Communication (emails)."
+msgstr "شما در حال انتخاب گزینه Sync به عنوان ALL هستید، همه پیام‌های خوانده شده و خوانده نشده از سرور را دوباره همگام سازی می‌کند. همچنین ممکن است باعث تکراری شدن ارتباطات (ایمیل) شود."
+
+#: frappe/core/doctype/data_import/data_import.py:85
+msgid "You do not have import permission for {0}"
+msgstr "شما اجازه درون‌ریزی {0} را ندارید"
+
+#: frappe/rate_limiter.py:166
+msgid "You hit the rate limit because of too many requests. Please try after sometime."
+msgstr "شما به دلیل درخواست‌های زیاد به سقف نرخ رسیده اید. لطفا دقایقی دیگر تلاش نمائید."
+
+#: frappe/desk/doctype/workspace/workspace.py:141
+msgid "You need to be Workspace Manager to delete a public workspace."
+msgstr "برای حذف یک فضای کار عمومی، باید مدیر فضای کار باشید."
+
+#: frappe/desk/doctype/workspace/workspace.py:79
+msgid "You need to be Workspace Manager to edit this document"
+msgstr "برای ویرایش این سند باید مدیر فضای کار باشید"
+
+#: frappe/public/js/frappe/widgets/links_widget.js:68
+msgid "You need to create these first:"
+msgstr "ابتدا باید این‌ها را ایجاد کنید:"
+
+#: frappe/public/js/frappe/widgets/onboarding_widget.js:520
+msgid "You seem good to go!"
+msgstr "به نظر می‌رسد خوب است بروید!"
+
+#: frappe/core/doctype/permission_inspector/permission_inspector.json:None
+msgid "import"
+msgstr "درون‌ریزی"
+
+#: frappe/desk/doctype/system_console/system_console.json:None
+msgid "processlist"
+msgstr "فهرست فرایندها"
+
+#: frappe/core/doctype/data_import/importer.py:286
+msgid "via Data Import"
+msgstr "از طریق درون‌ریزی داده"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:233
+msgid "{0} records will be exported"
+msgstr "{0} رکورد برون‌بری خواهد شد"
+
+#: frappe/model/delete_doc.py:302
+msgid "{0} {1}: Submitted Record cannot be deleted. You must {2} Cancel {3} it first."
+msgstr "{0} {1}: رکورد ثبت‌شده قابل حذف نیست. ابتدا باید آن را {2} لغو {3} کنید."
+
+#: frappe/core/doctype/doctype/doctype.py:1925
+msgid "{0}: Cannot set Assign Amend if not Submittable"
+msgstr "{0}: اگر قابل ثبت نباشد، نمی‌توان Assign Amend را تنظیم کرد"
+
+#: frappe/core/doctype/doctype/doctype.py:1923
+msgid "{0}: Cannot set Assign Submit if not Submittable"
+msgstr "{0}: در صورتی که قابل ثبت نباشد، نمی‌توان تخصیص ثبت را تنظیم کرد"
+
+#: frappe/core/doctype/doctype/doctype.py:1902
+msgid "{0}: Cannot set Cancel without Submit"
+msgstr "{0}: لغو بدون ثبت قابل تنظیم نیست"
+
+#: frappe/core/doctype/doctype/doctype.py:1929
+msgid "{0}: Cannot set import as {1} is not importable"
+msgstr "{0}: نمی‌توان درون‌ریزی را به عنوان {1} تنظیم کرد، قابل درون‌ریزی نیست"
+
+#: frappe/public/js/frappe/file_uploader/FileBrowser.vue:5
+msgid "← Back to upload files"
+msgstr "← بازگشت به آپلود فایل‌ها"
