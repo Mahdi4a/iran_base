@@ -7479,3 +7479,23 @@ msgstr "لطفاً کلیدهای سرویس‌دهندهٔ پیامک را در
 #: iran_base/sms_hook.py
 msgid "SMS could not be sent to: {0}"
 msgstr "ارسال پیامک به این شماره‌ها ناموفق بود: {0}"
+
+#: frappe/public/js/frappe/utils/number_systems.js
+msgctxt "Number system"
+msgid "T"
+msgstr "تریلیون"
+
+#: frappe/public/js/frappe/utils/number_systems.js
+msgctxt "Number system"
+msgid "B"
+msgstr "میلیارد"
+
+#: frappe/public/js/frappe/utils/number_systems.js
+msgctxt "Number system"
+msgid "M"
+msgstr "میلیون"
+
+#: frappe/public/js/frappe/utils/number_systems.js
+msgctxt "Number system"
+msgid "K"
+msgstr "هزار"
