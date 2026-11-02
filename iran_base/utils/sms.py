@@ -11,6 +11,10 @@ class SMSError(Exception):
 	pass
 
 
+class SMSNotConfigured(SMSError):
+	"""The keys of the provider are not in Iran Settings."""
+
+
 def try_normalize_mobile(mobile) -> str | None:
 	"""An Iranian mobile as 09XXXXXXXXX, or None. Accepts +98 / 0098 / 98 / 9 prefixes and Persian digits."""
 	digits = "".join(ch for ch in to_latin_digits(mobile) if ch.isdigit())
@@ -48,7 +52,7 @@ def send_sms(mobile, message: str) -> dict:
 	if provider == "signalads":
 		token, sender = _setting("signalads_token"), _setting("signalads_sender")
 		if not (token and sender):
-			raise SMSError("signalads_token and signalads_sender are not set")
+			raise SMSNotConfigured("signalads_token and signalads_sender are not set")
 		response = requests.post(
 			f"{SIGNALADS_URL}/api_v1/sms/send",
 			headers={"Authorization": f"Bearer {token}"},
@@ -58,7 +62,7 @@ def send_sms(mobile, message: str) -> dict:
 	elif provider == "kavenegar":
 		key = _setting("kavenegar_api_key")
 		if not key:
-			raise SMSError("kavenegar_api_key is not set")
+			raise SMSNotConfigured("kavenegar_api_key is not set")
 		response = requests.post(
 			f"{KAVENEGAR_URL}/{key}/sms/send.json",
 			data={"receptor": number, "message": message, "sender": _setting("kavenegar_sender") or ""},

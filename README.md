@@ -7,6 +7,7 @@ Shared Iran localization for Frappe apps (Press, CRM, Helpdesk, ERPNext, HRMS). 
 - `iran_base.utils.validators` national id, legal id, mobile, postal code, economic code
 - `iran_base.utils.numbers` Persian/Arabic digits and Toman/Rial formatting
 - `iran_base.utils.sms` mobile normalization and SMS through SignalAds or Kavenegar
+- `send_sms` hook: Frappe's own SMS (Notification with the SMS channel, SMS Center, Send SMS on a Contact) goes through the provider of Iran Settings, so SMS Settings stays empty. Every receiver is tried, and a failed one is reported and logged
 
 Dates stay Gregorian in the database. Only display and input are Jalali.
 

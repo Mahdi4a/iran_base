@@ -7471,3 +7471,11 @@ msgstr "لطفاً نشانی معتبری وارد کنید"
 
 msgid "Video"
 msgstr "ویدیو"
+
+#: iran_base/sms_hook.py
+msgid "Please update Iran Settings with the keys of the SMS provider"
+msgstr "لطفاً کلیدهای سرویس‌دهندهٔ پیامک را در تنظیمات ایران وارد کنید"
+
+#: iran_base/sms_hook.py
+msgid "SMS could not be sent to: {0}"
+msgstr "ارسال پیامک به این شماره‌ها ناموفق بود: {0}"

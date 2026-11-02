@@ -11,6 +11,9 @@ app_include_css = "/assets/iran_base/css/jalali_dates.css"
 
 extend_bootinfo = "iran_base.settings.extend_bootinfo"
 
+# Frappe's own SMS goes through the provider of Iran Settings instead of SMS Settings
+send_sms = ["iran_base.sms_hook.send"]
+
 after_install = "iran_base.patches.enable_jalali_dates.execute"
 
 # A "Desk" tile on the apps screen. Frappe skips its own app there, so when the only other
