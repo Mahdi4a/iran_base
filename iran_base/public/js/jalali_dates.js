@@ -347,11 +347,39 @@
 		};
 	}
 
+	// The day labels of a dashboard chart ('30-11-2025') are written by the server in the user's date
+	// format, as text. They are turned into Jalali once drawn. Labels of a whole month ('Nov 2025') are
+	// left alone: a Gregorian month is not a Jalali one.
+	function patchChartLabels() {
+		const DAY_LABEL = /^\s*(\d{1,4})[-/.](\d{1,2})[-/.](\d{1,4})\s*$/;
+		const order = formatOrder();
+
+		function convert() {
+			document.querySelectorAll('.chart-container svg text').forEach((node) => {
+				const found = node.textContent.match(DAY_LABEL);
+				if (!found) return;
+				const parts = {};
+				order.forEach((key, i) => (parts[key] = parseInt(found[i + 1], 10)));
+				// A year below 1700 is already Jalali (or not a year)
+				if (!(parts.y >= 1700 && parts.m >= 1 && parts.m <= 12 && parts.d >= 1 && parts.d <= 31)) return;
+				const [jy, jm, jd] = base().gregorianToJalali(parts.y, parts.m, parts.d);
+				node.textContent = formatJalaliParts(jy, jm, jd);
+			});
+		}
+
+		let timer = null;
+		new MutationObserver(() => {
+			clearTimeout(timer);
+			timer = setTimeout(convert, 100);
+		}).observe(document.body, { childList: true, subtree: true });
+	}
+
 	function start() {
 		if (!(frappe.boot.iran_base && frappe.boot.iran_base.jalali_dates)) return;
 		patchDatetime();
 		patchControls();
 		patchRangeControl();
+		patchChartLabels();
 	}
 
 	$(document).on('startup', start);
